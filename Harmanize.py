@@ -41,7 +41,7 @@ def sanitize_name(name):
 def match(name, loc):
     if name in special_matches:
         value = special_matches[name]
-        sanitized.loc[loc] = pd.Series(
+        sanitize_rules.loc[loc] = pd.Series(
             {'orig': name, 'name': value[0], 'school': value[1], 'confidence': 'exactmatch'})
         scoreboard.loc[loc] = pd.Series({'name': name, 'best_ratio_match': value[0], 'best_ratio': 100,
                                          'best_partial_ratio_match': value[0],
@@ -77,7 +77,7 @@ def fuzzy_match(name, loc):
             break
 
     print(name, best_ratio_match, best_ratio, best_partial_ratio_match, best_partial_ratio, best_token_sort_ratio_match, best_token_sort_ratio)
-    sanitized.loc[loc] = decision(name, cleaned_name, best_ratio_match, best_ratio, best_partial_ratio_match, best_partial_ratio, best_token_sort_ratio_match, best_token_sort_ratio)
+    sanitize_rules.loc[loc] = decision(name, cleaned_name, best_ratio_match, best_ratio, best_partial_ratio_match, best_partial_ratio, best_token_sort_ratio_match, best_token_sort_ratio)
     scoreboard.loc[loc] = pd.Series({'name':name, 'best_ratio_match':best_ratio_match, 'best_ratio':best_ratio, 'best_partial_ratio_match':best_partial_ratio_match,
                                      'best_partial_ratio': best_partial_ratio, 'best_token_sort_ratio_match': best_token_sort_ratio_match, 'best_token_sort_ratio': best_token_sort_ratio})
 
@@ -120,16 +120,16 @@ def read_special_matches():
     special_matches = {k: (v1, v2) for k, v1, v2 in zip(special_match_df.orig, special_match_df.name, special_match_df.school)}
     return special_matches
 
-def harmanize_source(sanitized_df):
+def harmanize_source(sanitize_rules_df):
     source = pd.DataFrame(data, columns=['newid', 'Institution of highest degree obtained'])
     updated_source = pd.DataFrame([], columns=['newid', 'Institution of highest degree obtained', 'name', 'school'])
-    sanitized_map = {k: (v1, v2) for k, v1, v2 in
-                       zip(sanitized_df.orig, sanitized_df.name, sanitized_df.school)}
+    sanitize_rules_map = {k: (v1, v2) for k, v1, v2 in
+                       zip(sanitize_rules_df.orig, sanitize_rules_df.name, sanitize_rules_df.school)}
     i = 0
     for index, row in source.iterrows():
         orig_name = row['Institution of highest degree obtained']
-        if orig_name in sanitized_map:
-            value = sanitized_map[orig_name]
+        if orig_name in sanitize_rules_map:
+            value = sanitize_rules_map[orig_name]
             updated_source.loc[i] = pd.Series(
                     {'newid': row['newid'], 'Institution of highest degree obtained': row['Institution of highest degree obtained'],
                      'name': value[0], 'school': value[1]})
@@ -155,12 +155,12 @@ def main():
         i += 1
 
     scoreboard.to_csv(f"{dir_path}/data/scoreboard.csv")
-    sanitized.to_csv(f"{dir_path}/data/sanitized.csv")
+    sanitize_rules.to_csv(f"{dir_path}/data/sanitize_rules.csv")
 
     # step 2: replace the university name based on mapping rules
-    sanitized_df = pd.read_csv(f"{dir_path}/data/sanitized.csv", usecols=['orig', 'name', 'school'])
+    sanitize_rules_df = pd.read_csv(f"{dir_path}/data/sanitize_rules.csv", usecols=['orig', 'name', 'school'])
 
-    updated_source = harmanize_source(sanitized_df)
+    updated_source = harmanize_source(sanitize_rules_df)
     updated_source.to_csv(f"{dir_path}/data/updated_source.csv")
 
 
@@ -179,7 +179,7 @@ special_matches = read_special_matches()
 scoreboard = pd.DataFrame([], columns=['name', 'best_ratio_match', 'best_ratio', 'best_partial_ratio_match', 'best_partial_ratio',
                                            'best_token_sort_ratio_match', 'best_token_sort_ratio'])
 # data frame to save harmanized names
-sanitized = pd.DataFrame([], columns=['confidence','orig', 'name', 'school'])
+sanitize_rules = pd.DataFrame([], columns=['confidence','orig', 'name', 'school'])
 
 # ------
 
