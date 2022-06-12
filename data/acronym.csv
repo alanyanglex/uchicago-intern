@@ -1,9 +1,9 @@
 acronym,fullname
-uc,University of California
+uc,"University of California,"
 unc,University of North Carolina
-ucla,University of California Los Angeles
+ucla,"University of California, Los Angeles"
 mit,Massachusetts Institute of Technology
-ucl,University College London
+ucl,"University College London, University of London"
 caltech,California Institute of Technology
 harvard,Harvard University
 yale,Yale University
@@ -12,3 +12,4 @@ hkust,Hong Kong University of Science and Technology
 nyu,New York University
 cornell,Cornell University
 unsw,University of New South Wales
+ut,University of Texasxs
