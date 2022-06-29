@@ -9,6 +9,8 @@ alan_highest_degree.csv
     - Defines Acronyms mappings
 - special_match.csv 
     - Defines special mappings to overwrite
+- school_types.csv
+    - Defines Types of schools or colleges
 
 #### Intermediate Output
 - sanitize_rules.csv

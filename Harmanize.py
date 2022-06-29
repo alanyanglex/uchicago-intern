@@ -3,21 +3,48 @@ from fuzzywuzzy import fuzz
 import re
 import os
 
-def strip_school(name, best_partial_ratio_match):
+def strip_school(name, best_partial_ratio_match,loc):
     s_name = name.lower()
     s_match = best_partial_ratio_match.lower()
     start = s_name.find(s_match)
     end = start + len(s_match)
     school = (name[0:start] + name[end:len(name)]).strip()
     school = sanitize_school(school).lower()
-    print(name, school)
+
+    if 'at ' in school or ' at' in school:
+        school = school.replace('at','')
+    if ' the' in school:
+        school = school.replace('the','')
+    if '  ' in school:
+        school = school.replace('  ','')
+    school = school.replace('(','')
+    school = school.replace(')','')
+    
+    if s_match in university_map:
+        if len(school) > 0:
+            for school_type in s_types:
+                if school_type in school:
+                    if school_type in university_map[s_match]:
+                        school = university_map[s_match][school_type]
+                        break
+                    else:
+                        university_map[s_match][school_type] = school
+    else:
+        university_map[s_match] = {}
+        if len(school) > 0:
+            for school_type in s_types:
+                if school_type in school:
+                    university_map[s_match][school_type] = school
+                    break
+    #print(school,loc)
     return school
 
 def sanitize_school(school_name):
     if school_name.lower().find('school') == -1 and school_name.lower().find('college') == -1:
         return ''
-    regex = re.compile('[-,\.!?]')
+    regex = re.compile('()[-,\.!?]')
     school_name = regex.sub('', school_name).strip()
+    school_name = re.sub('\s+',' ', school_name)
     return school_name
 
 def sanitize_name(name):
@@ -27,6 +54,7 @@ def sanitize_name(name):
     # remove The at the beginning
     if name.startswith("the "):
         name = name[4:len(name)]
+    name = re.sub('\s+',' ', name)
 
     # replace acronyms
     namesplit = name.split()
@@ -35,8 +63,9 @@ def sanitize_name(name):
         name = acronyms[firstword]
         if len(namesplit) > 1:
             name = name + ' ' + ' '.join(namesplit[1:])
-        print(f"replaced by acronym: {name}")
+        #print(f"replaced by acronym: {name}")
     return name
+
 
 def match(name, loc):
     if name in special_matches:
@@ -76,12 +105,12 @@ def fuzzy_match(name, loc):
         if ratio == 100:
             break
 
-    print(name, best_ratio_match, best_ratio, best_partial_ratio_match, best_partial_ratio, best_token_sort_ratio_match, best_token_sort_ratio)
-    sanitize_rules.loc[loc] = decision(name, cleaned_name, best_ratio_match, best_ratio, best_partial_ratio_match, best_partial_ratio, best_token_sort_ratio_match, best_token_sort_ratio)
+    #print(name, best_ratio_match, best_ratio, best_partial_ratio_match, best_partial_ratio, best_token_sort_ratio_match, best_token_sort_ratio)
+    sanitize_rules.loc[loc] = decision(name, cleaned_name, best_ratio_match, best_ratio, best_partial_ratio_match, best_partial_ratio, best_token_sort_ratio_match, best_token_sort_ratio,loc)
     scoreboard.loc[loc] = pd.Series({'name':name, 'best_ratio_match':best_ratio_match, 'best_ratio':best_ratio, 'best_partial_ratio_match':best_partial_ratio_match,
                                      'best_partial_ratio': best_partial_ratio, 'best_token_sort_ratio_match': best_token_sort_ratio_match, 'best_token_sort_ratio': best_token_sort_ratio})
 
-def decision(name, cleaned_name, best_ratio_match, best_ratio, best_partial_ratio_match, best_partial_ratio, best_token_sort_ratio_match, best_token_sort_ratio):
+def decision(name, cleaned_name, best_ratio_match, best_ratio, best_partial_ratio_match, best_partial_ratio, best_token_sort_ratio_match, best_token_sort_ratio,loc):
     if best_ratio >= 95:
         sanitized_row = pd.Series({'orig': name, 'name': best_ratio_match, 'school': '', 'confidence': 'high'})
     elif (best_partial_ratio == 100 and best_partial_ratio_match.strip().lower() in cleaned_name.strip().lower()) or \
@@ -89,7 +118,7 @@ def decision(name, cleaned_name, best_ratio_match, best_ratio, best_partial_rati
         sanitized_row = pd.Series({
             'orig': name,
             'name': best_partial_ratio_match if best_partial_ratio_match == 100 else best_token_sort_ratio_match,
-            'school': strip_school(cleaned_name, best_partial_ratio_match if best_partial_ratio == 100 else best_token_sort_ratio_match),
+            'school': strip_school(cleaned_name, best_partial_ratio_match if best_partial_ratio == 100 else best_token_sort_ratio_match,loc),
             'confidence': 'high'})
     else:
         if best_ratio > 90:
@@ -120,6 +149,11 @@ def read_special_matches():
     special_matches = {k: (v1, v2) for k, v1, v2 in zip(special_match_df.orig, special_match_df.name, special_match_df.school)}
     return special_matches
 
+def read_school_types():
+    school_types_df = pd.read_csv(f"{dir_path}/data/school_types.csv", header=None)
+    school_types = school_types_df[0]
+    return school_types
+
 def harmanize_source(sanitize_rules_df):
     source = pd.DataFrame(data, columns=['newid', 'Institution of highest degree obtained'])
     updated_source = pd.DataFrame([], columns=['newid', 'Institution of highest degree obtained', 'name', 'school'])
@@ -145,9 +179,10 @@ def main():
 
     # step 1: build mapping rules
     name_list = pd.DataFrame(data, columns=['Institution of highest degree obtained'])
-    unique_name_list = name_list["Institution of highest degree obtained"].unique();
+    unique_name_list = name_list["Institution of highest degree obtained"].unique()
 
     i = 0
+    print(unique_name_list[145])
     for name in unique_name_list:
         if name.strip() == '-':
             continue
@@ -180,6 +215,10 @@ scoreboard = pd.DataFrame([], columns=['name', 'best_ratio_match', 'best_ratio',
                                            'best_token_sort_ratio_match', 'best_token_sort_ratio'])
 # data frame to save harmanized names
 sanitize_rules = pd.DataFrame([], columns=['confidence','orig', 'name', 'school'])
+
+# data frame to create map of school names
+s_types = read_school_types()
+university_map = {}
 
 # ------
 
