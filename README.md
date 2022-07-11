@@ -25,6 +25,8 @@ Read in the replacement rules and apply to the original source data set.
     - Defines Acronyms mappings
 - special_match.csv 
     - Defines special mappings to overwrite default rules
+- school_types.csv
+    - Defines Types of schools or colleges
 
 #### Intermediate Output
 - sanitize_rules.csv

@@ -132,7 +132,7 @@
 130,149037,Cornell University,Cornell University,
 131,523828,Universit of Maryland,University of Maryland,
 132,822008,-,,
-133,793512,College of Creative Arts at West Virginia University,University of Virginia,college of creative arts at
+133,793512,College of Creative Arts at West Virginia University,University of Virginia,college of creive arts 
 134,452155,Stanford University,Stanford University,
 135,123841,Pontifical Catholic University of Rio de Janeiro,Pontifical Catholic University of Rio de Janeiro,
 136,699125,"University of California, Berkeley","University of California, Berkeley",
@@ -225,7 +225,7 @@
 223,378005,Harvard University,Harvard University,
 224,321798,Stanford University,Stanford University,
 225,52357,Catholic University of Sacred Heart,Catholic University of the Sacred Heart,
-226,310643,Harris School of Public Policy at the University of Chicago,University of Chicago,harris school of public policy at the
+226,310643,Harris School of Public Policy at the University of Chicago,University of Chicago,harris school of public policy
 227,820805,-,,
 228,386273,-,,
 229,58178,Boston College,Boston College,
@@ -275,7 +275,7 @@
 273,130931,University of Illinois at Chicago,University of Illinois at Chicago,
 274,501240,-,,
 275,103956,University of Minnesota-Twin Cities,University of Minnesota,
-276,527190,Harris School of Public Policy at the University of Chicago,University of Chicago,harris school of public policy at the
+276,527190,Harris School of Public Policy at the University of Chicago,University of Chicago,harris school of public policy
 277,962394,Yale University,Yale University,
 278,385590,NYU Stern School of Business,New York University,stern school of business
 279,654722,University of Pennsylvania,University of Pennsylvania,
@@ -341,7 +341,7 @@
 339,940692,Cornell University,Cornell University,
 340,79263,Boston University,Boston University,
 341,372291,Fundação Getúlio Vargas,Fundação Getúlio Vargas,
-342,172754,New York University - Leonard N. Stern School of Business,New York University,leonard n stern school of business
+342,172754,New York University - Leonard N. Stern School of Business,New York University,stern school of business
 343,679443,University of Minnesota-Twin Cities,University of Minnesota,
 344,998749,The University of Texas at Austin,University of Texas at Austin,
 345,607528,NYU Stern School of Business,New York University,stern school of business
@@ -446,7 +446,7 @@
 444,449598,University of Warwick,University of Warwick,
 445,343720,-,,
 446,302727,Princeton University,Princeton University,
-447,654418,Harris School of Public Policy at the University of Chicago,University of Chicago,harris school of public policy at the
+447,654418,Harris School of Public Policy at the University of Chicago,University of Chicago,harris school of public policy
 448,212332,-,,
 449,894373,University of Virginia,University of Virginia,
 450,142517,-,,
@@ -558,7 +558,7 @@
 556,843106,UC Berkeley,"University of California, Berkeley",
 557,459774,University of St.Gallen,University of St. Gallen,
 558,369268,-,,
-559,540917,University of North Carolina at Chapel Hill - Kenan-Flagler Business School,University of North Carolina,at chapel hill  kenanflagler business school
+559,540917,University of North Carolina at Chapel Hill - Kenan-Flagler Business School,University of North Carolina,kenanflagler business school
 560,154067,Duke University,Duke University,
 561,170315,Princeton University,Princeton University,
 562,323233,The London School of Economics and Political Science (LSE),"London School of Economics and Political Science, University of London",
@@ -586,7 +586,7 @@
 584,165725,The Australian National University,Australian National University,
 585,920283,The University of Chicago,University of Chicago,
 586,282627,-,,
-587,562442,Columbia University in the City of New,City University,
+587,562442,Columbia University in the City of New,Columbia University,
 588,467757,"University of California, Los Angeles","University of California, Los Angeles",
 589,523063,-,,
 590,709585,-,,
@@ -703,7 +703,7 @@
 701,773306,Harvard University,Harvard University,
 702,70979,-,,
 703,760856,Yale University,Yale University,
-704,900713,New York University - Leonard N. Stern School of Business,New York University,leonard n stern school of business
+704,900713,New York University - Leonard N. Stern School of Business,New York University,stern school of business
 705,9560,-,,
 706,695145,University of Pennsylvania,University of Pennsylvania,
 707,359321,University of Minnesota,University of Minnesota,
@@ -739,9 +739,9 @@
 737,944639,-,,
 738,791541,Renmin University of China,Renmin University of China,
 739,547490,-,,
-740,722245,"Baruch College, City University of New York",City University,baruch college  of new york
+740,722245,"Baruch College, City University of New York",City University,baruch college of new york
 741,151042,UCLA Anderson School of Management,"University of California, Los Angeles",Anderson School of Management
-742,556211,"Harvard University, John F. Kennedy School of Government",Harvard University,john f kennedy school of government
+742,556211,"Harvard University, John F. Kennedy School of Government",Harvard University,kennedy school of government
 743,599995,-,,
 744,343957,-,,
 745,789702,Stanford University,Stanford University,
@@ -901,7 +901,7 @@
 899,546741,Toulouse School of Economics,Toulouse School of Economics,
 900,92698,The University of Texas at Austin,University of Texas at Austin,
 901,917052,The London School of Economics and Political Science (LSE),"London School of Economics and Political Science, University of London",
-902,720654,New York University - Leonard N. Stern School of Business,New York University,leonard n stern school of business
+902,720654,New York University - Leonard N. Stern School of Business,New York University,stern school of business
 903,791139,-,,
 904,452215,-,,
 905,538897,-,,
@@ -1125,7 +1125,7 @@
 1123,695165,SVKM's Narsee Monjee Institute of Management Studies (NMIMS),Narsee Monjee Institute of Management Studies,
 1124,520175,University of Pennsylvania,University of Pennsylvania,
 1125,347251,Columbia University in the City of New York,City University,
-1126,587591,Yale University - Yale School of Management,Yale University,yale school of management
+1126,587591,Yale University - Yale School of Management,Yale University,school of management
 1127,621794,Harvard University,Harvard University,
 1128,122644,-,,
 1129,119685,-,,
@@ -1237,7 +1237,7 @@
 1235,521148,-,,
 1236,270753,University of Wisconsin-Madison,University of Wisconsin - Madison,
 1237,212011,-,,
-1238,766263,Columbia University - Columbia Business School,Columbia University,columbia business school
+1238,766263,Columbia University - Columbia Business School,Columbia University,business school
 1239,828254,-,,
 1240,901985,-,,
 1241,836999,-,,
@@ -1261,7 +1261,7 @@
 1259,663582,MIT,Massachusetts Institute of Technology,
 1260,159749,Yale University,Yale University,
 1261,350715,University of Maryland,University of Maryland,
-1262,794676,University of Oxford (Lincoln College),University of Lincoln,(lincoln college)
+1262,794676,University of Oxford (Lincoln College),University of Lincoln,lincoln college
 1263,70129,-,,
 1264,383113,Paris School of Economics,Paris School of Economics,
 1265,908799,Northwestern University,Northwestern University,
@@ -1302,7 +1302,7 @@
 1300,196573,Sciences Po,Institut d'Etudes Politiques de Paris (Sciences Po),
 1301,612329,Harvard University,Harvard University,
 1302,60639,-,,
-1303,938603,"Harvard University, John F. Kennedy School of Government",Harvard University,john f kennedy school of government
+1303,938603,"Harvard University, John F. Kennedy School of Government",Harvard University,kennedy school of government
 1304,632365,-,,
 1305,622820,"University of California, Davis","University of California, Davis",
 1306,659865,Stanford University Graduate School of Business,Stanford University,graduate school of business
@@ -1379,7 +1379,7 @@
 1377,844808,Columbia University in the City of New York,City University,
 1378,487399,University of Oregon,University of Oregon,
 1379,682906,New York University,New York University,
-1380,876241,Columbia University - Columbia Business School,Columbia University,columbia business school
+1380,876241,Columbia University - Columbia Business School,Columbia University,business school
 1381,43209,Harvard Kennedy School,Harvard University,kennedy school
 1382,115964,-,,
 1383,222770,Indiana University Bloomington,Indiana University at Bloomington,
@@ -1406,7 +1406,7 @@
 1404,975766,Cornell University,Cornell University,
 1405,795011,Princeton University,Princeton University,
 1406,140243,Imperial College London,Imperial College London,
-1407,899980,Columbia University - Columbia Business School,Columbia University,columbia business school
+1407,899980,Columbia University - Columbia Business School,Columbia University,business school
 1408,308578,-,,
 1409,423750,-,,
 1410,663401,-,,
@@ -1519,7 +1519,7 @@
 1517,83529,"University of California, Berkeley","University of California, Berkeley",
 1518,671179,University of Geneva,University of Geneva,
 1519,360508,Princeton University,Princeton University,
-1520,317744,Columbia University - Columbia Business School,Columbia University,columbia business school
+1520,317744,Columbia University - Columbia Business School,Columbia University,business school
 1521,788371,Universitat Pompeu Fabra,Universitat Pompeu Fabra,
 1522,893623,-,,
 1523,754696,Massachusetts Institute of Technology,Massachusetts Institute of Technology,
@@ -1576,7 +1576,7 @@
 1574,680139,Yale University,Yale University,
 1575,479060,University of Pennsylvania - The Wharton School,University of Pennsylvania,the wharton school
 1576,10168,Stanford University,Stanford University,
-1577,942688,New York University Stern School  of Business,New York University,stern school  of business
+1577,942688,New York University Stern School  of Business,New York University,stern school of business
 1578,943991,The London School of Economics and Political Science (LSE),"London School of Economics and Political Science, University of London",
 1579,673939,NYU Stern School of Business,New York University,stern school of business
 1580,224855,-,,
@@ -1704,7 +1704,7 @@
 1702,3088,Northwestern University,Northwestern University,
 1703,279995,Monash University,Monash University,
 1704,143698,HKUST Business School,Hong Kong University of Science and Technology,business school
-1705,881533,Smith School of Business at Queen's University,Queen's University,smith school of business at
+1705,881533,Smith School of Business at Queen's University,Queen's University,smith school of business 
 1706,249981,"University of California, Los Angeles","University of California, Los Angeles",
 1707,791039,-,,
 1708,806795,University of London,University of London,
