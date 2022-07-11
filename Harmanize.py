@@ -128,6 +128,7 @@ def fuzzy_match(name, loc):
     scoreboard.loc[loc] = pd.Series({'name':name, 'best_ratio_match':best_ratio_match, 'best_ratio':best_ratio, 'best_partial_ratio_match':best_partial_ratio_match,
                                      'best_partial_ratio': best_partial_ratio, 'best_token_sort_ratio_match': best_token_sort_ratio_match, 'best_token_sort_ratio': best_token_sort_ratio})
 
+
 # Based on different fuzzy match, best_ratio, best_partial_ratio, best_token_sort_ratio, pick one to use as replacement
 # Output is the sanitization/replacement rules that will be applied to original source data set
 # The decision values can be tuned if necessary
@@ -173,6 +174,7 @@ def read_acronyms():
     acronyms = dict(zip(acronyms_df.acronym, acronyms_df.fullname))
     return acronyms
 
+
 # read in all special match rules into special_matches data frame, where
 # orig: original university name
 # name: replacement university name
@@ -182,10 +184,12 @@ def read_special_matches():
     special_matches = {k: (v1, v2) for k, v1, v2 in zip(special_match_df.orig, special_match_df.name, special_match_df.school)}
     return special_matches
 
+
 def read_school_types():
     school_types_df = pd.read_csv(f"{dir_path}/data/school_types.csv", header=None)
     school_types = school_types_df[0]
     return school_types
+
 
 def harmanize_source(sanitize_rules_df):
     source = pd.DataFrame(data, columns=['newid', 'Institution of highest degree obtained'])
@@ -208,8 +212,8 @@ def harmanize_source(sanitize_rules_df):
         i += 1
     return updated_source
 
-def main():
 
+def main():
     # step 1: build mapping rules
 
     # Read all school names from data file

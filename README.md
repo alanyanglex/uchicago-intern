@@ -17,8 +17,8 @@ Read in the replacement rules and apply to the original source data set.
 
 ## Data Files
 #### Input Data
-#####alan_highest_degree.csv :  source data set
-#####world-universities.csv : downloaded from https://github.com/endSly/world-universities-csv/blob/master/world-universities.csv, moved US universities to the top.
+- alan_highest_degree.csv :  source data set
+- world-universities.csv : downloaded from https://github.com/endSly/world-universities-csv/blob/master/world-universities.csv, moved US universities to the top.
 
 #### Config 
 - acronym.csv 
