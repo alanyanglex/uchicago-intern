@@ -11,25 +11,56 @@ def strip_school(name, best_partial_ratio_match):
     end = start + len(s_match)
     school = (name[0:start] + name[end:len(name)]).strip()
     school = sanitize_school(school).lower()
-    print(name, school)
+
+    if 'at ' in school or ' at' in school:
+        school = school.replace('at','')
+    if ' the' in school:
+        school = school.replace('the','')
+    if '  ' in school:
+        school = school.replace('  ','')
+    school = school.replace('(','')
+    school = school.replace(')','')
+
+    # for each university, we pick only one name for similar second level college/school for consistency.
+    # e.g. stern school of business, stern business school will be considered one under "business" type
+    if s_match in university_map:
+        if len(school) > 0:
+            for school_type in s_types:
+                if school_type in school:
+                    if school_type in university_map[s_match]:
+                        school = university_map[s_match][school_type]
+                        break
+                    else:
+                        university_map[s_match][school_type] = school
+    else:
+        university_map[s_match] = {}
+        if len(school) > 0:
+            for school_type in s_types:
+                if school_type in school:
+                    university_map[s_match][school_type] = school
+                    break
     return school
+
 
 # For second level school/college that's parsed from original university name, do a little clean up
 def sanitize_school(school_name):
     if school_name.lower().find('school') == -1 and school_name.lower().find('college') == -1:
         return ''
-    regex = re.compile('[-,\.!?]')
+    regex = re.compile('()[-,\.!?]')
     school_name = regex.sub('', school_name).strip()
+    school_name = re.sub('\s+',' ', school_name)
     return school_name
 
-# Pre-process to clean up the unversity name
+
+# Pre-process to clean up the university name
 def sanitize_name(name):
     # lower case, trimmed
     name = name.strip().lower()
 
-    # remove "The" at the beginning
+    # remove The at the beginning
     if name.startswith("the "):
         name = name[4:len(name)]
+    name = re.sub('\s+',' ', name)
 
     # replace acronyms
     namesplit = name.split()
@@ -38,8 +69,9 @@ def sanitize_name(name):
         name = acronyms[firstword]
         if len(namesplit) > 1:
             name = name + ' ' + ' '.join(namesplit[1:])
-        print(f"replaced by acronym: {name}")
+        #print(f"replaced by acronym: {name}")
     return name
+
 
 # Perform the match for a university
 # First match using special match rules. If there is no special match for the name, use fuzzy match
@@ -55,6 +87,7 @@ def match(name, loc):
                                          'best_token_sort_ratio': 100})
     else:
         fuzzy_match(name, loc)
+
 
 # Perform fuzzy match for each unique university name and find the best matches
 # using best_ratio, best_partial_ratio, best_partial_ratio matches.
@@ -88,22 +121,21 @@ def fuzzy_match(name, loc):
         if token_sort_ratio > best_token_sort_ratio:
             best_token_sort_ratio = token_sort_ratio
             best_token_sort_ratio_match = u_name
-
-        # if ratio is 100, that's the best, we don't need to continue
         if ratio == 100:
             break
 
-    print(name, best_ratio_match, best_ratio, best_partial_ratio_match, best_partial_ratio, best_token_sort_ratio_match, best_token_sort_ratio)
+    #print(name, best_ratio_match, best_ratio, best_partial_ratio_match, best_partial_ratio, best_token_sort_ratio_match, best_token_sort_ratio)
     # based on the value of the three different matches, pick one match as our replacement
-    sanitize_rules.loc[loc] = decision(name, cleaned_name, best_ratio_match, best_ratio, best_partial_ratio_match, best_partial_ratio, best_token_sort_ratio_match, best_token_sort_ratio)
+    sanitize_rules.loc[loc] = decision(name, cleaned_name, best_ratio_match, best_ratio, best_partial_ratio_match, best_partial_ratio, best_token_sort_ratio_match, best_token_sort_ratio,loc)
     # save the best match ratios for the name in scoreboard data set
     scoreboard.loc[loc] = pd.Series({'name':name, 'best_ratio_match':best_ratio_match, 'best_ratio':best_ratio, 'best_partial_ratio_match':best_partial_ratio_match,
                                      'best_partial_ratio': best_partial_ratio, 'best_token_sort_ratio_match': best_token_sort_ratio_match, 'best_token_sort_ratio': best_token_sort_ratio})
 
+
 # Based on different fuzzy match, best_ratio, best_partial_ratio, best_token_sort_ratio, pick one to use as replacement
 # Output is the sanitization/replacement rules that will be applied to original source data set
 # The decision values can be tuned if necessary
-def decision(name, cleaned_name, best_ratio_match, best_ratio, best_partial_ratio_match, best_partial_ratio, best_token_sort_ratio_match, best_token_sort_ratio):
+def decision(name, cleaned_name, best_ratio_match, best_ratio, best_partial_ratio_match, best_partial_ratio, best_token_sort_ratio_match, best_token_sort_ratio,loc):
     # if best_ratio value is >= 95, we will use the name matched by best_ratio
     if best_ratio >= 95:
         sanitized_row = pd.Series({'orig': name, 'name': best_ratio_match, 'school': '', 'confidence': 'high'})
@@ -115,7 +147,7 @@ def decision(name, cleaned_name, best_ratio_match, best_ratio, best_partial_rati
         sanitized_row = pd.Series({
             'orig': name,
             'name': best_partial_ratio_match if best_partial_ratio_match == 100 else best_token_sort_ratio_match,
-            'school': strip_school(cleaned_name, best_partial_ratio_match if best_partial_ratio == 100 else best_token_sort_ratio_match),
+            'school': strip_school(cleaned_name, best_partial_ratio_match if best_partial_ratio == 100 else best_token_sort_ratio_match,loc),
             'confidence': 'high'})
     else:
         # matches with less confidence, but still replace, confidence value also indicates the type of match and its match ratio value
@@ -127,11 +159,12 @@ def decision(name, cleaned_name, best_ratio_match, best_ratio, best_partial_rati
             sanitized_row = pd.Series(
                 {'orig': name, 'name': best_token_sort_ratio_match, 'school': '', 'confidence': f'token-{best_token_sort_ratio}'})
         else:
-        # confidence is low and we'll not replace the original university name in the source data
+            # confidence is low and we'll not replace the original university name in the source data
             sanitized_row = pd.Series(
                 {'orig': name, 'name': name, 'school': '', 'confidence': 'not changed'})
 
     return sanitized_row
+
 
 # read in all university names into all_world_names data frame
 def read_all_schools():
@@ -139,11 +172,13 @@ def read_all_schools():
     all_world_names = all_world[1]
     return all_world_names
 
+
 # read in all acronyms into acronyms data frame
 def read_acronyms():
     acronyms_df = pd.read_csv(f"{dir_path}/data/acronym.csv", usecols=['acronym', 'fullname'])
     acronyms = dict(zip(acronyms_df.acronym, acronyms_df.fullname))
     return acronyms
+
 
 # read in all special match rules into special_matches data frame, where
 # orig: original university name
@@ -154,6 +189,15 @@ def read_special_matches():
     special_matches = {k: (v1, v2) for k, v1, v2 in zip(special_match_df.orig, special_match_df.name, special_match_df.school)}
     return special_matches
 
+
+# read in type of second level college/school, e.g. business, law, etc
+def read_school_types():
+    school_types_df = pd.read_csv(f"{dir_path}/data/school_types.csv", header=None)
+    school_types = school_types_df[0]
+    return school_types
+
+
+# update source data set based on sanitization rules
 def harmanize_source(sanitize_rules_df):
     source = pd.DataFrame(data, columns=['newid', 'Institution of highest degree obtained'])
     updated_source = pd.DataFrame([], columns=['newid', 'Institution of highest degree obtained', 'name', 'school'])
@@ -175,6 +219,7 @@ def harmanize_source(sanitize_rules_df):
         i += 1
     return updated_source
 
+
 def main():
 
     # step 1: build mapping rules
@@ -185,7 +230,7 @@ def main():
     # Only get the unique school names to perform the match
     # The output of the matches will be saved as a set of replacement rules in sanitize_rules
     # It will be used to replace the university names in the original source data set
-    unique_name_list = name_list["Institution of highest degree obtained"].unique();
+    unique_name_list = name_list["Institution of highest degree obtained"].unique()
 
     i = 0
     for name in unique_name_list:
@@ -237,6 +282,10 @@ scoreboard = pd.DataFrame([], columns=['name', 'best_ratio_match', 'best_ratio',
 # name: replacement university name
 # school: second level school/college name that is separated from original university name
 sanitize_rules = pd.DataFrame([], columns=['confidence','orig', 'name', 'school'])
+
+# data frame to create map of school names
+s_types = read_school_types()
+university_map = {}
 
 # ------
 
