@@ -11,15 +11,42 @@ def strip_school(name, best_partial_ratio_match):
     end = start + len(s_match)
     school = (name[0:start] + name[end:len(name)]).strip()
     school = sanitize_school(school).lower()
-    print(name, school)
+
+    if 'at ' in school or ' at' in school:
+        school = school.replace('at','')
+    if ' the' in school:
+        school = school.replace('the','')
+    if '  ' in school:
+        school = school.replace('  ','')
+    school = school.replace('(','')
+    school = school.replace(')','')
+
+    if s_match in university_map:
+        if len(school) > 0:
+            for school_type in s_types:
+                if school_type in school:
+                    if school_type in university_map[s_match]:
+                        school = university_map[s_match][school_type]
+                        break
+                    else:
+                        university_map[s_match][school_type] = school
+    else:
+        university_map[s_match] = {}
+        if len(school) > 0:
+            for school_type in s_types:
+                if school_type in school:
+                    university_map[s_match][school_type] = school
+                    break
+    #print(school,loc)
     return school
 
 # For second level school/college that's parsed from original university name, do a little clean up
 def sanitize_school(school_name):
     if school_name.lower().find('school') == -1 and school_name.lower().find('college') == -1:
         return ''
-    regex = re.compile('[-,\.!?]')
+    regex = re.compile('()[-,\.!?]')
     school_name = regex.sub('', school_name).strip()
+    school_name = re.sub('\s+',' ', school_name)
     return school_name
 
 # Pre-process to clean up the unversity name
@@ -30,6 +57,7 @@ def sanitize_name(name):
     # remove "The" at the beginning
     if name.startswith("the "):
         name = name[4:len(name)]
+    name = re.sub('\s+',' ', name)
 
     # replace acronyms
     namesplit = name.split()
@@ -38,7 +66,7 @@ def sanitize_name(name):
         name = acronyms[firstword]
         if len(namesplit) > 1:
             name = name + ' ' + ' '.join(namesplit[1:])
-        print(f"replaced by acronym: {name}")
+        #print(f"replaced by acronym: {name}")
     return name
 
 # Perform the match for a university
@@ -93,7 +121,7 @@ def fuzzy_match(name, loc):
         if ratio == 100:
             break
 
-    print(name, best_ratio_match, best_ratio, best_partial_ratio_match, best_partial_ratio, best_token_sort_ratio_match, best_token_sort_ratio)
+    #print(name, best_ratio_match, best_ratio, best_partial_ratio_match, best_partial_ratio, best_token_sort_ratio_match, best_token_sort_ratio)
     # based on the value of the three different matches, pick one match as our replacement
     sanitize_rules.loc[loc] = decision(name, cleaned_name, best_ratio_match, best_ratio, best_partial_ratio_match, best_partial_ratio, best_token_sort_ratio_match, best_token_sort_ratio)
     # save the best match ratios for the name in scoreboard data set
@@ -153,6 +181,11 @@ def read_special_matches():
     special_match_df = pd.read_csv(f"{dir_path}/data/special_match.csv", usecols=['orig','name','school'])
     special_matches = {k: (v1, v2) for k, v1, v2 in zip(special_match_df.orig, special_match_df.name, special_match_df.school)}
     return special_matches
+
+def read_school_types():
+    school_types_df = pd.read_csv(f"{dir_path}/data/school_types.csv", header=None)
+    school_types = school_types_df[0]
+    return school_types
 
 def harmanize_source(sanitize_rules_df):
     source = pd.DataFrame(data, columns=['newid', 'Institution of highest degree obtained'])
@@ -237,6 +270,10 @@ scoreboard = pd.DataFrame([], columns=['name', 'best_ratio_match', 'best_ratio',
 # name: replacement university name
 # school: second level school/college name that is separated from original university name
 sanitize_rules = pd.DataFrame([], columns=['confidence','orig', 'name', 'school'])
+
+# data frame to create map of school names
+s_types = read_school_types()
+university_map = {}
 
 # ------
 

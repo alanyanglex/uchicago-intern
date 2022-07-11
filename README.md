@@ -24,8 +24,10 @@ Read in the replacement rules and apply to the original source data set.
 - acronym.csv 
     - Defines Acronyms mappings
 - special_match.csv 
-    - Defines special mappings to overwrite default rules
-
+    - Defines special mappings to overwrite
+- school_types.csv
+    - Defines Types of schools or colleges
+    
 #### Intermediate Output
 - sanitize_rules.csv
     - Defines the mapping rule after fuzzy match. Inspect this file to see if match is correct. Anything not correct needs to be fixed or overwritten.
