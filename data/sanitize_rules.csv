@@ -19,14 +19,14 @@
 17,high,Harvard University,Harvard University,
 18,high,University of Chicago,University of Chicago,
 19,exactmatch,Penn State University,Pennsylvania State University,
-20,high,The University of Texas at Austin,University of Texas at Austin,
-21,high,Columbia University in the City of New York,City University,
+20,high,The University of Texas at Austin,University of Texas,
+21,high,Columbia University in the City of New York,Columbia University,
 22,high,"University of California, Santa Barbara","University of California, Santa Barbara",
 23,high,Northwestern University,Northwestern University,
 24,high,European University Institute,European University Institute,
 25,high,University of Minnesota-Twin Cities,University of Minnesota,
 26,high,"University of California, Irvine","University of California, Irvine",
-27,high,Ecole polytechnique fédérale de Lausanne,Ecole Polytechnique,
+27,high,Ecole polytechnique fédérale de Lausanne,Ecole polytechnique fédérale de Lausanne,
 28,high,American University,American University,
 29,high,University of Chicago Booth School of Business,University of Chicago,booth school of business
 30,high,The University of Chicago,University of Chicago,
@@ -57,10 +57,10 @@
 55,high,Brigham Young University - Idaho,Brigham Young University,
 56,high,The University of Chicago Booth School of Business,University of Chicago,booth school of business
 57,high,University of Houston,University of Houston,
-58,high,University of Texas at Austin,University of Texas at Austin,
+58,high,University of Texas at Austin,University of Texas,
 59,high,Cornell University,Cornell University,
 60,high,Universit of Maryland,University of Maryland,
-61,high,College of Creative Arts at West Virginia University,University of Virginia,college of creive arts 
+61,high,College of Creative Arts at West Virginia University,West Virginia University,college of creative arts
 62,not changed,Pontifical Catholic University of Rio de Janeiro,Pontifical Catholic University of Rio de Janeiro,
 63,high,Harvard Business School,Harvard University,business school
 64,partial-100,University of Colorado,University of Colorado at Boulder,
@@ -75,7 +75,7 @@
 73,high,University of Florida,University of Florida,
 74,high,Osaka University,Osaka University,
 75,high,UC Irvine,"University of California, Irvine",
-76,high,University of Maryland College Park,Park College,college park
+76,exactmatch,University of Maryland College Park,University of Maryland,
 77,high,University of Pennsylvania - The Wharton School,University of Pennsylvania,the wharton school
 78,high,Claremont Graduate University,Claremont Graduate University,
 79,not changed,University of Hamburg,University of Hamburg,
@@ -97,9 +97,9 @@
 95,high,University of Illinois at Chicago,University of Illinois at Chicago,
 96,high,NYU Stern School of Business,New York University,stern school of business
 97,high,Indiana University Bloomington,Indiana University at Bloomington,
-98,high,New York University School of Law,"City University of New York, School of Law at Queens College",school of law
+98,high,New York University School of Law,New York University,school of law
 99,high,Saint Louis University,Saint Louis University,
-100,ratio-92,Catholic University of Louvain,Catholic University of Lublin,
+100,exactmatch,Catholic University of Louvain,Université catholique de Louvain,
 101,high,UCLA,"University of California, Los Angeles",
 102,high,Michigan State University,Michigan State University,
 103,high,UNC Kenan-Flagler Business School,University of North Carolina,kenanflagler business school
@@ -107,7 +107,7 @@
 105,high,Northwestern University - Kellogg School of Management,Northwestern University,kellogg school of management
 106,high,University of Amsterdam,University of Amsterdam,
 107,high,Vanderbilt University,Vanderbilt University,
-108,not changed,Fundação Getúlio Vargas,Fundação Getúlio Vargas,
+108,high,Fundação Getúlio Vargas,Fundação Getulio Vargas,
 109,exactmatch,New York University - Leonard N. Stern School of Business,New York University,stern school of business
 110,not changed,Savitribai Phule Pune University,Savitribai Phule Pune University,
 111,not changed,The Wharton School,The Wharton School,
@@ -142,7 +142,7 @@
 140,high,Georgia State University - Andrew Young School of Policy Studies,Georgia State University,andrew young school of policy studies
 141,high,University of Rochester,University of Rochester,
 142,high,Universidad de Chile,Universidad de Chile,
-143,token-100,UCL,"Birkbeck College, University of London",
+143,high,UCL,University College London,
 144,high,"New York University, Stern School of Busines",New York University,stern school of busines
 145,token-100,Trinity College Dublin,"University of Dublin, Trinity College",
 146,high,Columbia University,Columbia University,
@@ -163,11 +163,11 @@
 161,high,"University of California, San Diego - The Rady School of Management","University of California, San Diego",the rady school of management
 162,high,University of Illinois Urbana-Champaign,University of Illinois at Urbana-Champaign,
 163,high,University of Michigan - Stephen M. Ross School of Business,University of Michigan,stephen m ross school of business
-164,ratio-94,University of Copenhagen,IT University of Copenhagen,
+164,exactmatch,University of Copenhagen,Copenhagen University,
 165,high,Yale Law School,Yale University,law school
 166,high,University of California San Diego,"University of California, San Diego",
 167,high,The University of British Columbia,University of British Columbia,
-168,high,Columbia Engineering,Columbia University,
+168,high,Columbia Engineering,Columbia University,engineering school
 169,high,University of California-Berkeley,"University of California, Berkeley",
 170,high,Yale School of Management,Yale University,school of management
 171,high,University of Zürich,University of Zürich,
@@ -175,7 +175,7 @@
 173,high,University of New Mexico,University of New Mexico,
 174,high,Tufts University,Tufts University,
 175,token-100,Bocconi University,University of Commerce Luigi Bocconi,
-176,high,UCLA Extension,"University of California, Los Angeles",
+176,high,UCLA Extension,"University of California, Los Angeles",extension school
 177,high,University of North Carolina at Chapel Hill,University of North Carolina,
 178,high,University of North Carolina,University of North Carolina,
 179,high,The University of Georgia,University of Georgia,
@@ -211,7 +211,7 @@
 209,not changed,BI Norwegian Business School,BI Norwegian Business School,
 210,high,University of Warwick - Warwick Business School,University of Warwick,warwick business school
 211,high,University of Hong Kong,University of Hong Kong,
-212,high,International University - VNU HCMC,International University,
+212,high,International University - VNU HCMC,National University,
 213,high,The Johns Hopkins University School of Medicine,Johns Hopkins University,school of medicine
 214,high,Rice University,Rice University,
 215,high,DePaul University,DePaul University,
@@ -233,11 +233,11 @@
 231,high,SVKM's Narsee Monjee Institute of Management Studies (NMIMS),Narsee Monjee Institute of Management Studies,
 232,high,Yale University - Yale School of Management,Yale University,school of management
 233,token-100,Università Commerciale 'Luigi Bocconi'​,Università Bocconi,
-234,high,University of Southern California - Marshall School of Business,Marshall University,marshall school of business
+234,high,University of Southern California - Marshall School of Business,University of Southern California,marshall school of business
 235,high,University of Wisconsin-La Crosse,University of Wisconsin - La Crosse,
 236,high,University of Minnesota Twin Cities,University of Minnesota,
 237,token-100,Università Commerciale 'Luigi Bocconi',Università Bocconi,
-238,exactmatch,University of Michigan Medical/Graduate School,,
+238,exactmatch,University of Michigan Medical/Graduate School,University of Michigan,Medical School
 239,high,University of Wyoming College of Business,University of Wyoming,college of business
 240,ratio-94,"University of Nevada, Reno",University of Nevada - Reno,
 241,high,Queen's University,Queen's University,
@@ -246,7 +246,7 @@
 244,high,The Hong Kong University of Science and Technology,Hong Kong University of Science and Technology,
 245,high,Columbia University - Columbia Business School,Columbia University,business school
 246,high,MIT,Massachusetts Institute of Technology,
-247,high,University of Oxford (Lincoln College),University of Lincoln,lincoln college
+247,high,University of Oxford (Lincoln College),University of Oxford,lincoln college
 248,not changed,Paris School of Economics,Paris School of Economics,
 249,high,Queen Mary University of London,Queen Mary University of London,
 250,not changed,IPADE Business School,IPADE Business School,
@@ -255,7 +255,7 @@
 253,high,The University of Kansas,University of Kansas,
 254,high,Southern Methodist University - Cox School of Business,Southern Methodist University,cox school of business
 255,high,Instituto Tecnológico Autónomo de México,Instituto Tecnológico Autonómo de México,
-256,partial-100,Rockhurst University,Research College of Nursing - Rockhurst University,
+256,high,Rockhurst University,Rockhurst University,
 257,high,"University of California, Santa Cruz","University of California, Santa Cruz",
 258,high,Boston College Law School,Boston College,law school
 259,high,Caltech,California Institute of Technology,
@@ -278,7 +278,7 @@
 276,not changed,Santa Barbara City College,Santa Barbara City College,
 277,not changed,Université Paris-Saclay,Université Paris-Saclay,
 278,high,University of Cincinnati College of Business,University of Cincinnati,college of business
-279,not changed,Fundação Getulio Vargas,Fundação Getulio Vargas,
+279,high,Fundação Getulio Vargas,Fundação Getulio Vargas,
 280,high,University of California - Los Angeles,"University of California, Los Angeles",
 281,high,Tilburg University,Tilburg University,
 282,not changed,Aalto University,Aalto University,
@@ -303,7 +303,7 @@
 301,high,UC Santa Barbara,"University of California, Santa Barbara",
 302,high,University of Toronto - Rotman School of Management,University of Toronto,rotman school of management
 303,high,HKUST Business School,Hong Kong University of Science and Technology,business school
-304,high,Smith School of Business at Queen's University,Queen's University,smith school of business 
+304,high,Smith School of Business at Queen's University,Queen's University,smith school of business
 305,high,University of London,University of London,
 306,partial-100,European Academy,European Academy of Arts in Warsaw,
 307,high,Bilkent University,Bilkent University,
