@@ -2,7 +2,7 @@ orig,name,school
 Penn State University,Pennsylvania State University,
 UCLA Anderson School of Management,"University of California, Los Angeles",Anderson School of Management
 David Geffen School of Medicine at UCLA,"University of California, Los Angeles",David Geffen School of Medicine
-University of Michigan Medical/Graduate School,
+University of Michigan Medical/Graduate School,University of Michigan,Medical School
 Pierre and Marie Curie University,Université Pierre et Marie Curie (Paris VI),
 UT Health San Antonio,University of Texas at San Antonio,School of Health
 Maastricht University School of Business and Economics,University of Maastricht,School of Business and Economics
@@ -10,3 +10,7 @@ University of California Los Angeles (Anderson School),"University of California
 Columbia University in the City of New,Columbia University,
 New York University - Leonard N. Stern School of Business,New York University,stern school of business
 New York University Law School,New York University,law school
+University of Copenhagen,Copenhagen University,
+Catholic University of Louvain,Université catholique de Louvain,
+Getulio Vargas Foundation,Fundação Getulio Vargas,
+University of Maryland College Park,University of Maryland

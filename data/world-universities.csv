@@ -1295,7 +1295,7 @@ US,Regis College,http://www.regiscollege.edu/
 US,Regis University,http://www.regis.edu/
 US,Reinhardt College,http://www.reinhardt.edu/
 US,Rensselaer Polytechnic Institute,http://www.rpi.edu/
-US,Research College of Nursing - Rockhurst University,http://www.rockhurst.edu/3.0/academic_programs/nursing/admis3.html
+US,Rockhurst University,http://www.rockhurst.edu/
 US,Rhode Island College,http://www.ric.edu/
 US,Rhode Island School of Design,http://www.risd.edu/
 US,Rhodes College,http://www.rhodes.edu/
@@ -1868,9 +1868,8 @@ US,University of Tennessee - Knoxville,http://www.utk.edu/
 US,University of Tennessee - Martin,http://www.utm.edu/
 US,University of Tennessee - Memphis,http://www.utmem.edu/
 US,University of Tennessee Space Institute,http://www.utsi.edu/
-US,University of Texas,http://www.utsystem.edu/
+US,University of Texas,http://www.utexas.edu/
 US,University of Texas at Arlington,http://www.uta.edu/
-US,University of Texas at Austin,http://www.utexas.edu/
 US,University of Texas at Brownsville,http://www.utb.edu/
 US,University of Texas at Dallas,http://www.utdallas.edu/
 US,University of Texas at El Paso,http://www.utep.edu/
@@ -2635,6 +2634,7 @@ BR,Centro Universitário Senac,http://www.sp.senac.br/
 BR,Centro Universitário Serra dos Órgãos,http://www.unifeso.edu.br/
 BR,EMESCAM - Escola Superior de Ciências da Santa Casa de Misericórdia de Vitória,http://www.emescam.br/
 BR,FAAP - Fundação Armando Alvares Penteado,http://www.faap.br/
+BR,Fundação Getulio Vargas,https://portal.fgv.br/
 BR,Faculdade Integradas do Ceará,http://www.fic.br/
 BR,Faculdade Italo Brasileira,http://www.italo.br/
 BR,Faculdade Jaguariúna,http://www.faj.br/
@@ -3003,6 +3003,7 @@ CH,Business and Hotel Management School,http://www.bhms.ch/
 CH,Business School Lausanne (BSL),http://www.bsl-lausanne.ch/
 CH,Cubidor University Switzerland,http://www.cubidor.com/
 CH,DCT International Hotel & Business Management School,http://www.dct.ch/
+CH,Ecole polytechnique fédérale de Lausanne,https://www.epfl.ch/
 CH,"European Graduate School, Media & Communications",http://www.egs.edu/
 CH,European University,http://www.euruni.edu/
 CH,Fachhochschule Pur,http://www.phw.info/
@@ -4686,7 +4687,7 @@ GB,Trinity College Carmarthen,http://www.trinity-cm.ac.uk/
 GB,Trinity College of Music,http://www.tcm.ac.uk/
 GB,"United Medical and Dental Schools, University of London",http://www.umds.ac.uk/
 GB,University Campus Suffolk,http://www.ucs.ac.uk/
-GB,"University College London, University of London",http://www.ucl.ac.uk/
+GB,University College London,http://www.ucl.ac.uk/
 GB,University of Aberdeen,http://www.abdn.ac.uk/
 GB,University of Abertay Dundee,http://www.abertay.ac.uk/
 GB,University of Bath,http://www.bath.ac.uk/

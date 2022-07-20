@@ -2,6 +2,8 @@ import pandas as pd
 from fuzzywuzzy import fuzz
 import re
 import os
+import string
+import math
 
 # For the university name that contains second level school/college name, parse the school/college name
 def strip_school(name, best_partial_ratio_match):
@@ -13,7 +15,8 @@ def strip_school(name, best_partial_ratio_match):
     school = sanitize_school(school).lower()
 
     if 'at ' in school or ' at' in school:
-        school = school.replace('at','')
+        school = school.replace(' at',' ')
+        school = school.replace('at ',' ')
     if ' the' in school:
         school = school.replace('the','')
     if '  ' in school:
@@ -37,11 +40,13 @@ def strip_school(name, best_partial_ratio_match):
                 if school_type in school:
                     university_map[s_match][school_type] = school
                     break
-    #print(school,loc)
-    return school
+    #print(school)
+    return school.strip()
 
 # For second level school/college that's parsed from original university name, do a little clean up
 def sanitize_school(school_name):
+    if school_name in s_types.unique():
+        return school_name + " school"
     if school_name.lower().find('school') == -1 and school_name.lower().find('college') == -1:
         return ''
     regex = re.compile('()[-,\.!?]')
@@ -102,9 +107,9 @@ def fuzzy_match(name, loc):
         cleaned_u_name = u_name.strip().lower()
         # cleaned_name: university name from source data
         # cleaned_u_name: university name from all universities list
-        ratio = fuzz.ratio(cleaned_name, cleaned_u_name)
-        partial_ratio = fuzz.partial_ratio(cleaned_name, cleaned_u_name)
-        token_sort_ratio = fuzz.token_set_ratio(cleaned_name, cleaned_u_name)
+        ratio = fuzz.ratio(cleaned_name.lower(), cleaned_u_name)
+        partial_ratio = fuzz.partial_ratio(cleaned_name.lower(), cleaned_u_name)
+        token_sort_ratio = fuzz.token_set_ratio(cleaned_name.lower(), cleaned_u_name)
 
         # find the best one and save it while looping through all universities
         if ratio > best_ratio:
@@ -143,7 +148,7 @@ def decision(name, cleaned_name, best_ratio_match, best_ratio, best_partial_rati
             (best_token_sort_ratio == 100 and best_token_sort_ratio_match.strip().lower() in cleaned_name.strip().lower()):
         sanitized_row = pd.Series({
             'orig': name,
-            'name': best_partial_ratio_match if best_partial_ratio_match == 100 else best_token_sort_ratio_match,
+            'name': best_partial_ratio_match if best_partial_ratio == 100 else best_token_sort_ratio_match,
             'school': strip_school(cleaned_name, best_partial_ratio_match if best_partial_ratio == 100 else best_token_sort_ratio_match),
             'confidence': 'high'})
     else:
@@ -193,7 +198,7 @@ def read_school_types():
 
 def harmanize_source(sanitize_rules_df):
     source = pd.DataFrame(data, columns=['newid', 'Institution of highest degree obtained'])
-    updated_source = pd.DataFrame([], columns=['newid', 'Institution of highest degree obtained', 'name', 'school'])
+    updated_source = pd.DataFrame([], columns=['newid', 'Institution of highest degree obtained', 'name'])
     sanitize_rules_map = {k: (v1, v2) for k, v1, v2 in
                        zip(sanitize_rules_df.orig, sanitize_rules_df.name, sanitize_rules_df.school)}
     i = 0
@@ -203,12 +208,12 @@ def harmanize_source(sanitize_rules_df):
             value = sanitize_rules_map[orig_name]
             updated_source.loc[i] = pd.Series(
                     {'newid': row['newid'], 'Institution of highest degree obtained': row['Institution of highest degree obtained'],
-                     'name': value[0], 'school': value[1]})
+                     'name': value[0] if str(value[1]) == 'nan' else str(value[0]) + " - " + string.capwords(str(value[1]), sep = None)})
         else:
             updated_source.loc[i] = pd.Series(
                 {'newid': row['newid'],
                  'Institution of highest degree obtained': row['Institution of highest degree obtained'],
-                 'name': '', 'school': ''})
+                 'name': ''})
         i += 1
     return updated_source
 
