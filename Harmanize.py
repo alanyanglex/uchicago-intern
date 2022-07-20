@@ -24,6 +24,8 @@ def strip_school(name, best_partial_ratio_match):
     school = school.replace('(','')
     school = school.replace(')','')
 
+    # Creates a map of university names and their potential school name in the with a defined subset file from school_types.csv
+    # If there exists a school with the same university and school name, it changes the school to that name, if not, it saves the name
     if s_match in university_map:
         if len(school) > 0:
             for school_type in s_types:
