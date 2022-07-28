@@ -49,7 +49,7 @@ def strip_school(name, best_partial_ratio_match):
 def sanitize_school(school_name):
     if school_name in s_types.unique():
         return school_name + " school"
-    if school_name.lower().find('school') == -1 and school_name.lower().find('college') == -1:
+    if school_name.lower().find('school') == -1 and school_name.lower().find('college') == -1 and school_name.lower().find('center') == -1:
         return ''
     regex = re.compile('()[-,\.!?]')
     school_name = regex.sub('', school_name).strip()
