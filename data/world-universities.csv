@@ -274,6 +274,7 @@ US,Carlow College,http://www.carlow.edu/
 US,Carnegie Mellon University,http://www.cmu.edu/
 US,Carroll College Helena,http://www.carroll.edu/
 US,Carroll College Waukesha,http://www.cc.edu/
+US,Carroll University,https://www.carrollu.edu/
 US,Carson-Newman College,http://www.cn.edu/
 US,Carthage College,http://www.carthage.edu/
 US,Case Western Reserve University,http://www.cwru.edu/
@@ -968,7 +969,7 @@ US,Metropolitan State College of Denver,http://www.mscd.edu/
 US,Metropolitan State University,http://www.metro.msus.edu/
 US,MGH Institute of Health Professions,http://www.mghihp.edu/
 US,Miami Dade College,http://www.mdc.edu/
-US,Miami University of Ohio,http://www.muohio.edu/
+US,Miami University of Ohio,http://miamioh.edu/
 US,Miami University of Ohio - Hamilton,http://www.ham.muohio.edu/
 US,Miami University of Ohio - Middletown,http://www.mid.muohio.edu/
 US,Michigan School of Professional Psychology,http://www.mispp.edu/
@@ -1308,7 +1309,7 @@ US,Ripon College,http://www.ripon.edu/
 US,Rivier College,http://www.rivier.edu/
 US,Roanoke Bible College,http://www.roanokebible.edu/
 US,Roanoke College,http://www.roanoke.edu/
-US,Robert Morris College,http://www.robert-morris.edu/
+US,Robert Morris University,https://www.rmu.edu/
 US,Robert Morris College of Chicago,http://www.rmcil.edu/
 US,Roberts Wesleyan College,http://www.rwc.edu/
 US,Rochester College,http://www.rc.edu/
@@ -1573,6 +1574,7 @@ US,Texas College,http://www.texascollege.edu/
 US,Texas College of Osteopathic Medicine,http://www.hsc.unt.edu/education/tcom/
 US,Texas Lutheran University,http://www.txlutheran.edu/
 US,Texas Southern University,http://www.tsu.edu/
+US,Texas State University,https://www.txst.edu/
 US,Texas Tech University,http://www.ttu.edu/
 US,Texas Tech University Health Science Center,http://www.ttuhsc.edu/
 US,Texas Wesleyan University,http://www.txwesleyan.edu/
@@ -2308,7 +2310,7 @@ AT,Universität für Bodenkultur Wien,http://www.boku.ac.at/
 AT,Universität für künstlerische und industrielle Gestaltung Linz,http://www.khs-linz.ac.at/
 AT,Universität für Musik und darstellende Kunst Graz,http://www.kug.ac.at/
 AT,Universität für Musik und darstellende Kunst  Wien,http://www.mdw.ac.at/
-AT,Universität Graz,http://www.kfunigraz.ac.at/
+AT,Universität Graz,https://www.uni-graz.at/
 AT,Universität Innsbruck,http://www.uibk.ac.at/
 AT,Universität Klagenfurt,http://www.uni-klu.ac.at/
 AT,Universität Linz,http://www.uni-linz.ac.at/
@@ -2505,6 +2507,7 @@ BE,Facultés Universitaires Saint-Louis,http://www.fusl.ac.be/
 BE,Faculté Universitaire des Sciences Agronomiques de Gembloux,http://www.fsagx.ac.be/
 BE,Fondation Universitaire Luxembourgeoise,http://www.ful.ac.be/
 BE,Hasselt University,http://www.uhasselt.be/
+BE,Hautes Etudes Commerciales-Liege,https://www.hec.uliege.be/
 BE,Hogere Zeevaartschool - Maritime Academy,http://www.hzs.be/
 BE,Hogeschool Antwerpen,http://www.ha.be/
 BE,"Hogeschool voor Wetenschap en Kunst (VLEKHO), Brussel",http://www.vlekho.be/
@@ -2634,6 +2637,8 @@ BR,Centro Universitário Plinio Leite,http://www.unipli.com.br/
 BR,Centro Universitário Senac,http://www.sp.senac.br/
 BR,Centro Universitário Serra dos Órgãos,http://www.unifeso.edu.br/
 BR,EMESCAM - Escola Superior de Ciências da Santa Casa de Misericórdia de Vitória,http://www.emescam.br/
+BR,Escola De Administracao De Empresas De Sao Paulo,https://eaesp.fgv.br/
+BR,Escola Politecnica da Universidade de Sao Paulo,https://www.poli.usp.br/
 BR,FAAP - Fundação Armando Alvares Penteado,http://www.faap.br/
 BR,Fundação Getulio Vargas,https://portal.fgv.br/
 BR,Faculdade Integradas do Ceará,http://www.fic.br/
@@ -2645,6 +2650,7 @@ BR,Faculdades Integradas Toledo,http://www.toledo.br/
 BR,Faculdades Integradas UPIS,http://www.upis.br/
 BR,FAE Business School - Faculdade de Administração e Economia,http://www.fae.edu/
 BR,Fundação Educacional de Ituverava,http://www.feituverava.com.br/
+BR,Ibmec Sao Paulo,https://www.ibmec.br/
 BR,Instituto Mauá de Tecnologia,http://www.maua.br/
 BR,Instituto Nacional de Matemática Pura e Aplicada - IMPA,http://www.impa.br/
 BR,Instituto Tecnológico de Aeronáutica,http://www.ita.br/
@@ -2672,7 +2678,7 @@ BR,Universidade Cruzeiro do Sul,http://www.unicsul.br/
 BR,Universidade da Amazônia,http://www.unama.br/
 BR,Universidade da Região da Campanha,http://www.urcamp.tche.br/
 BR,Universidade de Alfenas,http://www.unifenas.br/
-BR,Universidade de Brasília,http://www.unb.br/
+BR,Universidade de Brasília,http://international.unb.br/
 BR,Universidade de Caxias do Sul,http://www.ucs.tche.br/
 BR,Universidade de Cruz Alta,http://www.unicruz.tche.br/
 BR,Universidade de Fortaleza,http://www.unifor.br/
@@ -2916,7 +2922,7 @@ CA,Redeemer College,http://www.redeemer.ca/
 CA,Regent College,http://www.regent-college.edu/
 CA,Royal Military College of Canada,http://www.rmc.ca/
 CA,Royal Roads University,http://www.royalroads.ca/
-CA,Ryerson Polytechnic University,http://www.ryerson.ca/
+CA,Ryerson Polytechnic University,https://www.torontomu.ca/
 CA,Saskatchewan Indian Federated College,http://www.sifc.edu/
 CA,Sauder School of Business,http://www.sauder.ubc.ca/
 CA,Selkirk College,http://www.selkirk.bc.ca/
@@ -3029,7 +3035,7 @@ CH,"Schiller International University, American College of Switzerland",http://w
 CH,School of Management Fribourg,http://www.heg-fr.ch/
 CH,Swiss Business School Zurich (SBS),http://www.sbs.edu/
 CH,"Swiss Federal Institute of Technology, Lausanne",http://www.epfl.ch/
-CH,"Swiss Federal Institute of Technology, Zurich",http://www.ethz.ch/
+CH,"Swiss Federal Institute of Technology, Zurich",http://ethz.ch/
 CH,Swiss Management Center,http://www.swissmc.ch/
 CH,"University Center ""César Ritz""",http://www.uccr.edu/
 CH,University of Applied Sciences Aargau,http://www.fh-aargau.ch/
@@ -3047,7 +3053,7 @@ CH,University of Neuchatel,http://www.unine.ch/
 CH,University of St. Gallen,http://www.unisg.ch/
 CH,University of Switzerland,http://www.swissu.org/
 CH,University of the Italian-speaking Part of Switzerland,http://www.unisi.ch/
-CH,University of Zürich,http://www.unizh.ch/
+CH,University of Zürich,https://www.uzh.ch/
 CH,Victoria University,http://www.victoria-uni.ch/
 CH,Webster University Geneva,http://www.webster.ch/
 CH,Zurich University of Applied Sciences Winterthur,http://www.zhwin.ch/
@@ -3142,6 +3148,7 @@ CN,Beijing Foreign Studies University,http://www.bfsu.edu.cn/
 CN,Beijing Forestry University,http://www.bjfu.edu.cn/
 CN,Beijing Information Science and Technology University,http://www.biti.edu.cn/
 CN,Beijing Institute of Technology,http://www.bit.edu.cn/
+CN,Beijing Institute Civil Engineering/architecture,https://english.bucea.edu.cn/
 CN,Beijing International Studies University,http://www.bisu.edu.cn/
 CN,Beijing Language and Culture University,http://www.blcu.edu.cn/
 CN,Beijing Medical University,http://www.bjmu.edu.cn/
@@ -3437,6 +3444,7 @@ CN,Taizhou College,http://www.tzc.edu.cn/
 CN,Tarim University,http://www.taru.edu.cn/
 CN,The University of Nottingham Ningbo China,http://www.nottingham.edu.cn/
 CN,Tianjin Academy of Fine Art,http://www.tjarts.edu.cn/
+CN,Tianjin Foreign Studies University,http://www.tjfsu.edu.cn/
 CN,Tianjin Medical University,http://www.tijmu.edu.cn/
 CN,Tianjin Normal University,http://www.tjnu.edu.cn/
 CN,Tianjin Open University,http://www.tjrtvu.edu.cn/
@@ -3943,7 +3951,7 @@ DE,Technische Fachhochschule Berlin,http://www.tfh-berlin.de/
 DE,"Technische Fachhochschule Georg Agricola für Rohstoff, Energie und, Umwelt zu Bochum",http://www.tfh-bochum.de/
 DE,Technische Fachhochschule Wildau,http://www.tfh-wildau.de/
 DE,Technische Universität Bergakademie Freiberg,http://www.tu-freiberg.de/
-DE,Technische Universität Berlin,http://www.tu-berlin.de/
+DE,Technische Universität Berlin,https://www.tu.berlin/
 DE,Technische Universität Carolo-Wilhelmina Braunschweig,http://www.tu-bs.de/
 DE,Technische Universität Chemnitz,http://www.tu-chemnitz.de/
 DE,Technische Universität Clausthal,http://www.tu-clausthal.de/
@@ -3957,7 +3965,7 @@ DE,Theologische Fakultät Trier,http://www.uni-trier.de/uni/theo/
 DE,Theologische Hochschule Friedensau,http://www.thh-friedensau.de/
 DE,Tierärztliche Hochschule Hannover,http://www.tiho-hannover.de/
 DE,Universität Augsburg,http://www.uni-augsburg.de/
-DE,Universität Bayreuth,http://www.uni-bayreuth.de/
+DE,Universität Bayreuth,https://www.uni-bayreuth.de/
 DE,Universität Bielefeld,http://www.uni-bielefeld.de/
 DE,Universität Bremen,http://www.uni-bremen.de/
 DE,Universität der Bundeswehr Hamburg,http://www.unibw-hamburg.de/
@@ -4346,6 +4354,7 @@ FR,Ecole Centrale d'Electronique - ECE,http://www.ece.fr/
 FR,Ecole Centrale de Lille,http://www.ec-lille.fr/
 FR,Ecole Centrale de Lyon,http://www.ec-lyon.fr/
 FR,Ecole Centrale de Nantes,http://www.ec-nantes.fr/
+FR,Ecole Centrale De Paris,https://www.centralesupelec.fr/
 FR,Ecole d'Architecture de Nancy,http://www.nancy.archi.fr/
 FR,Ecole de l'Air,http://www.aea.asso.fr/
 FR,Ecole des Hautes Etudes Commerciales,http://www.hec.fr/
@@ -4353,6 +4362,7 @@ FR,Ecole des Hautes Etudes Commerciales du Nord,http://edu.edhec.com/
 FR,Ecole des Hautes Etudes Industrielles de Lille,http://www.hei.fr/
 FR,Ecole des Ingénieurs de la Ville de Paris,http://www.eivp-paris.fr/
 FR,Ecole d'Ingénieurs en Informatique pour l'Industrie,http://www.e3i.univ-tours.fr/
+FR,Ecoles Des Hautes Etudes En Sciences Sociales,https://www.ehess.fr/
 FR,Ecole Européen des Affaires,http://www.eap.fr/
 FR,"Ecole Européenne de Chimie, Polymères et Matériaux de Strasbourg",http://www-ecpm.u-strasbg.fr/
 FR,Ecole Française d'Electronique et d'Informatique,http://www.efrei.fr/
@@ -4492,7 +4502,7 @@ FR,Institut des Sciences de la Matière et du Rayonnement,http://www.ismra.fr/
 FR,Institut des Sciences de l'Ingénieur de Clermont-Ferrand,http://cust.univ-bpclermont.fr/
 FR,Institut des Sciences de l'Ingénieur de Montpellier,http://www.isim.univ-montp2.fr/
 FR,Institut d'Etudes Politiques de Bordeaux,http://www.iep.u-bordeaux.fr/
-FR,Institut d'Etudes Politiques de Paris (Sciences Po),http://www.sciences-po.fr/
+FR,Institut d'Etudes Politiques de Paris (Sciences Po),https://www.sciencespo.fr/
 FR,Institut National des Sciences Appliquées de Lyon,http://www.insa-lyon.fr/
 FR,Institut National des Sciences Appliquées de Rennes,http://www.insa-rennes.fr/
 FR,Institut National des Sciences Appliquées de Rouen,http://www.insa-rouen.fr/
@@ -4510,6 +4520,7 @@ FR,Institut Supérieure d'Electronique du Nord,http://www.isen.fr/
 FR,Institut Textile et Chimique de Lyon,http://www.itech.fr/
 FR,"Schiller International University, Paris",http://www.schillerparis.com/
 FR,"Schiller International University, Strasbourg",http://www.schillerstrasbourg.com/
+FR,Toulouse school of Economics,https://www.tse-fr.eu/
 FR,Université Blaise Pascal (Clermont-Ferrand II),http://www.univ-bpclermont.fr/
 FR,Université Bordeaux I,http://www.cribx1.u-bordeaux.fr/
 FR,Université Catholique de Lille,http://www.fupl.asso.fr/
@@ -4625,7 +4636,7 @@ GB,Heriot-Watt University,http://www.hw.ac.uk/
 GB,"Heythrop College, University of London",http://www.heythrop.ac.uk/
 GB,Huron University USA in London,http://www.huron.ac.uk/
 GB,ifs University College,http://www.ifslearning.ac.uk/
-GB,Imperial College London,http://www.ic.ac.uk/
+GB,Imperial College London,https://www.imperial.ac.uk/
 GB,Imperial College School of Medicine,http://www.med.ic.ac.uk/
 GB,"Institue of Historical Research, University of London",http://ihr.sas.ac.uk/
 GB,"Institute of Advanced Legal Studies, University of London",http://www.sas.ac.uk/ials/
@@ -5293,6 +5304,7 @@ IN,Indian Agricultural Research Institute,http://www.iari.ernet.in/
 IN,Indian Board of Alternative Medicine,http://www.altmedworld.net/
 IN,Indian Institute of Information Technology,http://www.iiita.com/
 IN,Indian Institute of Information Technology and Management - Kerala,http://www.iiitmk.ac.in/
+IN,Indian Institute of Management Ahmedabad,https://www.iima.ac.in/
 IN,"Indian Institute of Management, Tiruchirappalli",http://www.iimtrichy.ac.in/
 IN,Indian Institute of Science,http://www.iisc.ernet.in/
 IN,"Indian Institute of Technology, Bombay",http://www.iitb.ac.in/
@@ -5430,6 +5442,7 @@ IN,Rajendra Agricultural University,http://www.pusavarsity.org.in/
 IN,Rajitlal Institute of Technology & Health Sciences (RITHS),http://www.riths.ac.in/
 IN,Rajiv Gandhi Technical University (University of Technology of Madhya Pradesh),http://www.rgtu.net/
 IN,Rajiv Gandhi University,http://www.rgu.ac.in/
+IN,Ramaiah Institute of Technology,http://www.msrit.edu/
 IN,Ranchi University,http://www.ranchiuniversity.org.in/
 IN,Rani Durgavati University,http://www.rdunijbpin.org/
 IN,RKDF University,http://www.rkdf.ac.in/
@@ -5458,6 +5471,7 @@ IN,"Sikkim Manipal University of Health, Medical and Technological Sciences",htt
 IN,Singhania University Rajasthan,http://www.singhaniauniversity.co.in/
 IN,SMK Fomra Institute of Technology,http://www.smkfomra.net/
 IN,Solapur University,http://su.digitaluniversity.ac/
+IN,Sophia College for Women,https://sophiacollegemumbai.com/
 IN,South Asian University,http://www.southasianuniversity.org/
 IN,South Gujarat University,http://www.sgu.ernet.in/
 IN,Sree Chitra Tirunal Institute for Medical Sciences and Technology,http://sctimst.ker.nic.in/
@@ -5472,6 +5486,7 @@ IN,Sri Sathya Sai Institute of Higher Learning,http://www.srisathyasai.org.in/pa
 IN,Sri Venkateswara Institute of Medical Sciences,http://svimstpt.ap.nic.in/
 IN,Sri Venkateswara University,http://svuni.ap.nic.in/
 IN,SRM Institute Of Science & Technology ( Deemed University),http://www.srmuniv.ac.in/
+IN,Stella Maris College,https://stellamariscollege.edu.in/
 IN,Sunrise University Alwar,http://www.sunriseuniversity.in/
 IN,Swami Ramanand Teerth Marathwada University,http://www.srtmun.org/
 IN,Symbiosis International University,http://www.siu.edu.in/
@@ -5794,11 +5809,12 @@ IT,Abdus Salam international centre for theoretical physics,http://www.ictp.trie
 IT,Basilicata University Potenza,http://www.unibas.it/
 IT,Campus Bio-Medico University of Rome,http://www.unicampus.it/
 IT,Catholic University of the Sacred Heart,http://www.unicatt.it/
+IT,Collegio Carlo Alberto,https://www.carloalberto.org/
 IT,Dutch University Institute for Art History (DUIA),http://www.iuoart.org/
 IT,European School of Economics,http://www.uniese.it/
 IT,European University Institute,http://www.iue.it/
 IT,Fondazione Sacro Cuore,http://www.sacrocuore.org/
-IT,Free International University of Social Studies,http://www.luiss.it/
+IT,Luiss Guido Carli University,http://www.luiss.edu/
 IT,"Free University Institute ""Carlo Cattaneo""",http://www.liuc.it/
 IT,"Free University ""Maria Santissima Assunta""",http://www.lumsa.it/
 IT,Free University of Bozen,http://www.unibz.it/
@@ -5820,9 +5836,11 @@ IT,Pontificia Università S. Tommaso,http://www.angelicum.org/
 IT,Pontificio Ateneo Antonianum,http://www.antonianum.ofm.org/
 IT,Pontificio Istituto Orientale,http://www.pio.urbe.it/
 IT,School of Education Pisa,http://www.sns.it/
+IT,Scuola Superiore Sant'Anna di Studi Univ. e di Perfezionamento,https://www.santannapisa.it/
 IT,Second University of Naples,http://www.unina2.it/
 IT,Third University of Rome,http://www.uniroma3.it/
 IT,Università Bocconi,http://www.uni-bocconi.it/
+IT,Universita Degli Studi Di Trieste,https://www.units.it/
 IT,Università Pontificia Salesiana,http://www.unisal.it/
 IT,University Institute of Architecture Venice,http://www.iuav.unive.it/
 IT,University Institute of Modern Languages,http://www.iulm.it/
@@ -7008,6 +7026,7 @@ MX,Instituto Tecnológico y de Estudios Superiores de Monterrey (ITESM),http://w
 MX,Instituto Tecnológico y de Estudios Superiores de Occidente,http://www.iteso.mx/
 MX,Politécnico de Guanajuato,http://www.poligto.edu.mx/
 MX,"Tecnologico de Baja California, Universidad",http://www.tecbc.mx/
+MX,Tecnológico de Monterrey,https://tec.mx/
 MX,Universidad Anáhuac,http://www.anahuac.mx/
 MX,Universidad Anáhuac del Sur,http://www.uas.mx/
 MX,"Universidad Autónoma Agraria ""Antonio Narro""",http://www.uaaan.mx/
@@ -8007,6 +8026,7 @@ PL,Warsaw School of Economics,http://www.sgh.waw.pl/
 PL,Warsaw School of Information Technology,http://www.wsisiz.edu.pl/
 PL,Warsaw School of Social Psychology,http://www.swps.edu.pl/
 PL,West Pomeranian Business School in Szczecin,http://www.zpsb.szczecin.pl/
+PL,Wroclaw University of Economics,https://www.carrollu.edu/
 PL,Zachodniopomorska School of Science and Engineering, http://www.zut.edu.pl/
 PR,Caribbean University,http://www.caribbean.edu/
 PR,Centro de Estudios Avanzados de Puerto Rico y el Caribe,http://www.ceaprc.org/
@@ -9124,7 +9144,7 @@ UA,National Pedagogical University M. Dragomanov ,http://www.npu.edu.ua/
 UA,National Pirogov Memorial Medical University,http://www.vnmu.vn.ua/
 UA,National Taras Shevchenko University of Kiev,http://www.univ.kiev.ua/
 UA,National Technical University (Kharkiv Polytechnical Institute),http://www.kpi.kharkov.ua/
-UA,National Technical University (Kiev Politechnical Institute),http://www.kpi.ua/
+UA,National Technical University (Kiev Politechnical Institute),http://kpi.ua/
 UA,National Transport University,http://www.ntu.kar.net/
 UA,National University of Food Technologies,http://www.usuft.kiev.ua/
 UA,National University of Internal Affairs,http://www.univd.edu.ua/

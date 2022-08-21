@@ -2,3 +2,5 @@ fuzzywuzzy
 numpy
 pandas
 python-Levenshtein
+beautifulsoup4
+google

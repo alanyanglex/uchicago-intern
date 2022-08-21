@@ -3,6 +3,7 @@ from fuzzywuzzy import fuzz
 import re
 import os
 import string
+from googlesearch import search
 
 
 # For the university name that contains second level school/college name, parse the school/college name
@@ -158,6 +159,12 @@ def decision(name, cleaned_name, best_ratio_match, best_ratio, best_partial_rati
             'school': strip_school(cleaned_name, best_partial_ratio_match if best_partial_ratio == 100 else best_token_sort_ratio_match),
             'confidence': 'high'})
     else:
+        # try google find
+        google_match = find_first_link(name, url_map)
+        if google_match != None:
+            sanitized_row = pd.Series(
+                {'orig': name, 'name': google_match, 'school': '', 'confidence': f'google-match'})
+            return sanitized_row
         # matches with less confidence, but still replace,
         # confidence value also indicates the type of match and its match ratio value
         if best_ratio > 92:
@@ -191,6 +198,17 @@ def read_acronyms():
     return acronyms
 
 
+def read_url_map():
+    all_world = pd.read_csv(f"{dir_path}/data/world-universities.csv", header=None)
+    url_map = {}
+    for idx,row in all_world.iterrows():
+        url = row[2].split('/')[2]
+        url = url.replace('www.', '')
+        url_map[url] = row[1]
+
+    return url_map
+
+
 # read in all special match rules into special_matches data frame, where
 # orig: original university name
 # name: replacement university name
@@ -211,9 +229,9 @@ def read_school_types():
 def harmonize_source_data(source, sanitize_rules_map, source_columns, school_columns):
     updated_source_columns = []
     for source_column in source_columns:
-        updated_source_columns = updated_source_columns + [source_columns]
+        updated_source_columns.append(source_column)
         if source_column in school_columns:
-            updated_source_columns = updated_source_columns + [source_column + "_updated"]
+            updated_source_columns.append(source_column + "_updated")
     updated_source_data = pd.DataFrame([], columns=updated_source_columns)
     i = 0
     replace = {}
@@ -227,13 +245,14 @@ def harmonize_source_data(source, sanitize_rules_map, source_columns, school_col
             else:
                 replace[school_column] = ''
 
-    updated_row = {}
-    for source_column in source_columns:
-        updated_row[source_column] = row[source_column]
-        if source_column in school_columns:
-            updated_row[source_column + '_updated'] = replace[school_column]
+        updated_row = {}
+        for source_column in source_columns:
+            updated_row[source_column] = row[source_column]
+            if source_column in school_columns:
+                updated_row[source_column + '_updated'] = replace[source_column]
 
-    updated_source_data.loc[i] = pd.Series(updated_row)
+        updated_source_data.loc[i] = pd.Series(updated_row)
+        i += 1
 
     return updated_source_data
 
@@ -299,6 +318,18 @@ def process_early_degrees():
     process_source_file(source_file, updated_source_file, source_columns, school_columns, scoreboard_file, sanitize_rules_file)
 
 
+def find_first_link(query, url_map):
+    for j in search(query, tld="co.in", num=10, stop=10, pause=2):
+        if "wikipedia" in j:
+            continue
+        j = j.replace('https://', '').replace('http://', '').replace('www.','',).split('/', 1)[0]
+        print(j)
+        if j in url_map:
+          return url_map[j]
+        else:
+          return None
+
+
 def main():
     #process_highest_degrees()
     process_early_degrees()
@@ -311,6 +342,7 @@ dir_path = os.path.dirname(os.path.realpath(__file__))
 early_degrees = pd.read_csv(f"{dir_path}/data/alan_early_degrees.csv")
 # read all university names in the world
 all_school_names = read_all_schools()
+url_map = read_url_map()
 # all acronyms
 acronyms = read_acronyms()
 # read special match rules

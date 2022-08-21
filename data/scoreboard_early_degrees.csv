@@ -1,0 +1,750 @@
+,name,best_ratio_match,best_ratio,best_partial_ratio_match,best_partial_ratio,best_token_sort_ratio_match,best_token_sort_ratio
+0,Arizona State University,Arizona State University,100,Arizona State University,100,Arizona State University,100
+1,Hong Kong University Of Science And Technology,Hong Kong University of Science and Technology,100,Hong Kong University of Science and Technology,100,Hong Kong University of Science and Technology,100
+2,Seoul National University,Seoul National University,100,National University,100,National University,100
+3,University Of Chicago,University of Chicago,100,Loyola University of Chicago,100,Finch University of Health Sciences - The Chicago Medical School,100
+4,Yale University,Yale University,100,Yale University,100,Yale University,100
+5,Yonsei University,Yonsei University,100,Yonsei University,100,Yonsei University,100
+6,London School of Economics,Toulouse school of Economics,81,"London School of Economics and Political Science, University of London",100,"London School of Economics and Political Science, University of London",100
+7,University Of Virginia,University of Virginia,100,University of Virginia,100,University of Northern Virginia,100
+8,Tsinghua University,Tsinghua University,100,Tsinghua University,100,Tsinghua University,100
+9,Nanjing University,Nanjing University,100,Nanjing University,100,China Pharmaceutical University Nanjing,100
+10,University Of International Business & Economics,University of International Business and Economics,96,University of International Business,100,University of International Business and Economics,100
+11,University Of Michigan--Ann Arbor,University of Michigan - Dearborn,88,University of Michigan,100,University of Michigan,100
+12,Sarah Lawrence College,Sarah Lawrence College,100,Sarah Lawrence College,100,Sarah Lawrence College,100
+13,Grove City College,Grove City College,100,Grove City College,100,Grove City College,100
+14,Wittenberg University,Wittenberg University,100,Wittenberg University,100,Wittenberg University,100
+15,University Of Tulsa,University of Tulsa,100,University of Tulsa,100,University of Tulsa,100
+16,Wuhan University,Wuhan University,100,Wuhan University,100,China University of Geosciences Wuhan,100
+17,Universidade Catolica Portuguesa,Universidade Catolica Portuguesa,100,Universidade Catolica Portuguesa,100,Universidade Catolica Portuguesa,100
+18,Sharif University Of Technology,Sharif University of Technology,100,Sharif University of Technology,100,Sharif University of Technology,100
+19,University Of Sydney,University of Sydney,100,University of Sydney,100,University of Sydney,100
+20,Peking University,Peking University,100,Peking University,100,Peking University,100
+21,New York University,New York University,100,New York University,100,City University of New York,100
+22,State University Of New York At Stony Brook,State University of New York at Stony Brook,100,State University of New York at Stony Brook,100,New York University,100
+23,Delhi University,Adelphi University,94,Adelphi University,94,University of Delhi,100
+24,University Of Pennsylvania,University of Pennsylvania,100,Bloomsburg University of Pennsylvania,100,Bloomsburg University of Pennsylvania,100
+25,"University Of California, Los Angeles","University of California, Los Angeles",100,"University of California, Los Angeles",100,"University of California, Los Angeles",100
+26,Grinnell College,Grinnell College,100,Grinnell College,100,Grinnell College,100
+27,Universidad De Guadalajara,Universidad de Guadalajara,100,Universidad de Guadalajara,100,Universidad Autónoma de Guadalajara,100
+28,Hautes Etudes Commerciales-Liege,Hautes Etudes Commerciales-Liege,100,Hautes Etudes Commerciales-Liege,100,Hautes Etudes Commerciales-Liege,100
+29,Nankai University,Nankai University,100,Nankai University,100,Nankai University,100
+30,University Of Texas At Austin,University of Texas at Dallas,86,University of Texas,100,University of Texas,100
+31,University Of Alabama at Birmingham,University of Alabama - Birmingham,96,University of Alabama - Birmingham,94,University of Alabama - Birmingham,100
+32,Universita Commerciale 'luigi Bocconi',University of Commerce Luigi Bocconi,86,University of Commerce Luigi Bocconi,86,University of Commerce Luigi Bocconi,89
+33,Lady Shri Ram College For Women,Sophia College for Women,80,Hiram College,92,Sophia College for Women,83
+34,University Of Wisconsin-Madison,University of Wisconsin - Madison,97,University of Wisconsin - Madison,94,University of Wisconsin - Madison,100
+35,Columbia University,Columbia University,100,Barnard College - Columbia University,100,Barnard College - Columbia University,100
+36,Princeton University,Princeton University,100,Princeton University,100,Princeton University,100
+37,Middlebury College,Middlebury College,100,Middlebury College,100,Middlebury College,100
+38,Instituto Tecnologico Autonomo de Mexico,Instituto Tecnológico Autonómo de México,92,Instituto Tecnológico Autonómo de México,92,Instituto Tecnológico Autonómo de México,96
+39,Georgetown University,Georgetown University,100,Georgetown University,100,Georgetown University,100
+40,Colby College,Colby College,100,Colby College,100,Colby College,100
+41,Mount Holyoke College,Mount Holyoke College,100,Mount Holyoke College,100,Mount Holyoke College,100
+42,Yazd University,Yazd University,100,Yazd University,100,"Islamic Azad University, Yazd",100
+43,University Of Hong Kong,University of Hong Kong,100,Chinese University of Hong Kong,100,Chinese University of Hong Kong,100
+44,Harvard University,Harvard University,100,Harvard University,100,Harvard University,100
+45,Stanford University,Stanford University,100,Stanford University,100,Stanford University,100
+46,The Chinese Univ. of Hong Kong,Chinese University of Hong Kong,88,Chinese University of Hong Kong,77,Chinese University of Hong Kong,89
+47,Universidad Nacional De Colombia,Universidad Nacional de Colombia,100,Universidad Nacional de Colombia,100,Universidad Nacional de Colombia,100
+48,State University - Higher School of Economics,Higher School of Economics,73,Higher School of Economics,100,Higher School of Economics,100
+49,Morehouse College,Morehouse College,100,Morehouse College,100,Morehouse College,100
+50,Covenant University,Covenant University,100,Covenant University,100,Covenant University,100
+51,Vilnius Gediminas Technical University,Vilnius Gediminas Technical University,100,Vilnius Gediminas Technical University,100,Vilnius Gediminas Technical University,100
+52,Ivan Franko National University of Lviv,Ivano-Frankivsk National University of Oli and Gas,79,National University,100,National University,100
+53,University Of Tehran,University of Tehran,100,University of Tehran,100,Iran University of Science and Technology Tehran,100
+54,Colorado State University,Colorado State University,100,Colorado State University,100,Colorado State University,100
+55,Cornell University,Cornell University,100,Cornell University,100,Cornell University,100
+56,University Of Warwick,University of Warwick,100,University of Warwick,100,University of Warwick,100
+57,Fudan University,Fudan University,100,Fudan University,100,Fudan University,100
+58,Liaoning Normal University,Liaoning Normal University,100,Liaoning Normal University,100,Liaoning Normal University,100
+59,University of London-London School of Economics & Political Sci,"London School of Economics and Political Science, University of London",62,University of London,100,University of London,100
+60,Macalester College,Macalester College,100,Macalester College,100,Macalester College,100
+61,Soka University,Soka University,100,Soka University of America,100,Soka University of America,100
+62,Ohio State University,Ohio State University,100,Ohio State University,100,Ohio State University,100
+63,Brandeis University,Brandeis University,100,Brandeis University,100,Brandeis University,100
+64,ITAM,AISTEDA,55,Hokkaigakuen University of Kitami,100,AISTEDA,55
+65,Chinese University Of Hong Kong,Chinese University of Hong Kong,100,Chinese University of Hong Kong,100,Chinese University of Hong Kong,100
+66,University Of Southern California,University of Southern California,100,University of Southern California,100,University of Southern California,100
+67,Korea University,Korea University,100,Korea University,100,Korea University,100
+68,Reed College,Reed College,100,Reed College,100,Reed College,100
+69,Budapesti Corvinus Egyetem,Budapest Buddhist University,52,Ursinus College,60,California Baptist College,54
+70,University Of Delhi,University of Delhi,100,University of Delhi,100,University of Delhi,100
+71,University College London,University College London,100,University College London,100,"Birkbeck College, University of London",100
+72,Universidad Pompeu Fabra,Universitat Pompeu Fabra,92,Universitat Pompeu Fabra,92,Universitat Pompeu Fabra,92
+73,Oberlin College,Oberlin College,100,Oberlin College,100,Oberlin College,100
+74,Russian-Armenian (Slavonic) University,Russian-Armenian (Slavonic) State University,93,ICI University,93,Russian-Armenian (Slavonic) State University,100
+75,Universita Degli Studi Di Torino,Universita Degli Studi Di Trieste,89,Universita Degli Studi Di Trieste,91,Universita Degli Studi Di Trieste,89
+76,Williams College,Williams College,100,Williams College,100,Williams Baptist College,100
+77,Claremont McKenna College,Claremont McKenna College,100,Claremont McKenna College,100,Claremont McKenna College,100
+78,University Of Missouri--Columbia,University of Missouri - Columbia,95,University of Missouri - Columbia,94,Columbia University,100
+79,Smith College,Smith College,100,Hobart and William Smith Colleges,100,Philander Smith College,100
+80,Bogazici University,Bogazici University,100,ICI University,100,Bogazici University,100
+81,National Chengchi University,National Chengchi University,100,National Chengchi University,100,National University,100
+82,"Rutgers, The State University Of New Jersey","Rutgers, The State University of New Jersey - Camden",91,"Rutgers, The State University of New Jersey - Camden",100,Rutgers University,100
+83,Renmin University of China,Renmin University of China,100,Renmin University of China,100,Renmin University of China,100
+84,University of St. Gallen,University of St. Gallen,100,University of St. Gallen,100,University of St. Gallen,100
+85,University Of Tokyo,University of Tokyo,100,Science University of Tokyo,100,Science University of Tokyo,100
+86,Massachusetts Institute of Technology,Massachusetts Institute of Technology,100,Massachusetts Institute of Technology,100,Massachusetts Institute of Technology,100
+87,National Taipei University,National Taipei University,100,National Taipei University,100,National University,100
+88,Brown University,Brown University,100,Brown University,100,Brown University,100
+89,North Carolina State University At Raleigh,North Carolina State University,85,North Carolina State University,100,North Carolina State University,100
+90,Universitat Bern,Universität Bremen,82,Universitat Oberta de Catalunya,94,Berne University,88
+91,University of Illinois at Urbana-Champaign,University of Illinois at Urbana-Champaign,100,University of Illinois,100,University of Illinois,100
+92,Southern Methodist University,Southern Methodist University,100,Southern Methodist University,100,Southern Methodist University,100
+93,Carnegie Mellon University,Carnegie Mellon University,100,Carnegie Mellon University,100,Carnegie Mellon University,100
+94,University Of The Phillippines,University of Northern Philippines,91,Adventist University of the Philippines,98,University of the Philippines Open University,91
+95,University Of Florida,University of Florida,100,University of Florida,100,Florida University of Medicine,100
+96,University Of Cambridge-Queen's College,University of King's College,78,University of Cambridge,100,Cambridge College,100
+97,Universite Catholique de Louvain,Université Catholique de Louvain,97,Université Catholique de Louvain,97,Université Catholique de Louvain,98
+98,Sharif University of Technology,Sharif University of Technology,100,Sharif University of Technology,100,Sharif University of Technology,100
+99,"University Of California, Davis","University of California, Davis",100,"University of California, Davis",100,"University of California, Davis",100
+100,University Of Maryland At College Park,University of Maryland University College,81,University of Maryland,100,Park College,100
+101,Allegheny College,Allegheny College,100,Allegheny College,100,Allegheny College,100
+102,University Of Washington,University of Washington,100,University of Washington,100,University of Northern Washington,100
+103,University Of Amsterdam,University of Amsterdam,100,University of Amsterdam,100,University of Amsterdam,100
+104,"St. Xavier's College, Kolkata",St. Mary's College Indiana,69,Rivier College,86,St. Leo College,83
+105,University Of British Columbia,University of British Columbia,100,University of British Columbia,100,Columbia University,100
+106,Boston College,Boston College,100,Boston College,100,Boston College,100
+107,Nanyang Technological University,Nanyang Technological University,100,Nanyang Technological University,100,Nanyang Technological University,100
+108,University Of Cambridge-Wolfson College,University of King's College,75,University of Cambridge,100,Cambridge College,100
+109,University Pantheon Assas (paris Ii),Université Panthéon-Assas (Paris II),92,Université Panthéon-Assas (Paris II),92,Université Panthéon-Assas (Paris II),97
+110,Universidad De Chile,Universidad de Chile,100,Universidad de Chile,100,Pontificia Universidad Catolica de Chile,100
+111,University Of Copenhagen,IT University of Copenhagen,94,IT University of Copenhagen,100,Copenhagen University,100
+112,Pontificia Universidad Javeriana,Pontificia Universidad Javeriana,100,Pontificia Universidad Javeriana,100,Pontificia Universidad Javeriana,100
+113,Wellesley College,Wellesley College,100,Wellesley College,100,Wellesley College,100
+114,Beijing Normal University,Beijing Normal University,100,Beijing Normal University,100,Beijing Normal University,100
+115,Harbin Normal University,Harbin Normal University,100,Harbin Normal University,100,Harbin Normal University,100
+116,Ecole Nationale de la Statistique et de l'Admin Economique,Ecole Nationale de la Statistique et de l'Administration Economique,93,Ecole Nationale de la Statistique et de l'Administration Economique,86,Ecole Nationale de la Statistique et de l'Administration Economique,94
+117,Universita Degli Studi Di Padova,Universita Degli Studi Di Trieste,80,Universita Degli Studi Di Trieste,81,Universita Degli Studi Di Trieste,88
+118,Sri Sathya Sai Institute of Higher Learning,Sri Sathya Sai Institute of Higher Learning,100,Sri Sathya Sai Institute of Higher Learning,100,Sri Sathya Sai Institute of Higher Learning,100
+119,Miami University,Misamis University,94,Miami University of Ohio,100,Miami University of Ohio,100
+120,University Of Cambridge-Corpus Christi College,University of Maryland University College,69,University of Cambridge,100,Cambridge College,100
+121,Yerevan State University,Yerevan State University,100,Yerevan State University,100,Yerevan State Medical University,100
+122,Zhejiang University,Zhejiang University,100,Zhejiang University,100,Zhejiang Forestry University,100
+123,Harvard College,Holar University College,88,Harvard University,100,Harvard University,100
+124,Johns Hopkins University,Johns Hopkins University,100,Johns Hopkins University,100,Johns Hopkins University,100
+125,Elmira College,Elmira College,100,Elmira College,100,Elmira College,100
+126,Washington University in St. Louis,Washington University in St. Louis,100,Washington University in St. Louis,100,St. Louis University,100
+127,Universidad De Los Andes,Universidad de Los Andes,100,Universidad de Los Andes,100,Universidad Los Andes,100
+128,Shanghai Institute Of Foreign Trade,Shanghai Institue of Foreign Trade,99,Shanghai Institue of Foreign Trade,97,Shanghai Institue of Foreign Trade,99
+129,"Wimbledon School of Art, University of Surrey",Wimbledon School of Art,68,University of Surrey,100,University of Surrey,100
+130,Clark University,Clark University,100,Clark University,100,Clark Atlanta University,100
+131,Brigham Young University,Brigham Young University,100,Brigham Young University - Idaho,100,Brigham Young University - Idaho,100
+132,Universidad De San Andres,Universidad de San Andres,100,Universidad de San Andres,100,Universidad de San Andres,100
+133,Sun Yat-Sen University,Osun State University,84,Sun Yat-Sen University of Medical Sciences,100,Sun Yat-Sen University of Medical Sciences,100
+134,"School of Liberal Studies, PDPU",Brussels School of International Studies,65,Brussels School of International Studies,74,Rand Graduate School of Policy Studies,72
+135,Duke University,Duke University,100,Duke University,100,Duke University,100
+136,"Hochschule fur Wirtschafts-, Rechts- und Sozialwissenschaften",Fachhochschule für Technik und Wirtschaft Berlin,61,Hochschule Fulda,81,Hochschule Fulda,77
+137,Universidad Nacional De Cordoba,Universidad Nacional de Córdoba,97,Universidad Nacional,100,Universidad Nacional,100
+138,"University Of California, Santa Barbara","University of California, Santa Barbara",100,"University of California, Santa Barbara",100,"University of California, Santa Barbara",100
+139,University Of New South Wales,University of New South Wales,100,University of New South Wales,100,University of New South Wales,100
+140,McGill University,McGill University,100,McGill University,100,McGill University,100
+141,Institut D'etudes Politiques,Institut d'Etudes Politiques de Bordeaux,82,Institut d'Etudes Politiques de Bordeaux,100,Institut d'Etudes Politiques de Bordeaux,100
+142,Pennsylvania State University,Pennsylvania State University,100,Pennsylvania State University,100,Pennsylvania State University,100
+143,Trinity College,Trinity Bible College,83,Trinity College Connecticut,100,Trinity Bible College,100
+144,Indiana University Bloomington,Indiana University at Bloomington,95,Indian University,94,Indiana University at Bloomington,100
+145,Universidad ORT Uruguay,Universidad ORT Uruguay,100,Universidad ORT Uruguay,100,Universidad ORT Uruguay,100
+146,Instituto Torcuato Di Tella,Universidad Torcuato di Tella,75,Universidad Torcuato di Tella,78,Universidad Torcuato di Tella,77
+147,University Of Sao Paulo,University of San Carlos,85,University of Pisa,89,University of Pula,88
+148,Washington And Lee University,Washington and Lee University,100,Lee University,100,Lee University,100
+149,University Of Vermont and State Agricultural College,Nova Scotia Agricultural College,69,University of Vermont,100,University of Vermont,100
+150,Instituto TecnolÃ³gico AutÃ³nomo de MÃ©xico,Instituto Tecnológico Autonómo de México,87,Instituto Tecnológico Autonómo de México,82,Instituto Tecnológico Autonómo de México,97
+151,University Of Rochester,University of Rochester,100,University of Rochester,100,University of Rochester,100
+152,University Of Pune,University of Pune,100,University of Pune,100,University of Pune,100
+153,Kobe University,Kobe University,100,Kobe University,100,Kobe City University of ForeignStudies,100
+154,Villanova University,Villanova University,100,Villanova University,100,Villanova University,100
+155,Thammasat University,Thammasat University,100,Thammasat University,100,Thammasat University,100
+156,Renmin University Of China In Beijing,Renmin University of China,83,Renmin University of China,100,Renmin University of China,100
+157,University Of Nebraska,University of Kerala,86,University of Nebraska - Kearney,100,University of Nebraska - Kearney,100
+158,Universidad Carlos Iii De Madrid,Universidad Carlos III de Madrid,100,Universidad Carlos III de Madrid,100,Universidad Carlos III de Madrid,100
+159,University Of New Mexico,University of New Mexico,100,University of New Mexico,100,University of New Mexico,100
+160,Goethe University,Botho University,85,Johann Wolfgang Goethe Universität Frankfurt am Main,94,IE University,87
+161,Lahore University Of Management Sciences,Lahore University of Management Sciences,100,Lahore University of Management Sciences,100,Lahore University of Management Sciences,100
+162,University Of Montreal,University of Montevallo,91,University of Montevallo,95,University of Montevallo,91
+163,Technische Universitat Munchen,Technische Universität München,93,Technische Universität München,93,Technische Universität München,97
+164,University Of Iowa,University of Iowa,100,University of Iowa,100,Iowa State University of Science and Technology,100
+165,Tufts University,Tufts University,100,Tufts University,100,Tufts University,100
+166,Southwest University Of Finance & Economics,Southwest University of Finance and Economics,95,Southwest University,100,Southwest University,100
+167,Indiana Wesleyan University,Indiana Wesleyan University,100,Indiana Wesleyan University,100,Indiana Wesleyan University,100
+168,Ural Federal University,Alfred University,80,DePaul University,91,Federal University of Petroleum Resources,88
+169,Universidad Nacional De Cuyo,Universidad Nacional de Cuyo,100,Universidad Nacional de Cuyo,100,Universidad Nacional de Cuyo,100
+170,Tel Aviv University,Tel Aviv University,100,Tel Aviv University,100,Tel Aviv University,100
+171,National University Of Singapore,National University of Singapore,100,National University,100,National University,100
+172,Rensselaer Polytechnic Institute,Rensselaer Polytechnic Institute,100,Rensselaer Polytechnic Institute,100,Rensselaer Polytechnic Institute,100
+173,Case Western Reserve University,Case Western Reserve University,100,Case Western Reserve University,100,Case Western Reserve University,100
+174,University Of St Andrews,University of St. Andrews,98,University of St. Andrews,96,Andrews University,100
+175,Universita Bocconi,Università Bocconi,94,Università Bocconi,94,Università Bocconi,97
+176,Singapore Management University,Singapore Management University,100,Singapore Management University,100,Singapore Management University,100
+177,Universite De Lausanne,University of Lausanne,86,University of Lausanne,86,University of Lausanne,86
+178,"University Of California, Berkeley","University of California, Berkeley",100,"University of California, Berkeley",100,"University of California, Berkeley",100
+179,Millsaps College,Millsaps College,100,Millsaps College,100,Millsaps College,100
+180,Calvin College,Calvin College,100,Calvin College,100,Calvin College,100
+181,St Xavier's College,St. Peter's College,79,Rust College,87,St. Leo College,83
+182,Xiamen University,Xiamen University,100,Xiamen University,100,Xiamen University,100
+183,City University Of Hong Kong,City University of Hong Kong,100,City University,100,City University,100
+184,George Mason University,George Mason University,100,George Mason University,100,George Mason University,100
+185,Korea Advanced Institute Of Science And Technology,Korea Advanced Institute of Science & Technology,96,Institute of Science and Technology,100,Institute of Science and Technology,100
+186,University Of Kansas,University of Kansas,100,University of Kansas,100,University of Kansas,100
+187,National Research University Higher School of Economics,National Research University of Electronic Technology,70,Higher School of Economics,100,National University,100
+188,Central University Of Finance And Economics,Central University of Finance and Economics,100,Central University of Finance and Economics,100,Central University of Finance and Economics,100
+189,Indian Institute of Technology,Indiana Institute of Technologyy,97,"Indian Institute of Technology, Bombay",100,Indian Institute of Information Technology,100
+190,University Of Michigan--Dearborn,University of Michigan - Dearborn,95,University of Michigan,100,University of Michigan,100
+191,University of San Francisco,University of San Francisco,100,University of San Francisco,100,"University of California, San Francisco",100
+192,University Of Adelaide,University of Adelaide,100,University of Adelaide,100,University of Adelaide,100
+193,Instituto Tecnologico y de Estudios Superiores de Monterrey,Instituto Tecnológico y de Estudios Superiores de Monterrey (ITESM),92,Instituto Tecnológico y de Estudios Superiores de Monterrey (ITESM),98,Instituto Tecnológico y de Estudios Superiores de Monterrey (ITESM),94
+194,University of Dhaka,University of Dhaka,100,University of Dhaka,100,Dhaka University of Engineering and Technology,100
+195,Erasmus University,Rush University,85,Erasmus University Rotterdam,100,Erasmus University Rotterdam,100
+196,Universita Degli Studi Roma Tre,Universita Degli Studi Di Trieste,84,Universita Degli Studi Di Trieste,87,Universita Degli Studi Di Trieste,84
+197,Vanderbilt University,Vanderbilt University,100,Vanderbilt University,100,Vanderbilt University,100
+198,"University of Delhi, Hansraj College",University of King's College,78,University of Delhi,100,University of Delhi,100
+199,Swarthmore College,Swarthmore College,100,Swarthmore College,100,Swarthmore College,100
+200,Universidad Nacional Autonoma De Mexico,Universidad Nacional Autónoma de México,95,Universidad Nacional,100,Universidad Nacional,100
+201,National Chung Hsing University,National Chung Cheng University,94,"National Chung Hsing University, Taichung",100,National University,100
+202,Universidade Nova De Lisboa,Universidade Nova de Lisboa,100,Universidade Nova de Lisboa,100,Universidade de Lisboa,100
+203,Universidad de Piura,Universidad de Piura,100,Universidad de Piura,100,Universidad de Piura,100
+204,Wabash College,Wabash College,100,Wabash College,100,Wabash College,100
+205,Kazakh National University,Kharkiv National University,87,National University,100,National University,100
+206,Utrecht University,Utrecht University,100,Utrecht University,100,Utrecht University,100
+207,American University Of Beirut,American University of Beirut,100,American University,100,American University,100
+208,National Insitute for Lifelong Education,National Institute of Education,85,International Institute for Higher Education,86,National Institute of Education,82
+209,National Taiwan University,National Taiwan University,100,National Taiwan University,100,National University,100
+210,Tilburg University,Tilburg University,100,Tilburg University,100,Tilburg University,100
+211,Isfahan University of Technology,Isfahan University of Technology,100,Isfahan University,100,Isfahan University,100
+212,Oporto University,Norton University,88,Art University,93,Norton University,88
+213,California Institute Of Technology,California Institute of Technology,100,California Institute of Technology,100,California Institute of Technology,100
+214,INSPER (Institute of Education and Research),Postgraduate lnstitute of Medical Education and Research,74,National Institute of Education,81,Kigali Institute of Education,86
+215,UniversitÃ© de Lausanne,University of Lausanne,84,University of Lausanne,82,University of Lausanne,88
+216,Amirkabir University of Technology,Amirkabir University of Technology,100,Amirkabir University of Technology,100,Amirkabir University of Technology,100
+217,University Of Science and Technology Of China,University of Science and Technology of China,100,South University of Science and Technology of China ,100,East China University of Science and Technology,100
+218,"Tishreen University, Lattakia, Syria",Tishreen University,69,Tishreen University,100,Tishreen University,100
+219,Hebrew University Of Jerusalem,Hebrew University of Jerusalem,100,Hebrew University of Jerusalem,100,Hebrew University of Jerusalem,100
+220,Sogang University,Sogang University,100,Sogang University,100,Sogang University,100
+221,Stella Maris College,Stella Maris College,100,Stella Maris College,100,Stella Maris College,100
+222,Eberhard-Karls-Universitat Tubingen,Eberhard-Karls-Universität Tübingen,94,Eberhard-Karls-Universität Tübingen,94,Eberhard-Karls-Universität Tübingen,97
+223,Fundacao Gertulio Vargas,Fundação Getulio Vargas,89,Fundação Getulio Vargas,87,Fundação Getulio Vargas,93
+224,Amherst College,Amherst College,100,Amherst College,100,Amherst College,100
+225,University Of Arizona,University of Arizona,100,University of Arizona,100,University of Arizona,100
+226,Simon Fraser University,Simon Fraser University,100,Simon Fraser University,100,Simon Fraser University,100
+227,Hanyang University ERICA,Hanyang University,86,Hanyang University,100,Hanyang University,100
+228,"University Of California, Irvine","University of California, Irvine",100,"University of California, Irvine",100,"University of California, Irvine",100
+229,Middle East Technical University,Middle East Technical University,100,Middle East Technical University,100,Middle East University,100
+230,"Barnard College, Columbia University",Barnard College - Columbia University,96,Columbia University,100,Barnard College - Columbia University,100
+231,Carleton College,Carleton College,100,Carleton College,100,Carleton College,100
+232,MZUMBE UNIVERSITY,Umea University,88,Mzumbe University (Chuo Kikuu Mzumbe),100,Mzumbe University (Chuo Kikuu Mzumbe),100
+233,University Of Cambridge-Trinity College,University of Trinity College,85,University of Cambridge,100,Cambridge College,100
+234,Hamilton College,Hamilton College,100,Hamilton College,100,Hamilton College,100
+235,University Of Wisconsin--Madison,University of Wisconsin - Madison,95,University of Wisconsin - Madison,94,University of Wisconsin - Madison,100
+236,Universite De Paris I (pantheon-Sorbonne),Université Panthéon-Sorbonne (Paris I),68,Université de Saida,79,Université Panthéon-Sorbonne (Paris I),93
+237,People's University Of China,Ocean University of China,83,Pes University,93,People's University of Bangladesh,88
+238,Pontificia Universidad Catolica De Chile,Pontificia Universidad Catolica de Chile,100,Pontificia Universidad Catolica de Chile,100,Pontificia Universidad Catolica de Chile,100
+239,Istanbul Technical University,Istanbul Technical University,100,Istanbul Technical University,100,Istanbul Technical University,100
+240,Facultes Universitaires Saint-Louis,Facultés Universitaires Saint-Louis,97,Facultés Universitaires Saint-Louis,97,Facultés Universitaires Saint-Louis,99
+241,UniversitÃ  degli Studi di Roma Tor Vergata,Universita Degli Studi Di Trieste,77,Universita Degli Studi Di Trieste,82,Universita Degli Studi Di Trieste,76
+242,Holborn College,Holborn College,100,Holborn College,100,Holborn College,100
+243,ITAM Instituto Tecnologico Autonomo de Mexico,Instituto Tecnológico Autonómo de México,87,Instituto Tecnológico Autonómo de México,92,Instituto Tecnológico Autonómo de México,90
+244,Universidad Torcuato Di Tella,Universidad Torcuato di Tella,100,Universidad Torcuato di Tella,100,Universidad Torcuato di Tella,100
+245,Capital University Of Economics And Business,Capital University of Economics and Business,100,Capital University,100,Capital University,100
+246,Bates College,Bates College,100,Bates College,100,Bates College,100
+247,Ecole Polytechnique,Ecole Polytechnique,100,Ecole polytechnique fédérale de Lausanne,100,Ecole polytechnique fédérale de Lausanne,100
+248,University of Ottawa,University of Ottawa,100,University of Ottawa,100,Ottawa University,100
+249,Instituto Tecnologico Autonomo De Mexico,Instituto Tecnológico Autonómo de México,92,Instituto Tecnológico Autonómo de México,92,Instituto Tecnológico Autonómo de México,96
+250,University of Melbourne,University of Melbourne,100,University of Melbourne,100,University of Melbourne,100
+251,St. Olaf College,St. Olaf College,100,St. Olaf College,100,St. Olaf College,100
+252,University Of Georgia,University of Georgia,100,University of Georgia,100,State University of West Georgia,100
+253,Baylor University,Baylor University,100,Baylor University,100,Baylor University,100
+254,University of Tartu,University of Tartu,100,University of Tartu,100,University of Tartu,100
+255,George Washington University,George Washington University,100,George Washington University,100,George Washington University,100
+256,Sciences Po: Institut D'etudes Politiques de Paris,Institut d'Etudes Politiques de Bordeaux,73,Institut d'Etudes Politiques de Bordeaux,86,Institut d'Etudes Politiques de Paris (Sciences Po),100
+257,Budapest University Of Economic Sciences,Kurdistan University of Medical Sciences,78,Budapest University of Economic Sciences and Public Administration,100,Budapest University of Economic Sciences and Public Administration,100
+258,University Of Arkansas--Fayetteville,University of Arkansas at Fayetteville,92,University of Kansas,90,University of Arkansas at Fayetteville,100
+259,Chulalongkorn University,Chulalongkorn University,100,Chulalongkorn University,100,Chulalongkorn University,100
+260,The University of Hong Kong,University of Hong Kong,100,Chinese University of Hong Kong,100,Chinese University of Hong Kong,100
+261,University Of Zagreb,University of Zagreb,100,University of Zagreb,100,University of Zagreb,100
+262,Universidad Nacional del Nordeste,Universidad Nacional del Nordeste,100,Universidad Nacional del Nordeste,100,Universidad Nacional del Nordeste,100
+263,Hillsdale College,Hillsdale College,100,Hillsdale College,100,Hillsdale College,100
+264,Universidad Del Pacifico,Universidad del Pacifico,100,Universidad del Pacifico,100,Universidad del Pacifico,100
+265,Universidad Nacional De Asuncion,Universidad Nacional de Asunción,97,Universidad Nacional,100,Universidad Nacional,100
+266,Universidad De Costa Rica,Universidad de Costa Rica,100,Universidad de Costa Rica,100,Universidad de Costa Rica,100
+267,Gettysburg College,Gettysburg College,100,Gettysburg College,100,Gettysburg College,100
+268,Western Kentucky University,Western Kentucky University,100,Western Kentucky University,100,Western Kentucky University,100
+269,Pontificia Universidade Catolica Do Rio De Janeiro,Pontifícia Universidade Católica do Rio de Janeiro,96,Pontifícia Universidade Católica do Rio de Janeiro,96,Universidade do Rio de Janeiro,100
+270,M.V. Lomonosov Moscow State University,Moscow State University,75,Moscow State University,100,Moscow State University,100
+271,Washburn University Of Topeka,Washburn University,79,Washburn University,100,Washburn University,100
+272,Northwestern University,Northwestern University,100,Northwestern University,100,Northwestern Oklahoma State University,100
+273,Michigan State University,Michigan State University,100,Michigan State University,100,Michigan State University,100
+274,Michigan Technological University,Michigan Technological University,100,Michigan Technological University,100,Michigan Technological University,100
+275,Lycee louis Le Grand,Loyola College in Maryland,52,"Davenport College of Business, Grand Rapids",60,St. Louis Christian College,61
+276,"Indian Institute of Technology, Madras","Indian Institute of Technology, Madras",100,"Indian Institute of Technology, Madras",100,"Indian Institute of Technology, Madras",100
+277,University Of Alabama In Huntsville,University of Alabama - Huntsville,96,University of Alabama - Huntsville,94,University of Alabama - Huntsville,100
+278,Texas A&M University,Texas A&M University,100,Texas A&M University,100,Texas A&M International University,100
+279,Queen's University,Queen's University,100,Queen's University,100,Queen's University,100
+280,American University of Sharjah,American University of Sharjah,100,American University,100,American University,100
+281,University Of Toronto Schools,University of Toronto,84,University of Toronto,100,University of Toronto,100
+282,Manhattan College,Manhattan College,100,Manhattan College,100,Manhattan Christian College,100
+283,Monash University,Monash University,100,Monash University,100,Monash University,100
+284,University Of Oxford,University of Oxford,100,University of Oxford,100,University of Oxford,100
+285,Sabanci University,Sabanci University,100,Sabanci University,100,Sabanci University,100
+286,California Polytechnic State University,Southern Polytechnic State Univerisity,83,California Polytechnic State University - San Luis Obispo,100,California Polytechnic State University - San Luis Obispo,100
+287,Instituto Tecnologico y de Estudios Superiores de Monterrey (ITE,Instituto Tecnológico y de Estudios Superiores de Monterrey (ITESM),96,Instituto Tecnológico y de Estudios Superiores de Monterrey (ITESM),98,Instituto Tecnológico y de Estudios Superiores de Monterrey (ITESM),98
+288,Nanjing University of Posts & Telecommunications,Nanjing University of Posts and Telecommunications,96,Nanjing University,100,Nanjing University,100
+289,National University of Sciences and Technology,National University of Science and Technology,99,National University,100,National University,100
+290,"Rutgers, The State Univerisity of New Jersey-New Brunswick","Rutgers, The State University of New Jersey - Newark",89,"Rutgers, The State University of New Jersey - Newark",92,"Rutgers, The State University of New Jersey - Newark",90
+291,Shandong Normal University,Shandong Normal University,100,Shandong Normal University,100,Shandong Normal University,100
+292,St. Xavier's College,St. Peter's College,82,Rust College,87,St. Leo College,83
+293,Chonbuk National University,Chonbuk National University,100,National University,100,National University,100
+294,University of Nottingham Malaysia Campus,"University of Nottingham, Malaysia Campus",99,University of Nottingham,100,University of Nottingham,100
+295,Washington University in St Louis,Washington University in St. Louis,99,Washington University in St. Louis,97,St. Louis University,100
+296,Emory University,Emory University,100,Emory University,100,Emory University,100
+297,Laval University,Lamar University,88,Poltava University of Consumer Cooperatives in Ukraine,94,Université Laval,97
+298,University Of Notre Dame,University of Notre Dame,100,University of Notre Dame,100,University of Notre Dame,100
+299,Universita Degli Studi Di Pavia,Universita Degli Studi Di Trieste,84,Universita Degli Studi Di Trieste,87,Universita Degli Studi Di Trieste,89
+300,Tianjin University of Finance and Economics,Tianjin University of Finance & Economics,95,Tianjin University,100,Tianjin University,100
+301,Fundacao Getulio Vargas,Fundação Getulio Vargas,91,Fundação Getulio Vargas,91,Fundação Getulio Vargas,95
+302,Novosibirsk State Technical University,Novosibirsk State Technical University,100,Novosibirsk State Technical University,100,Novosibirsk State Technical University,100
+303,College Of William And Mary In Virginia,College of William and Mary,82,College of William and Mary,100,College of William and Mary,100
+304,Jilin univerisity,Jilin University,97,Jilin University,94,Jilin University,97
+305,Bryn Mawr College,Bryn Mawr College,100,Bryn Mawr College,100,Bryn Mawr College,100
+306,University Of Windsor,University of Windsor,100,University of Windsor,100,University of Windsor,100
+307,American University,American University,100,American University,100,American Business & Technology University,100
+308,Bandung Institute Of Technology,Tatung Institute of Technology,92,Tatung Institute of Technology,93,Tatung Institute of Technology,92
+309,Babson College,Babson College,100,Babson College,100,Babson College,100
+310,Xavier University,Xavier University,100,St. Xavier University,100,St. Xavier University,100
+311,Lehigh University,Lehigh Univervsity,97,Lehigh Univervsity,94,Pennsylvania State University - Berks-Lehigh Valley College,100
+312,University of Oxford-Balliol College,University of Trinity College,74,University of Oxford,100,University of Oxford,100
+313,American University of Central Asia,American University of Central Asia,100,American University,100,American University,100
+314,Federal University of Rio de Janeiro,Universidade do Rio de Janeiro,76,University of Iowa,89,Universidade Federal do Rio de Janeiro,89
+315,Lahore University Management  Science,Lahore University of Management Sciences,95,IE University,92,Lahore University of Management Sciences,95
+316,Huazhong University Of Science And Technology,Huazhong University of Science and Technology,100,Huazhong University of Science and Technology,100,Huazhong University of Science and Technology,100
+317,University Of London,University of London,100,"British Institute in Paris, University of London",100,"British Institute in Paris, University of London",100
+318,Universidad Catolica Boliviana,"Universidad Católica Boliviana, La Paz",85,"Universidad Católica Boliviana, Cochabamba",97,"Universidad Católica Boliviana, La Paz",88
+319,"Graduate School Of Economics, Getulio Vargas Fndn.",Barcelona Graduate School of Economics,64,Kiev School Of Economics,88,Kiev School Of Economics,88
+320,Moscow State University,Moscow State University,100,Moscow State University,100,Bauman Moscow State Technical University,100
+321,Moscow Institute Of Physics & Technology,Moscow Institute of Physics and Technology,95,Moscow Institute of Physics and Technology,92,Moscow Institute of Physics and Technology,100
+322,University Of Mannheim,Universität Mannheim,86,University of Milan,89,Universität Mannheim,88
+323,Jilin University,Jilin University,100,Jilin University,100,Jilin Agricultural University,100
+324,National Economics University,Hanoi National Economics University,91,Hanoi National Economics University,100,National University,100
+325,"Indian Institute Of Technology, Kharagpur","Indian Institute of Technology, Kharagpur",100,"Indian Institute of Technology, Kharagpur",100,"Indian Institute of Technology, Kharagpur",100
+326,Tongji University,Tongji University,100,Tongji University,100,Tongji Medical University,100
+327,Cairo University,Cairo University,100,Cairo University,100,American University in Cairo,100
+328,University Of Moratuwa,University of Moratuwa,100,University of Moratuwa,100,University of Moratuwa,100
+329,Universita Degli Studi Di Parma,Universita Degli Studi Di Trieste,84,Universita Degli Studi Di Trieste,87,Universita Degli Studi Di Trieste,89
+330,University Of Wyoming,University of Wyoming,100,University of Wyoming,100,University of Wyoming,100
+331,University Of Oslo,University of Oslo,100,University of Oslo,100,University of Oslo,100
+332,Frankfurt School of Finance & Management,Aventis School of Management,71,Tashkent School of Finance,81,Aventis School of Management,83
+333,University Of Nebraska--Lincoln,University of Nebraska - Lincoln,95,University of Nebraska - Lincoln,94,University of Nebraska - Lincoln,100
+334,Pomona College,Pomona College,100,Pomona College,100,Pomona College,100
+335,Universitat Zurich,University of Zürich,79,Universitas Riau,81,University of Zürich,81
+336,West Virginia University,West Virginia University,100,West Virginia University,100,West Virginia University,100
+337,Yeshiva University,Yeshiva University,100,Yeshiva University,100,Yeshiva University,100
+338,University Of Delaware,University of Delaware,100,University of Delaware,100,University of Delaware,100
+339,Fundacao Getulio Vargas - Escola de Economia de Sao Paulo,Escola De Administracao De Empresas De Sao Paulo,57,Fundação Getulio Vargas,91,Fundação Getulio Vargas,80
+340,Warsaw School Of Economics,Warsaw School of Economics,100,Warsaw School of Economics,100,Warsaw School of Economics,100
+341,Ludwig-Maximilians-University Munich,Ludwig-Maximilians-Universität München,89,Ludwig-Maximilians-Universität München,92,Ludwig-Maximilians-Universität München,92
+342,University Of Toronto,University of Toronto,100,University of Toronto,100,University of Toronto,100
+343,Universidade De Brasilia,Universidade de Brasília,96,Universidade de Brasília,96,Universidade de Brasília,98
+344,University of Trier,University of Trieste,90,University of Trieste,95,University of Trieste,90
+345,Southeast University,Southeast University,100,Southeast University,100,Indiana University - Southeast,100
+346,College Of Charleston,College of Charleston,100,College of Charleston,100,College of Charleston,100
+347,Universita Degli Studi Di Modena,Universita Degli Studi Di Trieste,83,Libera Università degli Studi di Scienze Umane e Tecnologiche,84,Universita Degli Studi Di Trieste,88
+348,DePaul University,DePaul University,100,DePaul University,100,DePaul University,100
+349,Dongbei University of Finance & Economics,Dongbei University of Finance And Economics,95,University of Jinan,95,Dongbei University of Finance And Economics,100
+350,Lake Forest College,Lake Forest College,100,Lake Forest College,100,Lake Forest College,100
+351,Sophia University,Sophia University,100,Sophia University,100,Sophia University,100
+352,Davidson College,Davidson College,100,Davidson College,100,Davidson College,100
+353,Westminster College,Westmont College,86,Westminster College Fulton,100,Westminster College Fulton,100
+354,Koc University,Koc University,100,Koc University,100,Koc University,100
+355,Open University of Israel,Open University of Israel,100,Open University,100,Open University,100
+356,Ecole Normale Superieure D'ulm,Ecole Normale Supérieure de Lyon,84,Ecole Normale Supérieure de Lyon,87,Ecole Normale Supérieure de Lyon,82
+357,Centro De Investigacion Y Docenias Economicas,Centro de Estudios Investigación y Tecnología (CEIT),64,Centro de Estudios Investigación y Tecnología (CEIT),67,Centro de Estudios Investigación y Tecnología (CEIT),69
+358,University of Minnesota-Twin Cities,University of Minnesota - Morris,81,University of Minnesota,100,University of Minnesota,100
+359,Universite De Toulouse-Le-Mirail (toulouse Ii),Université de Toulouse-le-Mirail (Toulouse II),98,Université de Toulouse-le-Mirail (Toulouse II),98,Université de Toulouse-le-Mirail (Toulouse II),99
+360,Vassar College,Vassar College,100,Vassar College,100,Vassar College,100
+361,Universidad Del Pais Vasco,Universidad del País Vasco,96,Universidad del País Vasco,96,Universidad del País Vasco,98
+362,Ohio Wesleyan University,Ohio Wesleyan University,100,Ohio Wesleyan University,100,Ohio University,100
+363,University Of Oregon,University of Oregon,100,University of Oregon,100,University of Oregon,100
+364,University Of Oxford-Pembroke College,University of St. Jerome's College,73,University of Oxford,100,University of Oxford,100
+365,Shri Ram College Of Commerce,Yokohama College of Commerce,82,Hiram College,92,Yokohama College of Commerce,81
+366,University Of Queensland,University of Queensland,100,University of Queensland,100,James Cook University of North Queensland,100
+367,University Of North Carolina At Chapel Hill,University of North Carolina at Asheville,88,University of North Carolina,100,University of North Carolina,100
+368,Ben-Gurion University Of The Negev,Ben-Gurion University of the Negev,100,Ben-Gurion University of the Negev,100,Ben-Gurion University of the Negev,100
+369,University Of Brasilia,University of Basel,88,Law University of Bratislava,91,University of Basel,88
+370,Knox College,Knox College,100,Knox College,100,Knox College,100
+371,Lanzhou University,Lanzhou University,100,Lanzhou University,100,Lanzhou University,100
+372,Universita Degli Studi Di Napoli,Universita Degli Studi Di Trieste,83,Universita Degli Studi Di Trieste,84,Universita Degli Studi Di Trieste,88
+373,Rice University,Rice University,100,Rice University,100,Rice University,100
+374,University Of Massachusetts At Boston,University of Massachusetts at Boston,100,University of Massachusetts at Boston,100,Boston University,100
+375,"Imperial College Of Science, Technology & Medicine",Imperial College School of Medicine,75,Berea College,85,PSG College of Technology,91
+376,Universita Degli Studi Di Milano,Universita Degli Studi Di Trieste,83,Libera Università degli Studi di Scienze Umane e Tecnologiche,84,Universita Degli Studi Di Trieste,88
+377,City University Of New York,City University of New York,100,City University of New York,100,City University of New York,100
+378,VIT University (Vellore Institute of Technology),University of Ontario Institute of Technology,80,Vellore Institute of Technology,100,Vellore Institute of Technology,100
+379,Boston University,Boston University,100,Boston University,100,Boston University,100
+380,Quinnipiac College,Quinnipiac College,100,Quinnipiac College,100,Quinnipiac College,100
+381,Foreign Trade University,Foreign Trade University,100,Foreign Trade University,100,Chongqing Normal University Foreign Trade and Business College,100
+382,Beloit College,Beloit College,100,Beloit College,100,Beloit College,100
+383,Plymouth State University,Utah State University,87,Utah State University,98,University of Plymouth,93
+384,University Of Western Ontario,University of Western Ontario,100,University of Western Ontario,100,Western University,100
+385,Australian National University,Australian National University,100,National University,100,National University,100
+386,Pontificia Universidad Javeriana Cali,Pontificia Universidad Javeriana,93,Pontificia Universidad Javeriana,100,Pontificia Universidad Javeriana,100
+387,Martin Luther University,Martin University,83,Hue University,93,Martin University,100
+388,University Of Melbourne,University of Melbourne,100,University of Melbourne,100,University of Melbourne,100
+389,University Of Minnesota--Minneapolis-St. Paul,University of Minnesota - Morris,73,University of Minnesota,100,University of Minnesota,100
+390,Universite Paris Dauphine (Paris IX),Université Paris-Dauphine (Paris IX),94,Université Paris-Dauphine (Paris IX),94,Université Paris-Dauphine (Paris IX),98
+391,University Of Oklahoma,University of Oklahoma,100,University of Oklahoma,100,Oklahoma State University - Institute of Technology,100
+392,Universidade Estadual De Campinas,Universidade Estadual de Campinas,100,Universidade Estadual de Campinas,100,Universidade Estadual de Campinas,100
+393,University Of Cincinnati,University of Cincinnati,100,University of Cincinnati,100,University of Cincinnati,100
+394,Lillehammer University College,Lillehammer University College,100,Lillehammer University College,100,Lillehammer University College,100
+395,Univ. Catolica 'nuestra Senora De La Asuncion',Universidad Católica Nuestra Senora de la Asunción,85,Universidad Católica Nuestra Senora de la Asunción,84,Universidad Católica Nuestra Senora de la Asunción,90
+396,University Of Durham,University of Durham,100,University of Durham,100,University of Durham,100
+397,Carroll University,Carroll University,100,Carroll University,100,Carroll University,100
+398,Universita Degli Studi Di Firenze,Universita Degli Studi Di Trieste,88,Libera Università degli Studi di Scienze Umane e Tecnologiche,91,Universita Degli Studi Di Trieste,88
+399,State University Of New York At Farmingdale,State University of New York at Binghamton,85,Art University,93,New York University,100
+400,Auburn University,Auburn University,100,Auburn University,100,Auburn University,100
+401,Wesleyan University,Wesleyan University,100,Dakota Wesleyan University,100,Dakota Wesleyan University,100
+402,Babcock University,Babcock University,100,Babcock University,100,Babcock University,100
+403,National Technical University of Ukraine,National Technical University of Athens,89,Cag University,93,National University,100
+404,B.M.S. College of Engineering, L.D.College of Engineering,87, L.D.College of Engineering,92, L.D.College of Engineering,92
+405,International Christian University,International Christian University,100,International Christian University,100,International Christian University,100
+406,Illinois State University,Illinois State University,100,Illinois State University,100,Illinois State University,100
+407,East China Normal University,East China Normal University,100,East China Normal University,100,East China Normal University,100
+408,Universidade Federal Fluminense,Universidade Federal Fluminense,100,Universidade Federal Fluminense,100,Universidade Federal Fluminense,100
+409,Wroclaw University of Economics,Wroclaw University of Economics,100,Wroclaw University of Economics,100,University of Wroclaw,100
+410,Franklin And Marshall College,Franklin and Marshall College,100,Franklin and Marshall College,100,Franklin and Marshall College,100
+411,Athens University of Economics and Business,Athens University of Economics and Business,100,Athens University of Economics and Business,100,Athens University of Economics and Business,100
+412,Seton Hall University,Seton Hall University,100,Seton Hall University,100,Seton Hall University,100
+413,University Of Ottawa,University of Ottawa,100,University of Ottawa,100,Ottawa University,100
+414,"Hunter College, City University Of New York",City University of New York,77,City University of New York,100,City University of New York,100
+415,Universitat Hamburg,Universität Hamburg,95,Hafencity Universität Hamburg,95,Universität Hamburg,97
+416,Ecole Nationale Des Ponts Et Chaussees,Ecole Nationale des Ponts et Chausees,99,Ecole Nationale des Ponts et Chausees,97,Ecole Nationale des Ponts et Chausees,99
+417,University Of Tennessee At Knoxville,University of Tennessee - Knoxville,96,University of Tennessee - Knoxville,94,University of Tennessee - Knoxville,100
+418,New  York University,New York University,100,New York University,100,City University of New York,100
+419,Universidad De Montevideo,Universidad de Montevideo,100,Universidad de Montevideo,100,Universidad de Montevideo,100
+420,University Of Western Australia,University of Western Australia,100,University of Western Australia,100,University of Western Australia,100
+421,University Of Alberta,University of Alberta,100,University of Alberta,100,Concordia University College of Alberta,100
+422,Shanghai International Studies University,Shanghai International Studies University,100,Shanghai International Studies University,100,Shanghai International Studies University,100
+423,Tianjin Foreign Studies University,Tianjin Foreign Studies University,100,Tianjin Foreign Studies University,100,Tianjin Foreign Studies University,100
+424,Texas State University,Texas State University,100,Southwest Texas State University,100,Southwest Texas State University,100
+425,University of California San Diego,"University of California, San Diego",99,"University of California, San Diego",97,"University of California, San Diego",100
+426,The Interdisciplinary Center Herzliya,The Interdisciplinary Center Herzliya,94,The Interdisciplinary Center Herzliya,100,The Interdisciplinary Center Herzliya,100
+427,Ibmec Sao Paulo,Ibmec Sao Paulo,100,Ibmec Sao Paulo,100,Ibmec Sao Paulo,100
+428,Higher School of Economics,Higher School of Economics,100,Higher School of Economics,100,Higher School of Economics,100
+429,Boise State University,Boise State University,100,Boise State University,100,Boise State University,100
+430,William Marsh Rice University,William Paterson University,79,Rice University,100,Rice University,100
+431,North Central College,North Central College,100,Central College,100,Central College,100
+432,Illinois College,Illinois College,100,Illinois College,100,"Benedictine University, Springfield College in Illinois",100
+433,Shandong University,Shandong University,100,Shandong University,100,Shandong Agricultural University,100
+434,University of Macau,University of Macau,100,University of Macau,100,University of Macau,100
+435,Luiss Guido Carli University,Luiss Guido Carli University,100,Luiss Guido Carli University,100,Luiss Guido Carli University,100
+436,University of British Columbia,University of British Columbia,100,University of British Columbia,100,Columbia University,100
+437,University Of York,University of York,100,University of York,100,City University of New York,100
+438,Shanghai University Of Finance And Economics,Shanghai University of Finance and Economics,100,Shanghai University,100,Shanghai University,100
+439,University Of Oxford-Lincoln College,University of Trinity College,77,University of Oxford,100,University of Lincoln,100
+440,Universidade Federal Do Rio Grande Do Sul,Universidade Federal do Rio Grande do Sul,100,Universidade Federal do Rio Grande do Sul,100,Universidade do Grande Rio,100
+441,Canisius College,Canisius College,100,Canisius College,100,Canisius College,100
+442,Florida State University,Florida State University,100,Florida State University,100,Florida State University,100
+443,Furman University,Furman University,100,Furman University,100,Furman University,100
+444,Universidade Tecnica De Lisboa,Universidade Tecnica de Lisboa,100,Universidade Tecnica de Lisboa,100,Universidade de Lisboa,100
+445,Instituto TecnolÃ³gico AutÃ³nomo de Mexico,Instituto Tecnológico Autonómo de México,88,Instituto Tecnológico Autonómo de México,85,Instituto Tecnológico Autonómo de México,96
+446,Universite Pierre Et Marie Curie (paris Vi),Université Pierre et Marie Curie (Paris VI),98,Université Pierre et Marie Curie (Paris VI),98,Université Pierre et Marie Curie (Paris VI),99
+447,University Of Auckland,University of Auckland,100,University of Auckland,100,Auckland University of Technology,100
+448,University of Prishtina,University of Priština,93,University of Pisa,94,University of Priština,93
+449,Eidgenossische Technische Hochschule Zurich,Rheinisch Westfälische Technische Hochschule Aachen,74,Fachhochschule Pur,83,Hochschule Fulda,77
+450,Wheaton College,Hampton College,87,Wheaton College Massachusetts,100,Wheaton College Massachusetts,100
+451,Northeastern University,Northeastern University,100,Northeastern University,100,Northeastern Illinois University,100
+452,University Of Alabama In Tuscaloosa,University of Alabama - Tuscaloosa,96,University of Alabama - Tuscaloosa,94,University of Alabama - Tuscaloosa,100
+453,Anglia Polytechnic University,Dalian Polytechnic University,93,Polytechnic University,100,Polytechnic University,100
+454,Hampton University,Hampton University,100,Hampton University,100,Hampton University,100
+455,Oxford University,Fordham University,86,Radford University,88,Oxford Brookes University,100
+456,Texas Tech University,Texas Tech University,100,Texas Tech University,100,Texas Tech University,100
+457,University Of Oxford-St. Hilda's College,University of St. Michael's College,80,University of Oxford,100,University of Oxford,100
+458,Kwame Nkrumah University of Science and Technology,Kwame Nkrumah University of Science and Technology,100,Kwame Nkrumah University of Science and Technology,100,Kwame Nkrumah University of Science and Technology,100
+459,Beijing Institute Civil Engineering/architecture,Beijing Institute Civil Engineering/architecture,100,Beijing Institute Civil Engineering/architecture,100,Beijing Institute Civil Engineering/architecture,100
+460,Adolfo Ibanez University,Dalian University,78,IE University,92,"Universidad ""Adolfo Ibañez""",88
+461,Bard College,Bard College,100,Bard College,100,Bard College,100
+462,Athens School Of Economic And Business Sciences,Helsinki School of Economics and Business Administration,76,Kiev School Of Economics,83,School of Economic Sciences,100
+463,Haverford College,Haverford College,100,Haverford College,100,Haverford College,100
+464,Colgate University,Colgate University,100,Colgate University,100,Colgate University,100
+465,Taylor University,Taylor University,100,Taylor University,100,Taylor University,100
+466,"Calif. Polytechnic State Univ., San Luis Obispo",California Polytechnic State University - San Luis Obispo,85,Ho Polytechnic ,86,California Polytechnic State University - San Luis Obispo,89
+467,ITESM -CCM,Sibelius Academy,46,"Arizona State University, Tempe Campus",60,Instituto Tecnológico y de Estudios Superiores de Monterrey (ITESM),71
+468,Sichuan University,Sichuan University,100,Sichuan University,100,Chengdu Institute of Sichuan International Studies University,100
+469,University Of Waterloo,University of Waterloo,100,University of Waterloo,100,University of Waterloo,100
+470,Victoria University Of Wellington,Victoria University of Wellington,100,Victoria University,100,University of Victoria,100
+471,Universidad De Lima,Universidad de Lima,100,Universidad de Lima,100,Universidad de Lima,100
+472,American University In Bulgaria,American University in Bulgaria,100,American University,100,American University,100
+473,Scuola Superiore Sant'Anna di Studi Univ. e di Perfezionamento,Scuola Superiore Sant'Anna di Studi Univ. e di Perfezionamento,100,Scuola Superiore Sant'Anna di Studi Univ. e di Perfezionamento,100,Scuola Superiore Sant'Anna di Studi Univ. e di Perfezionamento,100
+474,Saint Louis University,Saint Louis University,100,Saint Louis University,100,University of Missouri - Saint Louis,100
+475,Kyunghee University,Kyunghee University,100,Kyunghee University,100,Kyunghee University,100
+476,Wuhan University of Technology,Wuhan University of Technology,100,Wuhan University,100,Wuhan University,100
+477,"Indian Institute Of Technology, Madras","Indian Institute of Technology, Madras",100,"Indian Institute of Technology, Madras",100,"Indian Institute of Technology, Madras",100
+478,Vietnam National University,Vietnam National University Hanoi,90,National University,100,National University,100
+479,University Of London-University College,University of Maryland University College,88,University of London,100,"Birkbeck College, University of London",100
+480,"Paris Sorbonne University, Paris IV",Paris-Sorbonne University Abu Dhabi,80,IE University,92,Université Paris-Sorbonne (Paris IV),98
+481,Agnes Scott College,Agnes Scott College,100,Agnes Scott College,100,Agnes Scott College,100
+482,University Of Massachusetts At Amherst,University of Massachusetts at Amherst,100,University of Massachusetts at Amherst,100,University of Massachusetts at Amherst,100
+483,University Of Minnesota--Duluth,University of Minnesota - Duluth,95,University of Minnesota,100,University of Minnesota - Duluth,100
+484,Rijksuniversiteit Groningen,University of Groningen,76,Universiteit Gent,88,University of Groningen,76
+485,Friedrich-Alexander-Universitat Erlangen-Nurnberg,Friedrich-Alexander Universität Erlangen-Nürnberg,94,Friedrich-Alexander Universität Erlangen-Nürnberg,94,Friedrich-Alexander Universität Erlangen-Nürnberg,98
+486,University of Castilla-La Mancha,Universidad de Castilla La Mancha,83,University of East,94,IE University,87
+487,University Of Canterbury,University of Canterbury,100,University of Canterbury,100,University of Canterbury,100
+488,Dartmouth College,Dartmouth College,100,Dartmouth College,100,Dartmouth College,100
+489,Berklee College Of Music,Berklee College of Music,100,Berklee College of Music,100,Berklee College of Music,100
+490,Eafit University,Herat University,88,FPT University,93,Herat University,88
+491,Universita Degli Studi Di Trieste,Universita Degli Studi Di Trieste,100,Universita Degli Studi Di Trieste,100,Universita Degli Studi Di Trieste,100
+492,University Of Nigeria,University of Nigeria,100,ABTI American University of Nigeria,100,ABTI American University of Nigeria,100
+493,Katholieke Universiteit Leuven,Katholieke Universiteit Leuven,100,Katholieke Universiteit Leuven,100,Katholieke Universiteit Leuven,100
+494,Instituto TecnolÃ³gico AutÃ³nomo de MÃ©xico (ITAM),Instituto Tecnológico Autonómo de México,80,Instituto Tecnológico Autonómo de México,82,Instituto Tecnológico de León,92
+495,LUISS Guido Carli University,Luiss Guido Carli University,100,Luiss Guido Carli University,100,Luiss Guido Carli University,100
+496,IBMEC,Ibmec Sao Paulo,50,Ibmec Sao Paulo,100,Ibmec Sao Paulo,100
+497,Auburn University Main Campus,"European University, Athens Campus",76,Auburn University,100,Auburn University,100
+498,Cornell College,Help University College,86,Cornell University,100,Cornell College,100
+499,University Of Oxford-St. Catharine's College,University of St. Michael's College,81,University of Oxford,100,University of Oxford,100
+500,University Of Cambridge,University of Cambridge,100,University of Cambridge,100,University of Cambridge,100
+501,Gonzaga University,Gonzaga University,100,Gonzaga University,100,Gonzaga University,100
+502,Muhlenberg College,Muhlenberg College,100,Muhlenberg College,100,Muhlenberg College,100
+503,Soka University of America,Soka University of America,100,Soka University of America,100,Soka University of America,100
+504,Sung Kyun Kwan University,Sung Kyun Kwan University,100,Sung Kyun Kwan University,100,Sung Kyun Kwan University,100
+505,Instituto Tecnologico Autonomo de Mexico ITAM,Instituto Tecnológico Autonómo de México,87,Instituto Tecnológico Autonómo de México,92,Instituto Tecnológico Autonómo de México,90
+506,International Academy of Business,National Academy of Fine Arts,77,National Academy of Arts,88,International University of Business Agriculture and Technology,86
+507,Technical University Berlin,Technical University of Lublin,88,Cag University,93,Georgian Technical University,89
+508,University Of Manchester,University of Manchester,100,University of Manchester,100,University of New Hampshire - Manchester,100
+509,Maharaja Sayajirau University Of Baroda,Maharaja Sayajirao University of Baroda,97,Maharaja Sayajirao University of Baroda,97,Maharaja Sayajirao University of Baroda,97
+510,University of Geneva,University of Geneva,100,University of Geneva,100,University of Geneva,100
+511,Augsburg College,Augsburg College,100,Augsburg College,100,Augsburg College,100
+512,Universidade Federal De Minas Gerais,Universidade Federal de Minas Gerais,100,Universidade Federal de Minas Gerais,100,Universidade Federal de Minas Gerais,100
+513,Rhodes College,Rhodes College,100,Rhodes College,100,Rhodes College,100
+514,University Of Kentucky,University of Kentucky,100,University of Kentucky,100,University of Kentucky,100
+515,Karl-Franzens-Universitat Graz,Universität Graz,65,Universität Graz,94,Universitat de Vic,76
+516,Universita degli Studi di Roma 'La Sapienza',Universita Degli Studi Di Trieste,75,Universita Degli Studi Di Trieste,82,Universita Degli Studi Di Trieste,86
+517,Aoyama Gakuin University,Aoyama Gakuin University,100,Aoyama Gakuin University,100,Aoyama Gakuin University,100
+518,"University Of California, San Diego","University of California, San Diego",100,"University of California, San Diego",100,"University of California, San Diego",100
+519,Universidad Nacional De La Plata,Universidad Nacional de La Plata,100,Universidad Nacional de La Plata,100,Universidad Nacional de La Plata,100
+520,Robert Morris University,Robert Morris University,100,Robert Morris University,100,Robert Morris University,100
+521,Sogang Univesity,Sogang University,97,Sogang University,94,Sogang University,97
+522,Universidad De Buenos Aires,Universidad de Buenos Aires,100,Universidad de Buenos Aires,100,Universidad Católica Argentina Santa Maria de los Buenos Aires,100
+523,"University Of Maryland, Baltimore County",University of Maryland Baltimore County,99,University of Maryland,100,University of Baltimore,100
+524,Victoria University Of Technology,Urmia University of Technology,89,Victoria University,100,University of Victoria,100
+525,University Of Dallas,University of Dallas,100,University of Dallas,100,University of Dallas,100
+526,University Of Maryland At College Park (umcp),University of Maryland University College,74,University of Maryland,100,Park College,100
+527,Universidad Catolica De Santiago,Universidad Tecnológica de Santiago,90,Universidad Católica de Santiago del Estero,97,Universidad Santiago de Cali,93
+528,Hanoi National University,Changwon National University,91,National University,100,National University,100
+529,Ecole Centrale De Paris,Ecole Centrale De Paris,100,Ecole Centrale De Paris,100,Ecole Centrale De Paris,100
+530,Syracuse University,Syracuse University,100,Syracuse University,100,State University of New York Health Sience Centre Syracuse,100
+531,National University of Singapore,National University of Singapore,100,National University,100,National University,100
+532,Connecticut College,Connecticut College,100,Connecticut College,100,Connecticut College,100
+533,Universidad Nacional San Cristobal de Huamanga,Universidad Nacional de San Cristóbal de Huamanga,95,Universidad Nacional,100,Universidad Nacional,100
+534,University of Potsdam,University of Kota,87,Beijing University of Posts and Telecommunications,90,State University of New York College at Potsdam,100
+535,International Islamic University,International Islamic University,100,International Islamic University Chittagong,100,International Islamic University Chittagong,100
+536,Hong Kong Polytechnic,Ho Polytechnic ,80,Hong Kong Polytechnic University,100,Hong Kong Polytechnic University,100
+537,Universidad Anahuac,Universidad Anáhuac,95,Universidad Anáhuac,95,Universidad Anáhuac,97
+538,Beijing Foreign Studies University,Beijing Foreign Studies University,100,Beijing Foreign Studies University,100,Beijing Foreign Studies University,100
+539,Kalamazoo College,Kalamazoo College,100,Kalamazoo College,100,"Davenport College of Business, Kalamazoo",100
+540,University of Brasilia,University of Basel,88,Law University of Bratislava,91,University of Basel,88
+541,University Of London-Royal Holloway College,University of Maryland University College,67,University of London,100,University College London,100
+542,Loyola Marymount University,Loyola Marymount University,100,Loyola Marymount University,100,Loyola Marymount University,100
+543,Middle Tennessee State University,Middle Tennessee State University,100,Middle Tennessee State University,100,Middle Tennessee State University,100
+544,Shanghai Jiao Tong University,Shanghai Jiaotong University,98,Shanghai Jiaotong University,96,Shanghai University,100
+545,Purdue University,Purdue University,100,Indiana University-Purdue University at Columbus,100,Indiana University-Purdue University at Columbus,100
+546,Loyola University Of Chicago,Loyola University of Chicago,100,Loyola University of Chicago,100,Loyola University of Chicago,100
+547,Manipal Institute Of Technology,Ramaiah Institute of Technology,90,Nippon Institute of Technology,92,Cork Institute of Technology,90
+548,Universidade Federal do Rio de Janeiro,Universidade Federal do Rio de Janeiro,100,Universidade Federal do Rio de Janeiro,100,Universidade do Rio de Janeiro,100
+549,Universite Antilles,Université de Nantes,82,Universiteit Antwerpen,79,Nile University,82
+550,University Of Edinburgh,University of Edinburgh,100,University of Edinburgh,100,University of Edinburgh,100
+551,Instituto Tecnologico Autonomo de Mexico (ITAM),Instituto Tecnológico Autonómo de México,85,Instituto Tecnológico Autonómo de México,92,Instituto Tecnológico Autonómo de México,90
+552,Academy of National Economy under the Russian Government,"Academy of International Economic and Political Relations, Gdynia",63,Academy of Arts,87,National Academy of Arts,88
+553,Dnipropetrovs'k National University,Dnepropetrovsk National University,96,National University,100,National University,100
+554,Loyola University New Orleans,Loyola University New Orleans,100,Loyola University New Orleans,100,Loyola University New Orleans,100
+555,Ludwig-Maximillians-Universitat Munchen,Ludwig-Maximilians-Universität München,94,Ludwig-Maximilians-Universität München,92,Ludwig-Maximilians-Universität München,96
+556,"University Of Michigan, Ann Arbor",University of Michigan - Dearborn,88,University of Michigan,100,University of Michigan,100
+557,Universita Cattolica Del Sacro Cuore,Universidad Catolica del Maule,79,Universidad Catolica del Maule,80,Universidad Catolica del Norte,79
+558,Universiteit Maastricht,University of Maastricht,85,University of Maastricht,83,University of Maastricht,85
+559,Soka Univeristy of America,Soka University of America,96,Soka University of America,96,Soka University of America,96
+560,University Of Bergen,University of Bergen,100,University of Bergen,100,University of Bergen,100
+561,Mcmaster University,McMaster University,100,McMaster University,100,McMaster University,100
+562,Clemson University,Clemson University,100,Clemson University,100,Clemson University,100
+563,Imperial College London,Imperial College London,100,Imperial College London,100,Imperial College London,100
+564,Universidad Catolica Andres Bello,Universidad Católica Andres Bello,97,Universidad Católica Andres Bello,97,Universidad Católica Andres Bello,98
+565,Huhhot,Huizhou University,42,Houghton College,67,Hotelschool The Hague,44
+566,Universita Degli Studi di Pisa,Universita Degli Studi Di Trieste,89,Universita Degli Studi Di Trieste,90,Universita Degli Studi Di Trieste,91
+567,Vanguard University,Kannur University,83,Vanguard University of Southern California,100,Vanguard University of Southern California,100
+568,Universidad De Concepcion,Universidad de Concepcion,100,Universidad de Concepcion,100,Universidad de Concepcion,100
+569,Jadavpur University,Jadavpur University,100,Jadavpur University,100,Jadavpur University,100
+570,Temple University,Temple University,100,Temple University,100,Temple University,100
+571,University of Calgary,University of Calgary,100,University of Calgary,100,University of Calgary,100
+572,Covenant College,Covenant College,100,Covenant College,100,Covenant College,100
+573,Universidad Nacional Mayor De San Marcos,Universidad Nacional Mayor de San Marcos,100,Universidad Nacional,100,Universidad Mayor,100
+574,Rheinische Friedrich-Wilhelms-Universitat Bonn,Rheinische Friedrich-Wilhelms Universität Bonn,96,Rheinische Friedrich-Wilhelms Universität Bonn,96,Rheinische Friedrich-Wilhelms Universität Bonn,99
+575,Norges Handelshoyskole,Sage Graduate School,52,Anderson College,60,Handelshochschule Leipzig,60
+576,East China University of Science and Technology,East China University of Science and Technology,100,East China University of Science and Technology,100,East China University of Science and Technology,100
+577,Lebanese American University,Lebanese American University,100,American University,100,American University,100
+578,University of Cambridge,University of Cambridge,100,University of Cambridge,100,University of Cambridge,100
+579,Trent University,Trent University,100,Trent University,100,Trent University,100
+580,Zhejiang Gongshang University,Zhejiang Gongshang University,100,Zhejiang Gongshang University,100,Zhejiang Gongshang University,100
+581,University of London,University of London,100,"British Institute in Paris, University of London",100,"British Institute in Paris, University of London",100
+582,University Of Miami,University of Miami,100,University of Miami,100,Miami University of Ohio,100
+583,Hanyang University,Hanyang University,100,Hanyang University,100,Hanyang University,100
+584,Universitat Wien,Universität Vienna,82,Medizinische Universität Wien,94,Universität Vienna,85
+585,Johann Wolfgang Goethe-Universitat Frankfurt,Johann Wolfgang Goethe Universität Frankfurt am Main,88,Johann Wolfgang Goethe Universität Frankfurt am Main,95,Johann Wolfgang Goethe Universität Frankfurt am Main,91
+586,Siena College,Siena College,100,Siena College,100,Siena College,100
+587,Ferdowsi University of Mashhad,Ferdowsi University of Mashhad,100,Ferdowsi University of Mashhad,100,Ferdowsi University of Mashhad,100
+588,Southern Illinois University--Edwardsville,Southern Illinois University at Edwardsville,93,Northern Illinois University,93,Southern Illinois University at Edwardsville,100
+589,University Of Bayreuth,University of Bath,90,University of Bari,94,University of Bath,90
+590,University of Bristol,University of Bristol,100,University of Bristol,100,University of Bristol,100
+591,Sophia College for Women,Sophia College for Women,100,Sophia College for Women,100,Sophia College for Women,100
+592,Birla Institute Of Technology & Science,Birla Institute of Technology and Science,95,Birla Institute of Technology and Science,92,Birla Institute of Technology and Science,100
+593,University Of Houston--University Park,"University of Houston, Clear Lake",73,University of Houston,100,University of Houston,100
+594,universidad de los andes,Universidad de Los Andes,100,Universidad de Los Andes,100,Universidad Los Andes,100
+595,Escola De Administracao De Empresas De Sao Paulo,Escola De Administracao De Empresas De Sao Paulo,100,Escola De Administracao De Empresas De Sao Paulo,100,Escola De Administracao De Empresas De Sao Paulo,100
+596,Indian Institute of Technology Delhi,"Indian Institute of Technology, Delhi",99,"Indian Institute of Technology, Delhi",97,"Indian Institute of Technology, Delhi",100
+597,University Of South Carolina,University of South Carolina,100,Medical University of South Carolina,100,Medical University of South Carolina,100
+598,Kenyon College,Kenyon College,100,Kenyon College,100,Kenyon College,100
+599,St. Vincent College,St. Vincent College,100,St. Vincent College,100,College of Mount St. Vincent,100
+600,Ryerson Polytechnic Institute,Worcester Polytechnic Institute,83,Ho Polytechnic ,93,Ho Polytechnic ,88
+601,Open University Of Israel,Open University of Israel,100,Open University,100,Open University,100
+602,Keio University,Keio University,100,Keio University,100,Keio University,100
+603,Huaqiao University, Huaihua University,89,Huaqiao University Quanzhuo,100,Huaqiao University Quanzhuo,100
+604,University College Utrecht (Utrecht University),University College of the Fraser Valley,65,Utrecht University,100,Utrecht University,100
+605,University Of Minnesota-Morris,University of Minnesota - Morris,97,University of Minnesota,100,University of Minnesota - Morris,100
+606,Helsinki School Of Econ. & Business Administration,Helsinki School of Economics and Business Administration,91,Helsinki School of Economics and Business Administration,84,Helsinki School of Economics and Business Administration,94
+607,University of St. Andrews,University of St. Andrews,100,University of St. Andrews,100,Andrews University,100
+608,University Of Manitoba,University of Manitoba,100,University of Manitoba,100,University of Manitoba,100
+609,Pontificia Universidad Catolica Del Ecuador,Pontificia Universidad Católica del Ecuador,98,Pontificia Universidad Católica del Ecuador,98,Pontificia Universidad Católica del Ecuador,99
+610,Xian Jiaotong University,Xi'an Jiaotong University,98,Xi'an Jiaotong University,96,Xi'an Jiaotong University,90
+611,Occidental College,Occidental College,100,Occidental College,100,Occidental College,100
+612,University of Science and Technology of China,University of Science and Technology of China,100,South University of Science and Technology of China ,100,East China University of Science and Technology,100
+613,Beijing Forestry University,Beijing Forestry University,100,Beijing Forestry University,100,Beijing Forestry University,100
+614,University Of Colorado At Denver,University of Colorado at Denver,100,University of Colorado at Denver,100,University of Colorado at Denver,100
+615,Ohio University,Ohio University,100,Northeastern Ohio University College of Medicine,100,Miami University of Ohio,100
+616,Mersin University,Mersin University,100,Mersin University,100,Mersin University,100
+617,La Trobe University,La Trobe University,100,La Trobe University,100,La Trobe University,100
+618,Harvey Mudd College,Harvey Mudd College,100,Harvey Mudd College,100,Harvey Mudd College,100
+619,Creighton University,Creighton University,100,Creighton University,100,Creighton University,100
+620,University Of Science And Technology Beijing,University of Science and Technology Beijing,100,University of Science and Technology Beijing,100,Beijing University of Science and Technology,100
+621,St. Mary's College Of Maryland,St. Mary's College of Maryland,100,St. Mary's College of Maryland,100,College of St. Mary,100
+622,"Long Island University, C. W. Post Center","Long Island University, C.W. Post Campus",86,Long Island University,100,Long Island University,100
+623,University Of South Florida,University of South Florida,100,University of South Florida,100,University of Florida,100
+624,University Of Central Florida,University of Central Florida,100,University of Central Florida,100,University of Central Florida,100
+625,Virginia Polytechnic Institute and State University,Virginia Polytechnic Institute and State University (Virginia Tech),86,Virginia Polytechnic Institute and State University (Virginia Tech),100,Polytechnic University,100
+626,University Of Kerala,University of Kerala,100,University of Kerala,100,Kerala University of Fisheries and Ocean Sciences,100
+627,"California State University, Fullerton","California State University, Fullerton",100,"California State University, Fullerton",100,"California State University, Fullerton",100
+628,Virginia Commonwealth University,Virginia Commonwealth University,100,Virginia Commonwealth University,100,Virginia Commonwealth University,100
+629,Suffolk University,Suffolk University,100,Suffolk University,100,Suffolk University,100
+630,Escola Politecnica da Universidade de Sao Paulo,Escola Politecnica da Universidade de Sao Paulo,100,Escola Politecnica da Universidade de Sao Paulo,100,Escola Politecnica da Universidade de Sao Paulo,100
+631,Universidad Cristobal Colon,Universidad Cristóbal Colón,93,Universidad Cristóbal Colón,93,Universidad Cristóbal Colón,96
+632,Humboldt University of Berlin,Humboldt Universität Berlin,89,University of Belize,90,Humboldt Universität Berlin,91
+633,Union College,Union College,100,Atlantic Union College,100,Atlantic Union College,100
+634,Kansas State University,Kansas State University,100,Arkansas State University,100,Kansas State University,100
+635,MS Ramaiah institute Of Technology,Ramaiah Institute of Technology,95,Ramaiah Institute of Technology,100,Ramaiah Institute of Technology,100
+636,University Of Indonesia,University of Minnesota,87,University of London,90,University of Minnesota,87
+637,Iowa State University of Science and Technology,Iowa State University of Science and Technology,100,Iowa State University of Science and Technology,100,Iowa State University of Science and Technology,100
+638,Pont Univ of the Holy Cross,College of the Holy Cross,73,College of the Holy Cross,72,College of the Holy Cross,81
+639,Delhi School of Economics,Higher School of Economics,86,Barcelona Graduate School of Economics,88,Kiev School Of Economics,88
+640,El Colegio De Mexico,El Colegio de México,95,El Colegio de México,95,El Colegio de México,97
+641,University Of Nebraska At Omaha,University of Nebraska - Omaha,95,University of Nebraska - Omaha,93,University of Nebraska - Omaha,100
+642,New Economic School,New Economic School,100,New Economic School,100,New Economic School,100
+643,Universite De Neuchatel,University of Neuchatel,87,University of Neuchatel,87,University of Neuchatel,87
+644,Center for Economic Research & Graduate Education-Econ. Inst.,The World Islamic Sciences & Education University,53,New Economic School,68,Pyramid Education Center,80
+645,Central Michigan University,Central Michigan University,100,Central Michigan University,100,Central Michigan University,100
+646,Chinese Academy Of Social Sciences,Estonian Academy of Security Sciences,73,Academy of Arts,80,Sudan Academy of Sciences,86
+647,Universidad Autonoma De Madrid,Universidad Autónoma de Madrid,97,Universidad Autónoma de Madrid,97,Universidad Autónoma de Madrid,98
+648,Central European University,Central European University,100,European University,100,European University,100
+649,Barcelona Graduate School of Economics,Barcelona Graduate School of Economics,100,Barcelona Graduate School of Economics,100,Barcelona Graduate School of Economics,100
+650,Collegio Carlo Alberto,Collegio Carlo Alberto,100,Collegio Carlo Alberto,100,Collegio Carlo Alberto,100
+651,Durham University,Fordham University,86,Fordham University,88,University of Durham,100
+652,York University,York University,100,New York University,100,City University of New York,100
+653,Georgia State University,Georgia State University,100,Georgia State University,100,Georgia College & State University,100
+654,University Of Oxford-Nuffield College,University of Trinity College,76,University of Oxford,100,University of Oxford,100
+655,Queens University,Queens University,100,Queens University,100,"City University of New York, Queens College",100
+656,Gordon-Conwell Theological Seminary,Gordon Conwell Theological Seminary,97,Gordon Conwell Theological Seminary,97,Gordon Conwell Theological Seminary,100
+657,Paris School of Economics,Warsaw School of Economics,90,Warsaw School of Economics,92,Warsaw School of Economics,90
+658,TERI University,Tenri University,97,Webster University,97,Tenri University,97
+659,Tbilisi State University,Tbilisi State University,100,Tbilisi State University,100,Tbilisi State Medical University,100
+660,Ecoles Des Hautes Etudes En Sciences Sociales,Ecoles Des Hautes Etudes En Sciences Sociales,100,Ecoles Des Hautes Etudes En Sciences Sociales,100,Ecoles Des Hautes Etudes En Sciences Sociales,100
+661,"University of Banja Luka, Faculty of Economics",University of Banja Luka,69,University of Banja Luka,100,University of Banja Luka,100
+662,University Of Denver,University of Denver,100,University of Denver,100,University of Colorado at Denver,100
+663,Otto-von-Guericke Universitat,Otto-von-Guericke Universität Magdeburg,82,Otto-von-Guericke Universität Magdeburg,97,Otto-von-Guericke Universität Magdeburg,84
+664,London School of Economics and Political Science,"London School of Economics and Political Science, University of London",81,"London School of Economics and Political Science, University of London",100,"London School of Economics and Political Science, University of London",100
+665,University Of Nottingham,University of Nottingham,100,The University of Nottingham Ningbo China,100,The University of Nottingham Ningbo China,100
+666,University Of Cambridge-Clare Hall,University of Cambridge,81,University of Cambridge,100,University of Cambridge,100
+667,University Of Essex,University of Essex,100,University of Essex,100,University of Essex,100
+668,The Graduate Institute Of International and Development Studies,Monterey Institute of International Studies,73,Pratt Institute,80,Monterey Institute of International Studies,88
+669,Western Illinois University,Western Illinois University,100,Western Illinois University,100,Western Illinois University,100
+670,Universita degli Studi di Roma Tor Vergata (CIES),Universita Degli Studi Di Trieste,76,Universita Degli Studi Di Trieste,85,Universita Degli Studi Di Trieste,86
+671,National Tsing Hua University,National Tsinghua University,98,National Tsinghua University,96,National University,100
+672,Hosei University,Hosei University,100,Hosei University,100,Hosei University,100
+673,State University Of New York At Albany,State University of New York at Albany,100,State University of New York at Albany,100,Albany State University,100
+674,Cranfield University,Cranfield University,100,Cranfield University,100,Cranfield University,100
+675,Illinois Institute Of Technology,Illinois Institute of Technology,100,Illinois Institute of Technology,100,Illinois Institute of Technology,100
+676,University Of Dar Es Salaam,University of Dar Es Salaam,100,University of Dar Es Salaam,100,University of Dar Es Salaam,100
+677,Universite Des Sciences Sociales (toulouse I),Université des Sciences Sociales (Toulouse I),98,Université des Sciences Sociales (Toulouse I),98,Université des Sciences Sociales (Toulouse I),99
+678,UniversitÃ  degli studi di Roma Tor Vergata,Universita Degli Studi Di Trieste,77,Universita Degli Studi Di Trieste,82,Universita Degli Studi Di Trieste,76
+679,University Of Greenwich,University of Greenwich,100,University of Greenwich,100,University of Greenwich,100
+680,Institute for Advanced Studies,Institute for Advanced Studies Lucca,91,Dublin Institute for Advanced Studies,100,American Film Institute Center for Advanced Film and Television Studies,100
+681,Montana State University,Montana State University,100,Montana State University,100,Montana State University,100
+682,University of Illinois at Chicago,University of Illinois at Chicago,100,University of Illinois,100,University of Chicago,100
+683,Centro De Estudios Monetarios Y Financieros,Centro de Estudios Universitarios Xochicalco,74,Centro de Estudios Universitarios Monterrey,72,Centro de Estudios Universitarios Monterrey,72
+684,Pepperdine University,Pepperdine University,100,Pepperdine University,100,Pepperdine University,100
+685,Indian Statistical Institute,Indian Statistical Institute,100,Indian Statistical Institute,100,Indian Statistical Institute,100
+686,Murdoch University,Murdoch University,100,Murdoch University,100,Murdoch University,100
+687,University of Bologna,University of Bologna,100,University of Bologna,100,University of Bologna,100
+688,Shahid Beheshti University,Shaheed Beheshti University,94,NTI University,93,Shaheed Beheshti University,94
+689,University Of Cambridge-Peterhouse,University of Cambridge,81,University of Cambridge,100,University of Cambridge,100
+690,Universite Toulouse I,Université de Toulouse,88,Université de Toulouse,86,Université de Toulouse,90
+691,Humboldt University,Humboldt State University,86,Humboldt Universität Berlin,95,Humboldt State University,100
+692,State University Of New York At Buffalo,State University of New York at Buffalo,100,State University of New York at Buffalo,100,New York University,100
+693,Johns Hopkins Univ. Paul H. Nitze School of Adv. Int'l Studies,"Johns Hopkins University, SAIS Bologna Center",56,Johns Hopkins University,75,London School of Jewish Studies,71
+694,Presidency University,Presidency University,100,Presidency University,100,Presidency University,100
+695,"Postgradaute Institute of Management, University of Sri Jayeward","Courtauld Institute of Art, University of London",66,NTI University,93,State University of Management,89
+696,Humboldt University in Berlin,Humboldt Universität Berlin,89,Biola University,88,Humboldt Universität Berlin,91
+697,Waseda University,Waseda University,100,Waseda University,100,Waseda University,100
+698,"California State University, Hayward","California State University, Hayward",100,"California State University, Hayward",100,"California State University, Hayward",100
+699,Vrije Universiteit Brussel,Vrije Universiteit Brussel,100,Vrije Universiteit Brussel,100,Vrije Universiteit Brussel,100
+700,Stockholm School Of Economics,Stockholm School of Economics,100,Stockholm School of Economics in Riga,100,Stockholm School of Economics in Riga,100
+701,"Indian Institute Of Technology, Kanpur","Indian Institute of Technology, Kanpur",100,"Indian Institute of Technology, Kanpur",100,"Indian Institute of Technology, Kanpur",100
+702,Ecole Superieure d'Electricite-SUPELEC,Ecole Supérieure d'Electricité,82,Ecole Supérieure d'Electricité,93,Ecole Supérieure d'Electricité,85
+703,Kyiv School of Economics,Kiev School Of Economics,96,Kiev School Of Economics,96,Kiev School Of Economics,96
+704,Indira Gandhi National Open University,Indira Gandhi National Open University,100,Open University,100,National University,100
+705,Wroclaw University of Technology,Brno University of Technology,89,University of Technology,100,University of Technology,100
+706,Indian Institute of Management Ahmedabad,Indian Institute of Management Ahmedabad,100,Indian Institute of Management Ahmedabad,100,Indian Institute of Management Ahmedabad,100
+707,Roosevelt University,Roosevelt University,100,Roosevelt University,100,Roosevelt University,100
+708,University Of Guelph,University of Guelph,100,University of Guelph,100,University of Guelph,100
+709,Bergische Universitaet Wuppertal,Bergische Universität Gesamthochschule Wuppertal,78,Rice University,87,Bergische Universität Gesamthochschule Wuppertal,76
+710,"Columbia University, Barnard College",Holar University College,73,Columbia University,100,Barnard College - Columbia University,100
+711,Toulouse school of Economics(M2),Toulouse school of Economics,93,Toulouse school of Economics,100,Toulouse school of Economics,100
+712,Georgia Institute Of Technology,Georgia Institute of Technology,100,Georgia Institute of Technology,100,Georgia Institute of Technology,100
+713,University Of Missouri--Kansas City,University of Missouri - Kansas City,96,University of Missouri - Kansas City,94,City University,100
+714,Universidad Colegio Mayor de Nuestra Senora del Ro,Universidad Nuestra Senora de La Paz,72,Universidad CES,87,Universidad Mayor,100
+715,"Korea Development Institute, School of Pub. Policy & Management",KDI School of Public Policy and Management,69,KDI School of Public Policy and Management,82,Institute of Management Development - Ohrid,92
+716,Toulouse School of Economics,Toulouse school of Economics,100,Toulouse school of Economics,100,Toulouse school of Economics,100
+717,Oklahoma State University--Main Campus,Oklahoma State University - Tulsa,82,Oklahoma State University,100,Oklahoma State University,100
+718,University Of Leicester,University of Leicester,100,University of Leicester,100,University of Leicester,100
+719,Groupe HEC,AgroParisTech,52,Karel De Grote Hogeschool,70,Groupe Sup de Co Amiens Picardie,75
+720,University Of Memphis,University of Memphis,100,University of Memphis,100,University of Memphis,100
+721,University Of Wisconsin--Milwaukee,University of Wisconsin - Milwaukee,96,University of Wisconsin - Milwaukee,94,University of Wisconsin - Milwaukee,100
+722,University Of Cambridge-Pembroke College,University of Cambridge,73,University of Cambridge,100,Cambridge College,100
+723,Kent State University,Kent State University,100,Kent State University,100,Kent State University,100
+724,Bilkent University,Bilkent University,100,Bilkent University,100,Bilkent University,100
+725,Universita Commerciale 'Luigi Bocconi',University of Commerce Luigi Bocconi,86,University of Commerce Luigi Bocconi,86,University of Commerce Luigi Bocconi,89
+726,Tulane University,Ulsan University,91,The Tulane University of New Orleans,100,The Tulane University of New Orleans,100
+727,Instituto De Matematica Pura E Aplicada,Instituto Nacional de Matemática Pura e Aplicada - IMPA,100,Instituto Nacional de Matemática Pura e Aplicada - IMPA,100,Instituto Nacional de Matemática Pura e Aplicada - IMPA,100
+728,Pontificia Universidad Catolica Del Peru,Pontificia Universidad Católica del Perú,95,Pontificia Universidad Católica del Perú,95,Pontificia Universidad Católica del Perú,97
+729,Azusa Pacific University,Azusa Pacific University,100,Azusa Pacific University,100,Azusa Pacific University,100
+730,Instituto TecnÃ³logico de MÃ©xico (ITAM),Instituto Tecnológico Autonómo de México,100,Instituto Tecnológico Autonómo de México,100,Instituto Tecnológico Autonómo de México,100
+731,University Of Texas At Dallas,University of Texas at Dallas,100,University of Texas,100,University of Dallas,100
+732,Institute Of Social Studies,Institute of Social Studies,100,Institute of Social Studies,100,Institute of Social Studies,100
+733,University Of North Carolina At Charlotte,University of North Carolina at Charlotte,100,University of North Carolina,100,University of North Carolina,100
+734,University Of Kent At Canterbury,University of Canterbury,86,University of Kent,100,University of Kent,100
+735,San Francisco State University,San Francisco State University,100,San Francisco State University,100,San Francisco State University,100
+736,University of Oulu,University of Oulu,100,University of Oulu,100,University of Oulu,100
+737,New York University School of Law,Southwestern University School of Law,77,New York University,100,"City University of New York, School of Law at Queens College",100
+738,University Of Wisconsin- Madison,University of Wisconsin - Madison,98,University of Wisconsin - Madison,97,University of Wisconsin - Madison,100
+739,Universidad Alberto Hurtado,Universidad Alberto Hurtado,100,Universidad Alberto Hurtado,100,Universidad Alberto Hurtado,100
+740,University of York,University of York,100,University of York,100,City University of New York,100
+741,UFSCAR,Universidade Federal de São Carlos,100,Universidade Federal de São Carlos,100,Universidade Federal de São Carlos,100
+742,University Of Helsinki,University of Helsinki,100,University of Helsinki,100,Helsinki University of Technology,100
+743,Xi`an Jiaotong University,Xi'an Jiaotong University,96,Xi'an Jiaotong University,96,Xi'an Jiaotong-Liverpool University,100
+744,Florida Atlantic University,Florida Atlantic University,100,Atlantic University,100,Atlantic University,100
+745,"California State University, Long Beach","California State University, Long Beach",100,"California State University, Long Beach",100,"California State University, Long Beach",100
+746,Centre for Development Studies,University for Development Studies,81,University for Development Studies,87,University for Development Studies,87
+747,Osaka University,Osaka University,100,Osaka University,100,Osaka City University,100
+748,Washington State University,Washington State University,100,Washington State University,100,Washington State University,100

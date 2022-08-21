@@ -1,0 +1,310 @@
+,name,best_ratio_match,best_ratio,best_partial_ratio_match,best_partial_ratio,best_token_sort_ratio_match,best_token_sort_ratio
+0,"University of California, Los Angeles","University of California, Los Angeles",100,"University of California, Los Angeles",100,"University of California, Los Angeles",100
+1,Technical University Munich,Technical University in Kosice,84,Cag University,93,Riga Technical University,89
+2,University of Wisconsin-Madison,University of Wisconsin - Madison,97,University of Wisconsin - Madison,94,University of Wisconsin - Madison,100
+3,Stanford University,Stanford University,100,Stanford University,100,Stanford University,100
+4,University of Michigan,University of Michigan,100,University of Michigan,100,University of Michigan,100
+5,"University of California, Davis","University of California, Davis",100,"University of California, Davis",100,"University of California, Davis",100
+6,Texas A&M University,Texas A&M University,100,Texas A&M University,100,Texas A&M International University,100
+7,Toulouse School of Economics,European School of Economics,82,Kiev School Of Economics,88,Kiev School Of Economics,88
+8,Boston University,Boston University,100,Boston University,100,Boston University,100
+9,Florida State University,Florida State University,100,Florida State University,100,Florida State University,100
+10,Graduate Institute of International and Development Studies,Monterey Institute of International Studies,73,Pratt Institute,80,Monterey Institute of International Studies,88
+11,Carnegie Mellon University,Carnegie Mellon University,100,Carnegie Mellon University,100,Carnegie Mellon University,100
+12,"University of California, Berkeley","University of California, Berkeley",100,"University of California, Berkeley",100,"University of California, Berkeley",100
+13,Yale University,Yale University,100,Yale University,100,Yale University,100
+14,Humboldt-Universität zu Berlin,Humboldt Universität Berlin,91,Universität Ulm,87,Humboldt Universität Berlin,100
+15,Sharif University of Technology,Sharif University of Technology,100,Sharif University of Technology,100,Sharif University of Technology,100
+16,University of Oxford,University of Oxford,100,University of Oxford,100,University of Oxford,100
+17,Harvard University,Harvard University,100,Harvard University,100,Harvard University,100
+18,University of Chicago,University of Chicago,100,Loyola University of Chicago,100,Finch University of Health Sciences - The Chicago Medical School,100
+19,Penn State University,Pennsylvania State University,100,Pennsylvania State University,100,Pennsylvania State University,100
+20,The University of Texas at Austin,University of Texas at Dallas,86,University of Texas,100,University of Texas,100
+21,Columbia University in the City of New York,City University of New York,71,Columbia University,100,City University of New York,100
+22,"University of California, Santa Barbara","University of California, Santa Barbara",100,"University of California, Santa Barbara",100,"University of California, Santa Barbara",100
+23,Northwestern University,Northwestern University,100,Northwestern University,100,Northwestern Oklahoma State University,100
+24,European University Institute,European University Institute,100,European University,100,European University,100
+25,University of Minnesota-Twin Cities,University of Minnesota - Morris,81,University of Minnesota,100,University of Minnesota,100
+26,"University of California, Irvine","University of California, Irvine",100,"University of California, Irvine",100,"University of California, Irvine",100
+27,Ecole polytechnique fédérale de Lausanne,Ecole polytechnique fédérale de Lausanne,100,Ecole polytechnique fédérale de Lausanne,100,Ecole polytechnique fédérale de Lausanne,100
+28,American University,American University,100,American University,100,American Business & Technology University,100
+29,University of Chicago Booth School of Business,University of International Business,68,University of Chicago,100,University of Chicago,100
+30,The University of Chicago,University of Chicago,100,Loyola University of Chicago,100,Finch University of Health Sciences - The Chicago Medical School,100
+31,The Ohio State University,Ohio State University,100,Ohio State University,100,Ohio State University,100
+32,UC San Diego,"University of California, San Diego",100,"University of California, San Diego",100,"University of California, San Diego",100
+33,The London School of Economics and Political Science (LSE),"London School of Economics and Political Science, University of London",81,"London School of Economics and Political Science, University of London",91,"London School of Economics and Political Science, University of London",96
+34,University of Arizona,University of Arizona,100,University of Arizona,100,University of Arizona,100
+35,UNIVERSITY OF ILLINOIS URBANA-CHAMPAIGN,University of Illinois at Urbana-Champaign,96,University of Illinois,100,University of Illinois,100
+36,Stanford University Graduate School of Business,Harding University Graduate School of Religion,77,Stanford University,100,Stanford University,100
+37,University of Washington,University of Washington,100,University of Washington,100,University of Northern Washington,100
+38,University of Pennsylvania,University of Pennsylvania,100,Bloomsburg University of Pennsylvania,100,Bloomsburg University of Pennsylvania,100
+39,New York University,New York University,100,New York University,100,City University of New York,100
+40,Harvard University Kennedy School of Government,Harding University Graduate School of Religion,67,Harvard University,100,Harvard University,100
+41,Georgetown University,Georgetown University,100,Georgetown University,100,Georgetown University,100
+42,University of Toronto,University of Toronto,100,University of Toronto,100,University of Toronto,100
+43,Yonsei University,Yonsei University,100,Yonsei University,100,Yonsei University,100
+44,Massachusetts Institute of Technology - Sloan School of Management,Massachusetts Institute of Technology,72,Massachusetts Institute of Technology,100,Massachusetts Institute of Technology,100
+45,University of Southern California,University of Southern California,100,University of Southern California,100,University of Southern California,100
+46,Mayo Clinic School of Medicine,Mount Sinai School of Medicine,83,Fiji School of Medicine,91,Fiji School of Medicine,88
+47,University of California,"University of California, Davis",87,"University of California, Berkeley",100,California University of Management and Sciences,100
+48,University of Maryland,University of Maryland,100,University of Maryland at Baltimore,100,University of Maryland at Baltimore,100
+49,Duke University - The Fuqua School of Business,Jikei University School of Medicine,67,Duke University,100,Duke University,100
+50,Tsinghua University,Tsinghua University,100,Tsinghua University,100,Tsinghua University,100
+51,Massachusetts Institute of Technology,Massachusetts Institute of Technology,100,Massachusetts Institute of Technology,100,Massachusetts Institute of Technology,100
+52,The George Washington University,George Washington University,100,George Washington University,100,George Washington University,100
+53,Seoul National University,Seoul National University,100,National University,100,National University,100
+54,Durham University,Fordham University,86,Fordham University,88,University of Durham,100
+55,Brigham Young University - Idaho,Brigham Young University - Idaho,100,Brigham Young University - Idaho,100,Brigham Young University - Idaho,100
+56,The University of Chicago Booth School of Business,University of International Business,68,University of Chicago,100,University of Chicago,100
+57,University of Houston,University of Houston,100,University of Houston,100,University of Houston,100
+58,University of Texas at Austin,University of Texas at Dallas,86,University of Texas,100,University of Texas,100
+59,Cornell University,Cornell University,100,Cornell University,100,Cornell University,100
+60,Universit of Maryland,University of Maryland,98,University of Maryland at Baltimore,95,University of Maryland,98
+61,College of Creative Arts at West Virginia University,"College of Science, Baghdad University",64,West Virginia University,100,University of Virginia,100
+62,Pontifical Catholic University of Rio de Janeiro,Pontifícia Universidade Católica do Rio de Janeiro,71,Halic University,94,Catholic University of Korea,88
+63,Harvard Business School,"Irish University Business School, Cebu",78,Harvard University,100,Harvard University,100
+64,University of Colorado,University of Colombo,88,University of Colorado at Boulder,100,University of Colorado at Boulder,100
+65,Cornell University - Johnson Graduate School of Management,Keller Graduate School of Management,74,Cornell University,100,Cornell University,100
+66,London School of Economics and Political Science,"London School of Economics and Political Science, University of London",81,"London School of Economics and Political Science, University of London",100,"London School of Economics and Political Science, University of London",100
+67,Indiana University,Indian University,97,Indiana University at Bloomington,100,Indiana State University,100
+68,University of Minnesota,University of Minnesota,100,University of Minnesota - Crookston,100,University of Minnesota - Crookston,100
+69,Boston University Questrom School of Business,"Ross University, School of Medicine",68,Boston University,100,Boston University,100
+70,Arizona State University,Arizona State University,100,Arizona State University,100,Arizona State University,100
+71,Princeton University,Princeton University,100,Princeton University,100,Princeton University,100
+72,University of Mannheim,Universität Mannheim,86,University of Milan,89,Universität Mannheim,88
+73,University of Florida,University of Florida,100,University of Florida,100,Florida University of Medicine,100
+74,Osaka University,Osaka University,100,Osaka University,100,Osaka City University,100
+75,UC Irvine,"University of California, Irvine",100,"University of California, Irvine",100,"University of California, Irvine",100
+76,University of Maryland College Park,University of Maryland,100,University of Maryland,100,University of Maryland,100
+77,University of Pennsylvania - The Wharton School,University of Pennsylvania,71,University of Pennsylvania,100,University of Pennsylvania,100
+78,Claremont Graduate University,Claremont Graduate University,100,Claremont Graduate University,100,Claremont Graduate University,100
+79,University of Hamburg,University of Cambridge,86,University of Guam,89,Universität Hamburg,87
+80,Johns Hopkins University Advanced Academic Programs,"Johns Hopkins University, SAIS Bologna Center",65,Johns Hopkins University,100,Johns Hopkins University,100
+81,"University of Minnesota, Twin Cities",University of Minnesota - Morris,79,University of Minnesota,100,University of Minnesota,100
+82,Clemson University,Clemson University,100,Clemson University,100,Clemson University,100
+83,Catholic University of Sacred Heart,Catholic University of the Sacred Heart,95,Halic University,94,Sacred Heart University,100
+84,Harris School of Public Policy at the University of Chicago,Loyola University of Chicago,62,University of Chicago,100,University of Chicago,100
+85,Boston College,Boston College,100,Boston College,100,Boston College,100
+86,The University of Texas School of Law,University of Texas at Dallas,74,University of Texas,100,University of Texas,100
+87,University of Waterloo,University of Waterloo,100,University of Waterloo,100,University of Waterloo,100
+88,"University of California, San Diego","University of California, San Diego",100,"University of California, San Diego",100,"University of California, San Diego",100
+89,University of Zurich,University of Zürich,95,University of Zürich,95,Zurich University of Applied Sciences Winterthur,100
+90,"Wharton School, University of Pennsylvania",Mansfield University of Pennsylvania,79,University of Pennsylvania,100,University of Pennsylvania,100
+91,"University of California, Berkeley, Haas School of Business","University of California, Berkeley",73,"University of California, Berkeley",100,"University of California, Berkeley",100
+92,Syracuse University,Syracuse University,100,Syracuse University,100,State University of New York Health Sience Centre Syracuse,100
+93,Cornell Johnson Graduate School of Management,Keller Graduate School of Management,76,Cornell University,100,Cornell University,100
+94,University of Colorado Boulder,University of Colorado at Boulder,95,University of Oslo,94,University of Colorado at Boulder,100
+95,University of Illinois at Chicago,University of Illinois at Chicago,100,University of Illinois,100,University of Chicago,100
+96,NYU Stern School of Business,Riara University School of Business and Law,71,New York University,100,New York University,100
+97,Indiana University Bloomington,Indiana University at Bloomington,95,Indian University,94,Indiana University at Bloomington,100
+98,New York University School of Law,Southwestern University School of Law,77,New York University,100,"City University of New York, School of Law at Queens College",100
+99,Saint Louis University,Saint Louis University,100,Saint Louis University,100,University of Missouri - Saint Louis,100
+100,Catholic University of Louvain,Université catholique de Louvain,100,Université catholique de Louvain,100,Université catholique de Louvain,100
+101,UCLA,"University of California, Los Angeles",100,"University of California, Los Angeles",100,"University of California, Los Angeles",100
+102,Michigan State University,Michigan State University,100,Michigan State University,100,Michigan State University,100
+103,UNC Kenan-Flagler Business School,University of North Carolina at Greensboro,72,University of North Carolina,100,University of North Carolina,100
+104,Lomonosov Moscow State University (MSU),Moscow State University,74,Moscow State University,100,Moscow State University,100
+105,Northwestern University - Kellogg School of Management,Southwestern University School of Law,73,Northwestern University,100,Northwestern University,100
+106,University of Amsterdam,University of Amsterdam,100,University of Amsterdam,100,University of Amsterdam,100
+107,Vanderbilt University,Vanderbilt University,100,Vanderbilt University,100,Vanderbilt University,100
+108,Fundação Getúlio Vargas,Fundação Getulio Vargas,96,Fundação Getulio Vargas,96,Fundação Getulio Vargas,98
+109,New York University - Leonard N. Stern School of Business,New York University,100,New York University,100,New York University,100
+110,Savitribai Phule Pune University,Saint Paul University,72,Hue University,93,University of Pune,91
+111,The Wharton School,University of Pennsylvania,100,University of Pennsylvania,100,University of Pennsylvania,100
+112,University of Utah,University of Utah,100,University of Utah,100,University of Utah,100
+113,University of Notre Dame,University of Notre Dame,100,University of Notre Dame,100,University of Notre Dame,100
+114,University of Wisconsin - Madison,University of Wisconsin - Madison,100,University of Wisconsin - Madison,100,University of Wisconsin - Madison,100
+115,Imperial College London,Imperial College London,100,Imperial College London,100,Imperial College London,100
+116,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology,92,Massachusetts Institute of Technology,100,Massachusetts Institute of Technology,100
+117,University of Massachusetts Boston,University of Massachusetts at Boston,96,University of Massachusetts at Boston,91,Boston University,100
+118,Emory University,Emory University,100,Emory University,100,Emory University,100
+119,Carnegie Mellon University - Tepper School of Business,Riara University School of Business and Law,66,Carnegie Mellon University,100,Carnegie Mellon University,100
+120,Washington University in St. Louis,Washington University in St. Louis,100,Washington University in St. Louis,100,St. Louis University,100
+121,University of Cambridge,University of Cambridge,100,University of Cambridge,100,University of Cambridge,100
+122,International and Development Studies (IHEID),International Sakharov Environmental University,63,International College,71,International College,76
+123,Peking University,Peking University,100,Peking University,100,Peking University,100
+124,The Johns Hopkins University,Johns Hopkins University,100,Johns Hopkins University,100,Johns Hopkins University,100
+125,Purdue University,Purdue University,100,Indiana University-Purdue University at Columbus,100,Indiana University-Purdue University at Columbus,100
+126,University of Toronto Mississauga,"University of Toronto, Mississauga",99,University of Toronto,100,University of Toronto,100
+127,Universitat Pompeu Fabra,Universitat Pompeu Fabra,100,Universitat Pompeu Fabra,100,Universitat Pompeu Fabra,100
+128,Duke University,Duke University,100,Duke University,100,Duke University,100
+129,University of Warwick,University of Warwick,100,University of Warwick,100,University of Warwick,100
+130,University of Virginia,University of Virginia,100,University of Virginia,100,University of Northern Virginia,100
+131,University of Chinese Academy of Sciences,University of Technology and Life Sciences,75,University of Chester,90,IE University,87
+132,University of Illinois at Urbana-Champaign,University of Illinois at Urbana-Champaign,100,University of Illinois,100,University of Illinois,100
+133,Hong Kong University of Science and Technology,Hong Kong University of Science and Technology,100,Hong Kong University of Science and Technology,100,Hong Kong University of Science and Technology,100
+134,University of San Francisco,University of San Francisco,100,University of San Francisco,100,"University of California, San Francisco",100
+135,Università Bocconi,Università Bocconi,100,Università Bocconi,100,Università Bocconi,100
+136,West Virginia University,West Virginia University,100,West Virginia University,100,West Virginia University,100
+137,Johann Wolfgang Goethe-Universität Frankfurt am Main,Johann Wolfgang Goethe Universität Frankfurt am Main,98,Johann Wolfgang Goethe Universität Frankfurt am Main,98,Johann Wolfgang Goethe Universität Frankfurt am Main,100
+138,Central European University,Central European University,100,European University,100,European University,100
+139,SFI Swiss Finance Institute,Sichuan Fine Art Institute,64,Webb Institute,79,Institute of Finance,92
+140,Georgia State University - Andrew Young School of Policy Studies,State University of New York School of Engineering and Applied Sciences,64,Georgia State University,100,Georgia State University,100
+141,University of Rochester,University of Rochester,100,University of Rochester,100,University of Rochester,100
+142,Universidad de Chile,Universidad de Chile,100,Universidad de Chile,100,Pontificia Universidad Catolica de Chile,100
+143,UCL,University College London,100,University College London,100,"Birkbeck College, University of London",100
+144,"New York University, Stern School of Busines",Riara University School of Business and Law,69,New York University,100,New York University,100
+145,Trinity College Dublin,University College Dublin,81,ICT College,91,"University of Dublin, Trinity College",100
+146,Columbia University,Columbia University,100,Barnard College - Columbia University,100,Barnard College - Columbia University,100
+147,Brown University,Brown University,100,Brown University,100,Brown University,100
+148,UC Berkeley,"University of California, Berkeley",100,"University of California, Berkeley",100,"University of California, Berkeley",100
+149,University of St.Gallen,University of St. Gallen,98,University of St. Gallen,96,University of St. Gallen,100
+150,University of North Carolina at Chapel Hill - Kenan-Flagler Business School,University of North Carolina at Asheville,66,University of North Carolina,100,University of North Carolina,100
+151,University of Georgia,University of Georgia,100,University of Georgia,100,State University of West Georgia,100
+152,Southern Methodist University,Southern Methodist University,100,Southern Methodist University,100,Southern Methodist University,100
+153,Simon Fraser University,Simon Fraser University,100,Simon Fraser University,100,Simon Fraser University,100
+154,University of Calgary,University of Calgary,100,University of Calgary,100,University of Calgary,100
+155,The Australian National University,Australian National University,100,National University,100,National University,100
+156,Columbia University in the City of New,Columbia University,100,Columbia University,100,Columbia University,100
+157,UC Berkeley School of Information,"University of California, Berkeley",76,"University of California, Berkeley",100,"University of California, Berkeley",100
+158,George Mason University,George Mason University,100,George Mason University,100,George Mason University,100
+159,Western University,Western University,100,College of Osteopathic Medicine of the Pacific (Western University of Health Sciences),100,Case Western Reserve University,100
+160,Virginia Tech,Virginia College,69,Virginia Polytechnic Institute and State University (Virginia Tech),92,Virginia Polytechnic Institute and State University (Virginia Tech),100
+161,"University of California, San Diego - The Rady School of Management","University of California, San Diego",69,"University of California, San Diego",100,"University of California, San Diego",100
+162,University of Illinois Urbana-Champaign,University of Illinois at Urbana-Champaign,96,University of Illinois,100,University of Illinois,100
+163,University of Michigan - Stephen M. Ross School of Business,University of Sint Eustatius School of Medicine,64,University of Michigan,100,University of Michigan,100
+164,University of Copenhagen,Copenhagen University,100,Copenhagen University,100,Copenhagen University,100
+165,Yale Law School,Yale University,73,Yale University,100,Yale University,100
+166,University of California San Diego,"University of California, San Diego",99,"University of California, San Diego",97,"University of California, San Diego",100
+167,The University of British Columbia,University of British Columbia,100,University of British Columbia,100,Columbia University,100
+168,Columbia Engineering,Columbia University,76,Columbia University,100,Columbia University,100
+169,University of California-Berkeley,"University of California, Berkeley",96,"University of California, Berkeley",94,"University of California, Berkeley",100
+170,Yale School of Management,State University of Management,82,Yale University,100,Yale University,100
+171,University of Zürich,University of Zürich,100,University of Zürich,100,University of Zürich,100
+172,Ludwig-Maximilians-Universität München,Ludwig-Maximilians-Universität München,100,Ludwig-Maximilians-Universität München,100,Ludwig-Maximilians-Universität München,100
+173,University of New Mexico,University of New Mexico,100,University of New Mexico,100,University of New Mexico,100
+174,Tufts University,Tufts University,100,Tufts University,100,Tufts University,100
+175,Bocconi University,Boston University,86,Moi University,93,University of Commerce Luigi Bocconi,100
+176,UCLA Extension,"University of California, Los Angeles",88,"University of California, Los Angeles",100,"University of California, Los Angeles",100
+177,University of North Carolina at Chapel Hill,University of North Carolina at Asheville,88,University of North Carolina,100,University of North Carolina,100
+178,University of North Carolina,University of North Carolina,100,University of North Carolina at Asheville,100,University of North Carolina at Asheville,100
+179,The University of Georgia,University of Georgia,100,University of Georgia,100,State University of West Georgia,100
+180,Renmin University of China,Renmin University of China,100,Renmin University of China,100,Renmin University of China,100
+181,"Baruch College, City University of New York",City University of New York,77,City University of New York,100,City University of New York,100
+182,UCLA Anderson School of Management,"University of California, Los Angeles",100,"University of California, Los Angeles",100,"University of California, Los Angeles",100
+183,"Harvard University, John F. Kennedy School of Government",Harding University Graduate School of Religion,61,Harvard University,100,Harvard University,100
+184,Stockholm School of Economics,Stockholm School of Economics,100,Stockholm School of Economics in Riga,100,Stockholm School of Economics in Riga,100
+185,University of São Paulo,University of Sopron,84,University of Oslo,89,IE University,87
+186,Concordia University,Concordia University,100,"Concordia University, Austin",100,"Concordia University, Austin",100
+187,"St Xaviers College, Bangalore",Taoist College Singapore,72,Rivier College,86,St. Leo College,83
+188,National University of Singapore,National University of Singapore,100,National University,100,National University,100
+189,University of Tokyo,University of Tokyo,100,Science University of Tokyo,100,Science University of Tokyo,100
+190,"The Graduate Center, City University of New York",City University of New York,76,City University of New York,100,City University of New York,100
+191,Arizona State University - W. P. Carey School of Business,Riara University School of Business and Law,68,Arizona State University,100,Arizona State University,100
+192,MIT Sloan School of Management,Massachusetts Institute of Technology,73,Massachusetts Institute of Technology,100,Massachusetts Institute of Technology,100
+193,Universitat Pompeu Fabra - Barcelona,Universitat Pompeu Fabra,80,Universitat Pompeu Fabra,100,Universitat Pompeu Fabra,100
+194,California Institute of Technology,California Institute of Technology,100,California Institute of Technology,100,California Institute of Technology,100
+195,Chongqing University,Chongqing University,100,Chongqing University,100,Chongqing Medical University,100
+196,The University of Manchester,University of Manchester,100,University of Manchester,100,University of New Hampshire - Manchester,100
+197,Delhi School of Economics,Higher School of Economics,86,Barcelona Graduate School of Economics,88,Kiev School Of Economics,88
+198,Columbia Business School,"Irish University Business School, Cebu",77,Columbia University,100,Columbia University,100
+199,Lehigh University College of Business,Detroit College of Business,75,Lehigh Univervsity,94,Tri-College University,90
+200,David Geffen School of Medicine at UCLA,"University of California, Los Angeles",100,"University of California, Los Angeles",100,"University of California, Los Angeles",100
+201,Getulio Vargas Foundation / FGV,Fundação Getulio Vargas,100,Fundação Getulio Vargas,100,Fundação Getulio Vargas,100
+202,Cornell University Graduate School,Harding University Graduate School of Religion,72,Cornell University,100,Cornell University,100
+203,Cambridge University,Lansbridge University,88,Rider University,94,University of Cambridge,100
+204,"Indian Institute of Technology, Madras","Indian Institute of Technology, Madras",100,"Indian Institute of Technology, Madras",100,"Indian Institute of Technology, Madras",100
+205,Texas McCombs School of Business,Aarhus School of Business,74,Bifrost School of Business,81,Sauder School of Business,84
+206,UNSW,University of New South Wales,100,University of New South Wales,100,University of New South Wales,100
+207,University of Sussex,University of Sussex,100,University of Sussex,100,University of Sussex,100
+208,University of Connecticut,University of Connecticut,100,University of Connecticut,100,University of Connecticut,100
+209,BI Norwegian Business School,Asian Business School,78,Asian Business School,90,Norwegian School of Economics and Business Administration,94
+210,University of Warwick - Warwick Business School,University of Southern Europe (Monaco Business School),69,University of Warwick,100,University of Warwick,100
+211,University of Hong Kong,University of Hong Kong,100,Chinese University of Hong Kong,100,Chinese University of Hong Kong,100
+212,International University - VNU HCMC,International University - VNU-HCM,96,National University,100,International University,100
+213,The Johns Hopkins University School of Medicine,"Ross University, School of Medicine",85,Johns Hopkins University,100,Johns Hopkins University,100
+214,Rice University,Rice University,100,Rice University,100,Rice University,100
+215,DePaul University,DePaul University,100,DePaul University,100,DePaul University,100
+216,University of Essex,University of Essex,100,University of Essex,100,University of Essex,100
+217,Lingnan University,Lingnan University,100,Lingnan University,100,Lingnan University,100
+218,University of Pittsburgh - Joseph M. Katz Graduate School of Business,University of Pittsburgh at Greensburg,64,University of Pittsburgh,100,University of Pittsburgh,100
+219,University of Pittsburgh,University of Pittsburgh,100,University of Pittsburgh,100,University of Pittsburgh,100
+220,"Stanford University, Graduate School of Business",Harding University Graduate School of Religion,77,Stanford University,100,Stanford University,100
+221,"Trinity College, Dublin",University College Dublin,79,ICT College,91,"University of Dublin, Trinity College",100
+222,London Business School,London Business School,100,London Business School,100,London Business School,100
+223,The London School of Economics and Political Science,"London School of Economics and Political Science, University of London",81,"London School of Economics and Political Science, University of London",100,"London School of Economics and Political Science, University of London",100
+224,"Indian Institute of Management, Calcutta","Indian Institute of Management, Tiruchirappalli",80,Minsk Institute of Management,90,Minsk Institute of Management,88
+225,University of Kent,University of Kent,100,University of Kentucky,100,"University of Maine, Fort Kent",100
+226,University in St. Louis,Washington University in St. Louis,81,Washington University in St. Louis,100,St. Louis University,100
+227,University of AmsterdamUniversity of Amsterdam,University of Maryland University College,69,University of Amsterdam,100,University of Amsterdam,100
+228,Brandeis University,Brandeis University,100,Brandeis University,100,Brandeis University,100
+229,Case Western Reserve University School of Medicine,Windsor University School of Medicine,78,Case Western Reserve University,100,Case Western Reserve University,100
+230,Korea Advanced Institute of Science and Technology,Korea Advanced Institute of Science & Technology,96,Institute of Science and Technology,100,Institute of Science and Technology,100
+231,SVKM's Narsee Monjee Institute of Management Studies (NMIMS),Narsee Monjee Institute of Management Studies,86,Narsee Monjee Institute of Management Studies,100,Narsee Monjee Institute of Management Studies,100
+232,Yale University - Yale School of Management,State University of Management,74,Yale University,100,Yale University,100
+233,Università Commerciale 'Luigi Bocconi'​,University of Commerce Luigi Bocconi,85,University of Commerce Luigi Bocconi,86,Università Bocconi,100
+234,University of Southern California - Marshall School of Business,University of Southern California,69,University of Southern California,100,Marshall University,100
+235,University of Wisconsin-La Crosse,University of Wisconsin - La Crosse,97,University of Wisconsin - La Crosse,94,University of Wisconsin - La Crosse,100
+236,University of Minnesota Twin Cities,University of Minnesota - Morris,81,University of Minnesota,100,University of Minnesota,100
+237,Università Commerciale 'Luigi Bocconi',University of Commerce Luigi Bocconi,86,University of Commerce Luigi Bocconi,86,Università Bocconi,100
+238,University of Michigan Medical/Graduate School,University of Michigan,100,University of Michigan,100,University of Michigan,100
+239,University of Wyoming College of Business,University of Wales College of Medicine,75,University of Wyoming,100,University of Wyoming,100
+240,"University of Nevada, Reno",University of Nevada - Reno,94,University of Nevada - Reno,92,University of Nevada - Reno,100
+241,Queen's University,Queen's University,100,Queen's University,100,Queen's University,100
+242,Technical University Berlin,Technical University of Lublin,88,Cag University,93,Georgian Technical University,89
+243,Northern Illinois University,Northern Illinois University,100,Northern Illinois University,100,Northern Illinois University,100
+244,The Hong Kong University of Science and Technology,Hong Kong University of Science and Technology,100,Hong Kong University of Science and Technology,100,Hong Kong University of Science and Technology,100
+245,Columbia University - Columbia Business School,Capital University of Economics and Business,67,Columbia University,100,Columbia University,100
+246,MIT,Massachusetts Institute of Technology,100,Massachusetts Institute of Technology,100,Massachusetts Institute of Technology,100
+247,University of Oxford (Lincoln College),University of Trinity College,75,University of Oxford,100,University of Lincoln,100
+248,Paris School of Economics,Warsaw School of Economics,90,Warsaw School of Economics,92,Warsaw School of Economics,90
+249,Queen Mary University of London,Queen Mary University of London,100,Queen Mary University of London,100,Queen Mary University of London,100
+250,IPADE Business School,Asian Business School,86,FAE Business School - Faculdade de Administração e Economia,86,Asian Business School,86
+251,University of Milan-Bicocca,University of Milan - Bicocca,96,University of Milan,100,University of Milan,100
+252,Sciences Po,Science University of Tokyo,53,Institut d'Etudes Politiques de Paris (Sciences Po),100,Institut d'Etudes Politiques de Paris (Sciences Po),100
+253,The University of Kansas,University of Kansas,100,University of Kansas,100,University of Kansas,100
+254,Southern Methodist University - Cox School of Business,Southern Methodist University,70,Southern Methodist University,100,Southern Methodist University,100
+255,Instituto Tecnológico Autónomo de México,Instituto Tecnológico Autonómo de México,95,Instituto Tecnológico Autonómo de México,95,Instituto Tecnológico Autonómo de México,97
+256,Rockhurst University,Rockhurst University,100,Rockhurst University,100,Rockhurst University,100
+257,"University of California, Santa Cruz","University of California, Santa Cruz",100,"University of California, Santa Cruz",100,"University of California, Santa Cruz",100
+258,Boston College Law School,Boston College,72,Boston College,100,Boston College,100
+259,Caltech,California Institute of Technology,100,California Institute of Technology,100,California Institute of Technology,100
+260,Rutgers University–New Brunswick,University of New Brunswick,78,Rutgers University,100,Rutgers University,100
+261,Pierre and Marie Curie University,Université Pierre et Marie Curie (Paris VI),100,Université Pierre et Marie Curie (Paris VI),100,Université Pierre et Marie Curie (Paris VI),100
+262,Pennsylvania State University,Pennsylvania State University,100,Pennsylvania State University,100,Pennsylvania State University,100
+263,The Chinese University of Hong Kong,Chinese University of Hong Kong,100,Chinese University of Hong Kong,100,Chinese University of Hong Kong,100
+264,University of Massachusetts Amherst,University of Massachusetts at Amherst,96,University of Massachusetts at Amherst,91,University of Massachusetts at Amherst,100
+265,Fielding Graduate University,Claremont Graduate University,77,Art University,93,IE University,87
+266,The Johns Hopkins University - Carey Business School,Johns Hopkins University,67,Johns Hopkins University,100,Johns Hopkins University,100
+267,University of Oregon,University of Oregon,100,University of Oregon,100,University of Oregon,100
+268,Harvard Kennedy School,Harvard University,71,Harvard University,100,Harvard University,100
+269,UNIVERSITY OF CALIFORNIA – BERKELEY,"University of California, Berkeley",96,"University of California, Berkeley",94,"University of California, Berkeley",100
+270,University of Delaware,University of Delaware,100,University of Delaware,100,University of Delaware,100
+271,"CFA Institute, The Global Association of Investment Professionals",MGH Institute of Health Professions,56,Pratt Institute,73,The Union Institute,81
+272,Maastricht University School of Business and Economics,University of Maastricht,100,University of Maastricht,100,University of Maastricht,100
+273,Paris 1 Panthéon-Sorbonne University,Paris-Sorbonne University Abu Dhabi,70,IE University,92,Université Panthéon-Sorbonne (Paris I),96
+274,Johannes Gutenberg University Mainz,Johannes-Gutenberg Universität Mainz,93,Ege University,93,Johannes-Gutenberg Universität Mainz,97
+275,Rutgers University,Rutgers University,100,Rutgers University,100,Rutgers University,100
+276,Santa Barbara City College,Shanghai City College,72,ICT College,91,Grove City College,80
+277,Université Paris-Saclay,Universität Passau,73,Université d'Artois,79,Université Denis Diderot (Paris VII),81
+278,University of Cincinnati College of Business,University of International Business,78,University of Cincinnati,100,University of Cincinnati,100
+279,Fundação Getulio Vargas,Fundação Getulio Vargas,100,Fundação Getulio Vargas,100,Fundação Getulio Vargas,100
+280,University of California - Los Angeles,"University of California, Los Angeles",96,"University of California, Los Angeles",95,"University of California, Los Angeles",100
+281,Tilburg University,Tilburg University,100,Tilburg University,100,Tilburg University,100
+282,Aalto University,Dawat University,88,Kitasato University,94,Dawat University,88
+283,University of Geneva,University of Geneva,100,University of Geneva,100,University of Geneva,100
+284,The Pennsylvania State University,Pennsylvania State University,100,Pennsylvania State University,100,Pennsylvania State University,100
+285,Supply Chain Management,European Management School,61,KDI School of Public Policy and Management,74,Asian Management Institute,69
+286,University of California Los Angeles (Anderson School),"University of California, Los Angeles",100,"University of California, Los Angeles",100,"University of California, Los Angeles",100
+287,Texas Tech University,Texas Tech University,100,Texas Tech University,100,Texas Tech University,100
+288,New York University Stern School  of Business,Riara University School of Business and Law,71,New York University,100,New York University,100
+289,University of Utah - David Eccles School of Business,University of Sint Eustatius School of Medicine,67,University of Utah,100,University of Utah,100
+290,University of Michigan School of Public Health,University of Michigan - Flint,74,University of Michigan,100,University of Michigan,100
+291,"University of California, Berkeley - School of Law","University of California, Berkeley",81,"University of California, Berkeley",100,"University of California, Berkeley",100
+292,London School of Economics,European School of Economics,81,"London School of Economics and Political Science, University of London",100,"London School of Economics and Political Science, University of London",100
+293,Indira Gandhi National Open University,Indira Gandhi National Open University,100,Open University,100,National University,100
+294,UT Health San Antonio,University of Texas at San Antonio,100,University of Texas at San Antonio,100,University of Texas at San Antonio,100
+295,Université Lumière Lyon 2,Université Lumiére (Lyon II),87,Université Lumiére (Lyon II),92,Université Lumiére (Lyon II),95
+296,University of York,University of York,100,University of York,100,City University of New York,100
+297,Monash University,Monash University,100,Monash University,100,Monash University,100
+298,University of Chicago Law School,University of Chicago,79,University of Chicago,100,University of Chicago,100
+299,The University of Toledo,University of Toledo,100,University of Toledo,100,University of Toledo,100
+300,The University of Iowa Tippie College of Business,University of Wales College of Medicine,76,University of Iowa,100,University of Iowa,100
+301,UC Santa Barbara,"University of California, Santa Barbara",100,"University of California, Santa Barbara",100,"University of California, Santa Barbara",100
+302,University of Toronto - Rotman School of Management,American-European School of Management ,67,University of Toronto,100,University of Toronto,100
+303,HKUST Business School,Hong Kong University of Science and Technology,85,Hong Kong University of Science and Technology,100,Hong Kong University of Science and Technology,100
+304,Smith School of Business at Queen's University,School of Business and Finance,63,Queen's University,100,Queen's University,100
+305,University of London,University of London,100,"British Institute in Paris, University of London",100,"British Institute in Paris, University of London",100
+306,European Academy,Modern Acadmy,69,European Academy of Arts in Warsaw,100,European Regional Educational Academy of Armenia,100
+307,Bilkent University,Bilkent University,100,Bilkent University,100,Bilkent University,100
+308,University of Minnesota Law School,University of Minnesota - Crookston,81,University of Minnesota,100,University of Minnesota,100
