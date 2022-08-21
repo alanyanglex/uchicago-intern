@@ -3,7 +3,7 @@ from fuzzywuzzy import fuzz
 import re
 import os
 import string
-import math
+
 
 # For the university name that contains second level school/college name, parse the school/college name
 def strip_school(name, best_partial_ratio_match):
@@ -24,8 +24,10 @@ def strip_school(name, best_partial_ratio_match):
     school = school.replace('(','')
     school = school.replace(')','')
 
-    # Creates a map of university names and their potential school name in the with a defined subset file from school_types.csv
-    # If there exists a school with the same university and school name, it changes the school to that name, if not, it saves the name
+    # Creates a map of university names and their potential school name
+    # with a defined subset file from school_types.csv
+    # If there exists a school with the same university and school name,
+    # it changes the school to that name, if not, it saves the name
     if s_match in university_map:
         if len(school) > 0:
             for school_type in s_types:
@@ -42,8 +44,8 @@ def strip_school(name, best_partial_ratio_match):
                 if school_type in school:
                     university_map[s_match][school_type] = school
                     break
-    #print(school)
     return school.strip()
+
 
 # For second level school/college that's parsed from original university name, do a little clean up
 def sanitize_school(school_name):
@@ -56,6 +58,7 @@ def sanitize_school(school_name):
     school_name = re.sub('\s+',' ', school_name)
     return school_name
 
+
 # Pre-process to clean up the unversity name
 def sanitize_name(name):
     # lower case, trimmed
@@ -67,14 +70,14 @@ def sanitize_name(name):
     name = re.sub('\s+',' ', name)
 
     # replace acronyms
-    namesplit = name.split()
-    firstword = namesplit[0]
-    if firstword in acronyms and name.find(acronyms[firstword].lower()) == -1:
-        name = acronyms[firstword]
-        if len(namesplit) > 1:
-            name = name + ' ' + ' '.join(namesplit[1:])
-        #print(f"replaced by acronym: {name}")
+    name_split = name.split()
+    first_word = name_split[0]
+    if first_word in acronyms and name.find(acronyms[first_word].lower()) == -1:
+        name = acronyms[first_word]
+        if len(name_split) > 1:
+            name = name + ' ' + ' '.join(name_split[1:])
     return name
+
 
 # Perform the match for a university
 # First match using special match rules. If there is no special match for the name, use fuzzy match
@@ -90,6 +93,7 @@ def match(name, loc):
                                          'best_token_sort_ratio': 100})
     else:
         fuzzy_match(name, loc)
+
 
 # Perform fuzzy match for each unique university name and find the best matches
 # using best_ratio, best_partial_ratio, best_partial_ratio matches.
@@ -154,7 +158,8 @@ def decision(name, cleaned_name, best_ratio_match, best_ratio, best_partial_rati
             'school': strip_school(cleaned_name, best_partial_ratio_match if best_partial_ratio == 100 else best_token_sort_ratio_match),
             'confidence': 'high'})
     else:
-        # matches with less confidence, but still replace, confidence value also indicates the type of match and its match ratio value
+        # matches with less confidence, but still replace,
+        # confidence value also indicates the type of match and its match ratio value
         if best_ratio > 92:
             sanitized_row = pd.Series({'orig': name, 'name': best_ratio_match, 'school': '', 'confidence': f'ratio-{best_ratio}'})
         elif best_partial_ratio > 95:
@@ -165,17 +170,19 @@ def decision(name, cleaned_name, best_ratio_match, best_ratio, best_partial_rati
         elif best_ratio_match == best_partial_ratio_match and best_ratio_match == best_token_sort_ratio_match:
             sanitized_row = pd.Series({'orig': name, 'name': best_ratio_match, 'school': '', 'confidence': 'same-name'})
         else:
-        # confidence is low and we'll not replace the original university name in the source data
+            # confidence is low and we'll not replace the original university name in the source data
             sanitized_row = pd.Series(
                 {'orig': name, 'name': name, 'school': '', 'confidence': 'not changed'})
 
     return sanitized_row
+
 
 # read in all university names into all_world_names data frame
 def read_all_schools():
     all_world = pd.read_csv(f"{dir_path}/data/world-universities.csv", header=None)
     all_world_names = all_world[1]
     return all_world_names
+
 
 # read in all acronyms into acronyms data frame
 def read_acronyms():
@@ -200,76 +207,48 @@ def read_school_types():
     return school_types
 
 
-def harmanize_source(sanitize_rules_map):
-    source = pd.DataFrame(data, columns=['newid', 'Institution of highest degree obtained'])
-    updated_source = pd.DataFrame([], columns=['newid', 'Institution of highest degree obtained', 'name'])
-
+# Based on rule mapping, update and replace source file
+def harmonize_source_data(source, sanitize_rules_map, source_columns, school_columns):
+    updated_source_columns = []
+    for source_column in source_columns:
+        updated_source_columns = updated_source_columns + [source_columns]
+        if source_column in school_columns:
+            updated_source_columns = updated_source_columns + [source_column + "_updated"]
+    updated_source_data = pd.DataFrame([], columns=updated_source_columns)
     i = 0
+    replace = {}
     for index, row in source.iterrows():
-        orig_name = row['Institution of highest degree obtained']
-        if orig_name in sanitize_rules_map:
-            value = sanitize_rules_map[orig_name]
-            updated_source.loc[i] = pd.Series(
-                    {'newid': row['newid'], 'Institution of highest degree obtained': row['Institution of highest degree obtained'],
-                     'name': value[0] if str(value[1]) == 'nan' else str(value[0]) + " - " + string.capwords(str(value[1]), sep = None)})
-        else:
-            updated_source.loc[i] = pd.Series(
-                {'newid': row['newid'],
-                 'Institution of highest degree obtained': row['Institution of highest degree obtained'],
-                 'name': ''})
-        i += 1
-    return updated_source
+        for school_column in school_columns:
+            orig = row[school_column]
+            if orig in sanitize_rules_map:
+                value = sanitize_rules_map[orig]
+                replace[school_column] = value[0] if str(value[1]) == 'nan' else str(value[0]) + " - " + string.capwords(
+                    str(value[1]), sep=None)
+            else:
+                replace[school_column] = ''
 
-def harmanize_early_degrees(sanitize_rules_map):
-    source = pd.DataFrame(early_degrees, columns=['newid', 'Undergrad School', 'Master\'s Degree School'])
-    updated_early_degrees = pd.DataFrame([], columns=['newid', 'Undergrad', 'Master', 'Sanitized Undergrad',
-                                                      'Sanitized Master'])
-    i = 0
-    for index, row in source.iterrows():
-        orig_undergrad = row['Undergrad School']
-        orig_master = row['Master\'s Degree School']
-        if orig_undergrad in sanitize_rules_map:
-            value = sanitize_rules_map[orig_undergrad]
-            replace_undergrad = value[0] if str(value[1]) == 'nan' else str(value[0]) + " - " + string.capwords(str(value[1]), sep=None)
-        else:
-            replace_undergrad = ''
+    updated_row = {}
+    for source_column in source_columns:
+        updated_row[source_column] = row[source_column]
+        if source_column in school_columns:
+            updated_row[source_column + '_updated'] = replace[school_column]
 
-        if orig_master in sanitize_rules_map:
-            value = sanitize_rules_map[orig_master]
-            replace_master = value[0] if str(value[1]) == 'nan' else str(value[0]) + " - " + string.capwords(str(value[1]), sep=None)
-        else:
-            replace_master = ''
+    updated_source_data.loc[i] = pd.Series(updated_row)
 
-        updated_early_degrees.loc[i] = pd.Series(
-            {
-                'newid': row['newid'],
-                'Undergrad': row['Undergrad School'],
-                'Master': row['Master\'s Degree School'],
-                'Sanitized Undergrad': replace_undergrad,
-                'Sanitized Master': replace_master
-            }
-        )
+    return updated_source_data
 
-        i += 1
-    return updated_early_degrees
 
-def main():
-    # step 1: build mapping rules
-
+# Based on source data, perform fuzzy match and produce a mapping rule file
+def produce_sanitize_rule(source, school_columns, scoreboard_file, sanitize_rule_file):
+    all_name_list = pd.DataFrame(columns=['college'])
     # Read all school names from data file
-    name_list = data[['Institution of highest degree obtained']]  #pd.DataFrame(data, columns=['Institution of highest degree obtained'])
-    name_list.columns = ['college']
-    undergrad_list = early_degrees[['Undergrad School']] #pd.DataFrame(early_degrees, columns=['Undergrad School'])
-    undergrad_list.columns = ['college']
-    master_list = early_degrees[['Master\'s Degree School']] #pd.DataFrame(early_degrees, columns=['Master\'s Degree School'])
-    master_list.columns = ['college']
-    all_name_list = pd.concat([name_list, undergrad_list, master_list],axis=0)
+    for school_column in school_columns:
+        name_list = source[[
+            school_column]]  # pd.DataFrame(data, columns=['Institution of highest degree obtained'])
+        name_list.columns = ['college']
+        all_name_list = pd.concat([all_name_list, name_list], axis=0)
     all_name_list.dropna(inplace=True)
-
-    # Only get the unique school names to perform the match
-    # The output of the matches will be saved as a set of replacement rules in sanitize_rules
-    # It will be used to replace the university names in the original source data set
-    unique_name_list = all_name_list["college"].unique();
+    unique_name_list = all_name_list["college"].unique()
 
     i = 0
     for name in unique_name_list:
@@ -281,27 +260,54 @@ def main():
         i += 1
 
     # save scoreboard data set to csv file
-    scoreboard.to_csv(f"{dir_path}/data/scoreboard.csv")
-    # save santize_rules data set to csv file
-    sanitize_rules.to_csv(f"{dir_path}/data/sanitize_rules.csv")
+    scoreboard.to_csv(f"{dir_path}/data/{scoreboard_file}")
+    # save sanitize_rules data set to csv file
+    sanitize_rules.to_csv(f"{dir_path}/data/{sanitize_rule_file}")
+
+
+# Process data in two steps: fuzzy match and produce rules, replace source file based on rules
+def process_source_file(source_file, updated_source_file, source_columns, school_columns, scoreboard_file, sanitize_rules_file):
+    # step 1: build mapping rules
+    source = pd.read_csv(f"{dir_path}/data/{source_file}")
+    produce_sanitize_rule(source, school_columns, scoreboard_file, sanitize_rules_file)
 
     # step 2: replace the university name based on mapping rules
-    sanitize_rules_df = pd.read_csv(f"{dir_path}/data/sanitize_rules.csv", usecols=['orig', 'name', 'school'])
-
+    sanitize_rules_df = pd.read_csv(f"{dir_path}/data/{sanitize_rules_file}", usecols=['orig', 'name', 'school'])
     sanitize_rules_map = {k: (v1, v2) for k, v1, v2 in
                           zip(sanitize_rules_df.orig, sanitize_rules_df.name, sanitize_rules_df.school)}
-    updated_source = harmanize_source(sanitize_rules_map)
-    updated_source.to_csv(f"{dir_path}/data/updated_source.csv")
+    updated_source = harmonize_source_data(source, sanitize_rules_map, source_columns, school_columns)
+    updated_source.to_csv(f"{dir_path}/data/{updated_source_file}")
 
-    updated_early_degrees = harmanize_early_degrees(sanitize_rules_map)
-    updated_early_degrees.to_csv(f"{dir_path}/data/updated_early_degrees.csv")
+
+def process_highest_degrees():
+    source_file = 'alan_highest_degree.csv'
+    updated_source_file = 'updated_source.csv'
+    source_columns = ['newid', 'Institution of highest degree obtained']
+    school_columns = ['Institution of highest degree obtained']
+    scoreboard_file = 'scoreboard_highest_degree.csv'
+    sanitize_rules_file = 'sanitize_rules_highest_degree.csv'
+    process_source_file(source_file, updated_source_file, source_columns, school_columns, scoreboard_file, sanitize_rules_file)
+
+
+def process_early_degrees():
+    source_file = 'alan_early_degrees.csv'
+    updated_source_file = 'updated_early_degrees.csv'
+    source_columns = ['newid', 'Undergrad School', 'Master\'s Degree School']
+    school_columns = ['Undergrad School', 'Master\'s Degree School']
+    scoreboard_file = 'scoreboard_early_degrees.csv'
+    sanitize_rules_file = 'sanitize_rules_early_degrees.csv'
+    process_source_file(source_file, updated_source_file, source_columns, school_columns, scoreboard_file, sanitize_rules_file)
+
+
+def main():
+    #process_highest_degrees()
+    process_early_degrees()
 
 
 # global values
 dir_path = os.path.dirname(os.path.realpath(__file__))
 
 # read university names from source data set
-data = pd.read_csv(f"{dir_path}/data/alan_highest_degree.csv")
 early_degrees = pd.read_csv(f"{dir_path}/data/alan_early_degrees.csv")
 # read all university names in the world
 all_school_names = read_all_schools()
