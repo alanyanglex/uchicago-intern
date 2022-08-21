@@ -2638,7 +2638,9 @@ BR,Centro Universitário Senac,http://www.sp.senac.br/
 BR,Centro Universitário Serra dos Órgãos,http://www.unifeso.edu.br/
 BR,EMESCAM - Escola Superior de Ciências da Santa Casa de Misericórdia de Vitória,http://www.emescam.br/
 BR,Escola De Administracao De Empresas De Sao Paulo,https://eaesp.fgv.br/
+BR,"Escola de Economia de São Paulo - Fundação Getulio Vargas",https://eesp.fgv.br/
 BR,Escola Politecnica da Universidade de Sao Paulo,https://www.poli.usp.br/
+BR,EPGE Brazilian School of Economics and Finance,https://epge.fgv.br/
 BR,FAAP - Fundação Armando Alvares Penteado,http://www.faap.br/
 BR,Fundação Getulio Vargas,https://portal.fgv.br/
 BR,Faculdade Integradas do Ceará,http://www.fic.br/
@@ -2654,6 +2656,7 @@ BR,Ibmec Sao Paulo,https://www.ibmec.br/
 BR,Instituto Mauá de Tecnologia,http://www.maua.br/
 BR,Instituto Nacional de Matemática Pura e Aplicada - IMPA,http://www.impa.br/
 BR,Instituto Tecnológico de Aeronáutica,http://www.ita.br/
+BR,Insper Institute of Education and Research,https://www.insper.edu.br/
 BR,Pontifícia Universidade Católica de Campinas,http://www.puccamp.br/
 BR,Pontifícia Universidade Católica de Minas Gerais,http://www.pucminas.br/
 BR,Pontifícia Universidade Católica de São Paulo,http://www.pucsp.br/
@@ -3019,6 +3022,7 @@ CH,Franklin College Switzerland,http://www.fc.edu/
 CH,Geneva Business School,http://www.gbs-ge.ch/
 CH,Glion Institute of Higher Education,http://www.glion.edu/
 CH,Graduate School of Business Administration Zurich (GSBA Zurich),http://www.gsba.ch/
+CH,The Graduate Institute Of International and Development Studies,http://www.geneve-int.ch/
 CH,Hochschule für Gestaltung und Kunst Zürich,http://www.hgkz.ch/
 CH,International Culinary Institute (ICI),http://www.ici-luzern.com/
 CH,International Hotel Management Institute,http://www.imi-luzern.com/
@@ -3198,6 +3202,7 @@ CN,China University of Mining Technology - Xuzhou,http://www.cumt.edu.cn/
 CN,China University of Political Science and Law,http://www.cupl.edu.cn/
 CN,China USA Business University,http://www.cubu.edu/
 CN,China youth college for political science,http://www.cyc.edu.cn/
+CN,Chinese Academy Of Social Sciences,https://council.science/
 CN,Chinese People's Public Security University,http://www.cppsu.edu.cn/
 CN,Chongqing Education College,http://www.cqec.net.cn/
 CN,Chongqing Medical University,http://www.cqmu.edu.cn/
@@ -3841,6 +3846,7 @@ DE,Fachhochschule Weihenstephan,http://www.fh-weihenstephan.de/
 DE,"Fachhochschule Westküste, Hochschule für Wirtschaft und Technik",http://www.fh-westkueste.de/
 DE,Fachhochschule Wiesbaden,http://www.fh-wiesbaden.de/
 DE,Fachhochschule Worms,http://www.fh-worms.de/
+DE,Frankfurt School of Finance & Management,https://www.frankfurt-school.de/
 DE,Fachhochschule Würzburg - Schweinfurt,http://www.fh-wuerzburg.de/
 DE,Fern-Fachhochschule Hamburg,http://www.fern-fh.de/
 DE,Fernuniversität Gesamthochschule Hagen,http://www.fernuni-hagen.de/
@@ -3881,6 +3887,7 @@ DE,"Hochschule Wismar, Fachhochschule für Technik, Wirtschaft und Gestaltung",h
 DE,Hochschule Zittau/Görlitz (FH),http://www.hs-zigr.de/
 DE,Humboldt Universität Berlin,http://www.hu-berlin.de/
 DE,HWP - Hamburger Universität für Wirtschaft und Politik,http://www.hwp-hamburg.de/
+DE,"HWR Berlin: Hochschule für Wirtschaft und Recht Berlin",https://www.hwr-berlin.de/
 DE,Internationale Fachhochschule Aalen,http://www.international.fh-aalen.de/
 DE,Internationale Fachhochschule Bad Honnef,http://www.fh-bad-honnef.de/
 DE,Internationales Hochschulinstitut Zittau,http://www.ihi-zittau.de/
@@ -3889,7 +3896,7 @@ DE,"International School of New Media, University of Lübeck",http://www.isnm.de
 DE,International University in Germany,http://www.i-u.de/
 DE,Jacobs University Bremen,http://www.jacobs-university.de/
 DE,Johannes-Gutenberg Universität Mainz,http://www.uni-mainz.de/
-DE,Johann Wolfgang Goethe Universität Frankfurt am Main,http://www.uni-frankfurt.de/
+DE,Johann Wolfgang Goethe Universität Frankfurt am Main,https://www.goethe-university-frankfurt.de/
 DE,Justus Liebig Universität Gießen,http://www.uni-giessen.de/
 DE,Karlshochschule International University,http://www.karlshochschule.de/
 DE,Katholische Fachhochschule Berlin (KFB),http://www.kfb-berlin.de/
@@ -4196,6 +4203,7 @@ ER,Eritrea Institute of Technology,http://www.eit.edu.er/
 ES,Barcelona Graduate School of Economics,http://www.barcelonagse.eu/
 ES,Bircham International University,http://www.bircham.edu/
 ES,Centro Universitario Villanueva,http://www.villanueva.edu/
+ES,Centros de Estudios Monetarios y Financieros (CEMFI),https://www.cemfi.es/
 ES,Escuela Superior de Gestion Comercial y Marketing (ESIC),http://www.esic.es/
 ES,Global Business School Barcelona,http://www.global-business-school.org/
 ES,IE University,http://www.ie.edu/
@@ -4490,6 +4498,7 @@ FR,European Management Center Paris,http://www.emc-campus.com/
 FR,Grenoble Ecole de Management,http://www.grenoble-em.com/
 FR,Groupe Sup de Co Amiens Picardie,http://www.supco-amiens.fr/
 FR,Groupe Sup de Co Montpellier,http://www.supco-montpellier.fr/
+FR,HEC Paris,https://www.hec.edu/
 FR,IDRAC (Institut de recherche en action commerciale),http://www.ecoles-idrac.com/
 FR,Institut Catholique d'Arts et Métiers Lille,http://www.icam.fr/
 FR,Institut Catholique d'Arts et Métiers Nantes,http://www.icam.fr/presentation/nantes.htm
@@ -4587,7 +4596,7 @@ FR,Université Michel de Montaigne (Bordeaux III ),http://www.montaigne.u-bordea
 FR,Université Montesquieu (Bordeaux IV),http://www.montesquieu.u-bordeaux.fr/
 FR,Université Nancy II,http://www.univ-nancy2.fr/
 FR,Université Panthéon-Assas (Paris II),http://www.u-paris2.fr/
-FR,Université Panthéon-Sorbonne (Paris I),http://www.univ-paris1.fr/
+FR,Université Panthéon-Sorbonne (Paris I),https://www.pantheonsorbonne.fr/
 FR,Université Paris-Dauphine (Paris IX),http://www.dauphine.fr/
 FR,Université Paris Nanterre (Paris X),http://www.u-paris10.fr/
 FR,Université Paris Nord (Paris XIII),http://www.univ-paris13.fr/
@@ -4932,6 +4941,7 @@ HU,Andrassy Gyula German Speaking University Budapest,http://www.andrassyuni.hu/
 HU,Avicenna International College,http://www.avicenna.hu/
 HU,Budapest Buddhist University,http://www.tkbf.hu/
 HU,Budapest University of Economic Sciences and Public Administration,http://www.bke.hu/
+HU,Budapesti Corvinus Egyetem,https://www.uni-corvinus.hu/
 HU,Central European University,http://www.ceu.hu/
 HU,College of Dunaujvaros,http://www.duf.hu/
 HU,Dániel Berzsenyi Teacher Training College,http://www.bdtf.hu/
@@ -5256,6 +5266,7 @@ IN,Dayalbagh Educational Institute,http://www.dei.ac.in/
 IN,Deccan College Postgraduate and Research Institute,http://www.deccancollegepune.ac.in/
 IN,Deen Dayal Upadhyay Gorakhpur University,http://www.ddugu.edu.in/
 IN,Delhi College of Engineering (DCE),http://www.dceonline.net/
+IN,Delhi School of Economics,http://econdse.org/
 IN,Devi Ahilya University of Indore,http://www.davv.ac.in/
 IN,Dhirubhai Ambani Institute of Information and Communication Technology,http://www.da-iict.org/
 IN,Dibrugarh University,http://www.dibru.ernet.in/
@@ -5369,6 +5380,7 @@ IN,Kuvempu University,http://www.kuvempu.ac.in/
 IN,Lakshmibai National Institute of Physical Education,http://www.lnipe.edu/
 IN,Lalit Narayan Mithila University,http://lnmu.bih.nic.in/
 IN, L.D.College of Engineering,http://www.ldceahd.org/
+IN,Lady Shri Ram College For Women,https://lsr.edu.in/
 IN,Madhya Pradesh Bhoj (Open) University,http://www.mpbou.org/
 IN,Madurai Kamaraj University,http://www.mkuhyd.com/
 IN,Magadh University,http://www.magadhuniversity.org/
@@ -5455,9 +5467,11 @@ IN,Sardar Vallabhai Patel University of Agriculture Amd Technology,http://www.sv
 IN,SASTRA Deemed University,http://www.sastra.edu/
 IN,Sathyabama University,http://www.sathyabamauniv.ac.in/
 IN,Saurashtra University,http://www.saurashtrauniversity.edu/
+IN,"School of Liberal Studies, PDPU",https://sls.pdpu.ac.in/
 IN,School of Planning and Architecture,http://www.spa.ac.in/
 IN,Shanmugha Arts Science Technology and Research Academy,http://www.sce.ac.in/
 IN,Sher-E-Kashmir University of Agricultural Sciences and Technology,http://www.skuastkashmir.ac.in/
+IN,Shri Ram College Of Commerce,https://www.srcc.edu/
 IN,Shivaji University,http://www.unishivaji.ac.in/
 IN,"Shobhit University, Meerut",http://www.shobhituniversity.ac.in/
 IN,Shreemati Nathibai Damodar Thackersey Women's University,http://www.sndt.edu/
@@ -5486,6 +5500,7 @@ IN,Sri Sathya Sai Institute of Higher Learning,http://www.srisathyasai.org.in/pa
 IN,Sri Venkateswara Institute of Medical Sciences,http://svimstpt.ap.nic.in/
 IN,Sri Venkateswara University,http://svuni.ap.nic.in/
 IN,SRM Institute Of Science & Technology ( Deemed University),http://www.srmuniv.ac.in/
+IN,"St. Xavier's College, Kolkata",https://www.sxccal.edu/
 IN,Stella Maris College,https://stellamariscollege.edu.in/
 IN,Sunrise University Alwar,http://www.sunriseuniversity.in/
 IN,Swami Ramanand Teerth Marathwada University,http://www.srtmun.org/
@@ -5897,6 +5912,7 @@ IT,University of Udine,http://www.uniud.it/
 IT,University of Urbino,http://www.uniurb.it/
 IT,University of Venice,http://www.unive.it/
 IT,University of Verona,http://www.univr.it/
+IT,Università di Modena e Reggio Emilia,https://www.unimore.it/
 IT,Viterbo State University,http://www.unitus.it/
 IT,"Yorker International University, Milano",http://www.nyuniversity.net/
 JM,Northern Caribbean University,http://www.ncu.edu.jm/
@@ -6685,6 +6701,7 @@ KR,Mokpo National Maritime University,http://www.mmu.ac.kr/
 KR,Mokpo National University,http://www.mokpo.ac.kr/
 KR,Mokwon University Taejon,http://www.mokwon.ac.kr/
 KR,Myongji University,http://www.myongji.ac.kr/
+KR,National Institute for Lifelong Education,https://uil.unesco.org/
 KR,Paichai University,http://www.paichai.ac.kr/
 KR,Pohang University of Science and Technology,http://www.postech.ac.kr/
 KR,Pukyong National University,http://www.pknu.ac.kr/
