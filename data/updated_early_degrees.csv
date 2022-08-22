@@ -5,7 +5,7 @@
 3,948565,University Of Chicago,University of Chicago,,
 4,14018,Yale University,Yale University,,
 5,512242,Yonsei University,Yonsei University,University of London-London School of Economics & Political Sci,University of London - London School Of Economics & Political Sci
-6,781176,London School of Economics,"London School of Economics and Political Science, University of London",London School of Economics,"London School of Economics and Political Science, University of London"
+6,781176,London School of Economics,London School of Economics and Political Science,London School of Economics,London School of Economics and Political Science
 7,904219,University Of Virginia,University of Virginia,University of London-London School of Economics & Political Sci,University of London - London School Of Economics & Political Sci
 8,328878,Tsinghua University,Tsinghua University,University Of Wisconsin-Madison,University of Wisconsin - Madison
 9,519707,Nanjing University,Nanjing University,Shanghai Jiao Tong University,Shanghai Jiaotong University
@@ -57,7 +57,7 @@
 55,349719,Morehouse College,Morehouse College,,
 56,832161,Covenant University,Covenant University,University Of Southern California,University of Southern California
 57,516225,Vilnius Gediminas Technical University,Vilnius Gediminas Technical University,Universite De Neuchatel,University of Neuchatel
-58,364835,Ivan Franko National University of Lviv,National University,Center for Economic Research & Graduate Education-Econ. Inst.,Center for Economic Research & Graduate Education-Econ. Inst.
+58,364835,Ivan Franko National University of Lviv,National University,Center for Economic Research & Graduate Education-Econ. Inst.,Center for Economic Research and Graduate Education - Economics Institute
 59,420662,University Of Tehran,University of Tehran,Sharif University Of Technology,Sharif University of Technology
 60,423199,Colorado State University,Colorado State University,,
 61,276512,Cornell University,Cornell University,Massachusetts Institute of Technology,Massachusetts Institute of Technology
@@ -190,7 +190,7 @@
 188,729040,Peking University,Peking University,,
 189,785947,"School of Liberal Studies, PDPU","School of Liberal Studies, PDPU",,
 190,10717,Duke University,Duke University,,
-191,675963,"Hochschule fur Wirtschafts-, Rechts- und Sozialwissenschaften","Hochschule fur Wirtschafts-, Rechts- und Sozialwissenschaften",,
+191,675963,"Hochschule fur Wirtschafts-, Rechts- und Sozialwissenschaften",HWR Berlin: Hochschule für Wirtschaft und Recht Berlin,,
 192,943399,University Of Southern California,University of Southern California,University Of Denver,University of Denver
 193,662829,Harvard College,Harvard University - College,,
 194,461948,Universidad Nacional De Cordoba,Universidad Nacional de Córdoba,Universidad Torcuato Di Tella,Universidad Torcuato di Tella
@@ -200,10 +200,10 @@
 198,643160,,,Otto-von-Guericke Universitat,Otto-von-Guericke Universität Magdeburg
 199,913563,University Of Wisconsin-Madison,University of Wisconsin - Madison,,
 200,999307,,,,
-201,564791,Institut D'etudes Politiques,Institut d'Etudes Politiques de Paris (Sciences Po),Institut D'etudes Politiques,Institut d'Etudes Politiques de Paris (Sciences Po)
+201,564791,Institut D'etudes Politiques,Institut d'Etudes Politiques de Bordeaux,Institut D'etudes Politiques,Institut d'Etudes Politiques de Bordeaux
 202,281746,McGill University,McGill University,,
 203,383347,Pennsylvania State University,Pennsylvania State University,,
-204,380901,University Of Tehran,University of Tehran,London School of Economics and Political Science,"London School of Economics and Political Science, University of London"
+204,380901,University Of Tehran,University of Tehran,London School of Economics and Political Science,London School of Economics and Political Science
 205,941746,Trinity College,Trinity College Connecticut,University Of Chicago,University of Chicago
 206,885376,Indiana University Bloomington,Indiana University at Bloomington,Boston University,Boston University
 207,777746,Universidad ORT Uruguay,Universidad ORT Uruguay,,
@@ -237,7 +237,7 @@
 235,9146,University Of Tokyo,University of Tokyo,University Of Tokyo,University of Tokyo
 236,255335,"University Of California, Los Angeles","University of California, Los Angeles",,
 237,8028,University Of New Mexico,University of New Mexico,University Of New Mexico,University of New Mexico
-238,510235,Goethe University,Goethe University,,
+238,510235,Goethe University,Johann Wolfgang Goethe Universität Frankfurt am Main,,
 239,866448,University Of Pennsylvania,University of Pennsylvania,Massachusetts Institute of Technology,Massachusetts Institute of Technology
 240,421203,Lahore University Of Management Sciences,Lahore University of Management Sciences,Lahore University Of Management Sciences,Lahore University of Management Sciences
 241,793979,University Of Montreal,Université de Montréal,University Of Montreal,Université de Montréal
@@ -275,7 +275,7 @@
 273,613221,"University Of California, Berkeley","University of California, Berkeley",,
 274,896019,Millsaps College,Millsaps College,,
 275,481379,Calvin College,Calvin College,,
-276,798840,St Xavier's College,St Xavier's College,The Graduate Institute Of International and Development Studies,The Graduate Institute Of International and Development Studies
+276,798840,St Xavier's College,"St. Xavier's College, Kolkata",The Graduate Institute Of International and Development Studies,The Graduate Institute Of International and Development Studies
 277,730192,Xiamen University,Xiamen University,Cornell University,Cornell University
 278,725511,City University Of Hong Kong,City University of Hong Kong,,
 279,124256,University Of Chicago,University of Chicago,,
@@ -301,7 +301,7 @@
 299,708813,Erasmus University,Erasmus University Rotterdam,Erasmus University,Erasmus University Rotterdam
 300,866990,Princeton University,Princeton University,,
 301,177161,University Of Chicago,University of Chicago,Georgetown University,Georgetown University
-302,467669,Universita Degli Studi Roma Tre,Third University of Rome,Universita degli Studi di Roma Tor Vergata (CIES),Universita Degli Studi Di Trieste
+302,467669,Universita Degli Studi Roma Tre,Third University of Rome,Universita degli Studi di Roma Tor Vergata (CIES),Università degli Studi di Roma Tor Vergata (CIES)
 303,687058,Renmin University of China,Renmin University of China,,
 304,504198,"Rutgers, The State University Of New Jersey",Rutgers University,,
 305,843427,Korea Advanced Institute Of Science And Technology,Korea Advanced Institute of Science & Technology,Seoul National University,Seoul National University
@@ -337,7 +337,7 @@
 335,109733,American University Of Beirut,American University of Beirut,Texas A&M University,Texas A&M University
 336,144533,Columbia University,Columbia University,Columbia University,Columbia University
 337,561907,University Of Michigan--Ann Arbor,University of Michigan,,
-338,556037,National Insitute for Lifelong Education,National Insitute for Lifelong Education,,
+338,556037,National Insitute for Lifelong Education,National Institute for Lifelong Education,,
 339,627230,Universita Commerciale 'luigi Bocconi',University of Commerce Luigi Bocconi,University Of Oxford,University of Oxford
 340,926858,Princeton University,Princeton University,University of London-London School of Economics & Political Sci,University of London - London School Of Economics & Political Sci
 341,773097,Middlebury College,Middlebury College,,
@@ -351,7 +351,7 @@
 349,184927,Oporto University,Oporto University,Universidad Pompeu Fabra,Universitat Pompeu Fabra
 350,108997,California Institute Of Technology,California Institute of Technology,,
 351,185470,Universite De Lausanne,University of Lausanne,Universite De Lausanne,University of Lausanne
-352,91734,INSPER (Institute of Education and Research),INSPER (Institute of Education and Research),Pontificia Universidade Catolica Do Rio De Janeiro,Pontifícia Universidade Católica do Rio de Janeiro
+352,91734,INSPER (Institute of Education and Research),Insper Institute of Education and Research,Pontificia Universidade Catolica Do Rio De Janeiro,Pontifícia Universidade Católica do Rio de Janeiro
 353,335433,UniversitÃ© de Lausanne,University of Lausanne,,
 354,383749,Amirkabir University of Technology,Amirkabir University of Technology,Sharif University Of Technology,Sharif University of Technology
 355,959662,,,Ecole Polytechnique,Ecole Polytechnique
@@ -403,13 +403,13 @@
 401,541669,Universite De Paris I (pantheon-Sorbonne),Universite De Paris I (pantheon-Sorbonne),Paris School of Economics,Warsaw School of Economics
 402,274069,Cornell University,Cornell University,,
 403,633220,University Of Michigan--Ann Arbor,University of Michigan,Duke University,Duke University
-404,736984,People's University Of China,Renmin University of China,University Of Michigan--Ann Arbor,University of Michigan
+404,736984,People's University Of China,People's University Of China,University Of Michigan--Ann Arbor,University of Michigan
 405,213366,Pontificia Universidad Catolica De Chile,Pontificia Universidad Catolica de Chile,Pontificia Universidad Catolica De Chile,Pontificia Universidad Catolica de Chile
 406,274587,Universidad De Chile,Universidad de Chile,Universidad De Chile,Universidad de Chile
 407,461571,University Of Pennsylvania,University of Pennsylvania,University of London-London School of Economics & Political Sci,University of London - London School Of Economics & Political Sci
 408,959157,Universidad Nacional Autonoma De Mexico,Universidad Nacional Autónoma de México,,
 409,563975,Istanbul Technical University,Istanbul Technical University,Bogazici University,Bogazici University
-410,663426,University Of Warwick,University of Warwick,London School of Economics and Political Science,"London School of Economics and Political Science, University of London"
+410,663426,University Of Warwick,University of Warwick,London School of Economics and Political Science,London School of Economics and Political Science
 411,443034,Facultes Universitaires Saint-Louis,Facultés Universitaires Saint-Louis,Universite Des Sciences Sociales (toulouse I),Université des Sciences Sociales (Toulouse I)
 412,207658,Cornell University,Cornell University,,
 413,900275,Tsinghua University,Tsinghua University,,
@@ -429,7 +429,7 @@
 427,239219,University Of Michigan--Ann Arbor,University of Michigan,,
 428,894930,Bates College,Bates College,Barcelona Graduate School of Economics,Barcelona Graduate School of Economics
 429,636508,University Of Virginia,University of Virginia,,
-430,826616,Ecole Polytechnique,Ecole Polytechnique,Institut D'etudes Politiques,Institut d'Etudes Politiques de Paris (Sciences Po)
+430,826616,Ecole Polytechnique,Ecole Polytechnique,Institut D'etudes Politiques,Institut d'Etudes Politiques de Bordeaux
 431,471828,University Of British Columbia,University of British Columbia,,
 432,459655,University of Ottawa,University of Ottawa,Queens University,Queens University
 433,745201,Instituto Tecnologico Autonomo De Mexico,Instituto Tecnológico Autonómo de México,Barcelona Graduate School of Economics,Barcelona Graduate School of Economics
@@ -477,7 +477,7 @@
 475,836132,Universidad De Costa Rica,Universidad de Costa Rica,,
 476,259640,Universita Bocconi,Università Bocconi,Universita Bocconi,Università Bocconi
 477,602760,Gettysburg College,Gettysburg College,,
-478,974185,National Research University Higher School of Economics,Higher School of Economics,Centro De Estudios Monetarios Y Financieros,Centro De Estudios Monetarios Y Financieros
+478,974185,National Research University Higher School of Economics,Higher School of Economics,Centro De Estudios Monetarios Y Financieros,Centros de Estudios Monetarios y Financieros (CEMFI)
 479,818259,University Of Copenhagen,Copenhagen University,University Of Copenhagen,Copenhagen University
 480,140759,Western Kentucky University,Western Kentucky University,,
 481,546791,Pontificia Universidade Catolica Do Rio De Janeiro,Pontifícia Universidade Católica do Rio de Janeiro,Pontificia Universidade Catolica Do Rio De Janeiro,Pontifícia Universidade Católica do Rio de Janeiro
@@ -521,7 +521,7 @@
 519,502670,University Of Oxford,University of Oxford,University of London-London School of Economics & Political Sci,University of London - London School Of Economics & Political Sci
 520,118368,"University Of California, Los Angeles","University of California, Los Angeles",University Of Chicago,University of Chicago
 521,835539,Swarthmore College,Swarthmore College,,
-522,461672,Zhejiang University,Zhejiang University,London School of Economics and Political Science,"London School of Economics and Political Science, University of London"
+522,461672,Zhejiang University,Zhejiang University,London School of Economics and Political Science,London School of Economics and Political Science
 523,666840,University Of Chicago,University of Chicago,,
 524,756143,Sabanci University,Sabanci University,Sabanci University,Sabanci University
 525,320503,Universidad De Chile,Universidad de Chile,Universidad De Chile,Universidad de Chile
@@ -538,7 +538,7 @@
 536,932573,Harvard College,Harvard University - College,University College London,University College London
 537,828537,"Rutgers, The State Univerisity of New Jersey-New Brunswick",Rutgers University,,
 538,914066,Shandong Normal University,Shandong Normal University,Georgetown University,Georgetown University
-539,42919,St. Xavier's College,St. Xavier's College,,
+539,42919,St. Xavier's College,"St. Xavier's College, Kolkata",,
 540,883726,Chonbuk National University,Chonbuk National University,Chonbuk National University,Chonbuk National University
 541,843572,Budapest University Of Economic Sciences,Budapest University of Economic Sciences and Public Administration,Universidad Pompeu Fabra,Universitat Pompeu Fabra
 542,323081,University of Nottingham Malaysia Campus,"University of Nottingham, Malaysia Campus",University Of Nottingham,University of Nottingham
@@ -559,7 +559,7 @@
 557,743637,Swarthmore College,Swarthmore College,,
 558,191313,Universita Degli Studi Di Pavia,Universita Degli Studi Di Trieste,University Of Cambridge-Peterhouse,University of Cambridge
 559,565525,Tianjin University of Finance and Economics,Tianjin University of Finance & Economics,,
-560,637154,Fundacao Getulio Vargas,Fundação Getulio Vargas,"Graduate School Of Economics, Getulio Vargas Fndn.","Graduate School Of Economics, Getulio Vargas Fndn."
+560,637154,Fundacao Getulio Vargas,Fundação Getulio Vargas,"Graduate School Of Economics, Getulio Vargas Fndn.",EPGE Brazilian School of Economics and Finance
 561,985213,,,Barcelona Graduate School of Economics,Barcelona Graduate School of Economics
 562,307427,Central University Of Finance And Economics,Central University of Finance and Economics,Universite Toulouse I,Université de Toulouse
 563,24422,"University Of California, Berkeley","University of California, Berkeley",,
@@ -578,11 +578,11 @@
 576,941208,Universidad Del Pacifico,Universidad del Pacifico,Universidad Del Pacifico,Universidad del Pacifico
 577,123397,Nanyang Technological University,Nanyang Technological University,University Of Michigan--Ann Arbor,University of Michigan
 578,501503,University Of Chicago,University of Chicago,University College London,University College London
-579,982137,Bandung Institute Of Technology,Institut Teknologi Bandung,Duke University,Duke University
+579,982137,Bandung Institute Of Technology,Tatung Institute of Technology,Duke University,Duke University
 580,232954,,,National Research University Higher School of Economics,Higher School of Economics
 581,181259,Brown University,Brown University,,
 582,836303,Babson College,Babson College,Duke University,Duke University
-583,996448,Xavier University,Xavier University,Johns Hopkins Univ. Paul H. Nitze School of Adv. Int'l Studies,Johns Hopkins Univ. Paul H. Nitze School of Adv. Int'l Studies
+583,996448,Xavier University,Xavier University,Johns Hopkins Univ. Paul H. Nitze School of Adv. Int'l Studies,Johns Hopkins University - School Of Advanced International Studies
 584,711085,Universidad Torcuato Di Tella,Universidad Torcuato di Tella,Universidad Torcuato Di Tella,Universidad Torcuato di Tella
 585,190217,Lehigh University,Lehigh Univervsity,,
 586,844047,Williams College,Williams College,,
@@ -592,8 +592,8 @@
 590,411225,University of Oxford-Balliol College,University of Oxford - Balliol College,Massachusetts Institute of Technology,Massachusetts Institute of Technology
 591,181517,Seoul National University,Seoul National University,Seoul National University,Seoul National University
 592,763979,American University of Central Asia,American University of Central Asia,Illinois State University,Illinois State University
-593,172717,Peking University,Peking University,Institut D'etudes Politiques,Institut d'Etudes Politiques de Paris (Sciences Po)
-594,188161,Federal University of Rio de Janeiro,Universidade Federal do Rio de Janeiro,"Graduate School Of Economics, Getulio Vargas Fndn.","Graduate School Of Economics, Getulio Vargas Fndn."
+593,172717,Peking University,Peking University,Institut D'etudes Politiques,Institut d'Etudes Politiques de Bordeaux
+594,188161,Federal University of Rio de Janeiro,Universidade Federal do Rio de Janeiro,"Graduate School Of Economics, Getulio Vargas Fndn.",EPGE Brazilian School of Economics and Finance
 595,818343,Lahore University Management  Science,Lahore University of Management Sciences,,
 596,971383,Huazhong University Of Science And Technology,Huazhong University of Science and Technology,Peking University,Peking University
 597,310783,University Of Chicago,University of Chicago,,
@@ -608,7 +608,7 @@
 606,464510,Indiana University Bloomington,Indiana University at Bloomington,,
 607,693561,Peking University,Peking University,Chinese University Of Hong Kong,Chinese University of Hong Kong
 608,456539,University of London-London School of Economics & Political Sci,University of London - London School Of Economics & Political Sci,,
-609,324517,"Graduate School Of Economics, Getulio Vargas Fndn.","Graduate School Of Economics, Getulio Vargas Fndn.","Graduate School Of Economics, Getulio Vargas Fndn.","Graduate School Of Economics, Getulio Vargas Fndn."
+609,324517,"Graduate School Of Economics, Getulio Vargas Fndn.",EPGE Brazilian School of Economics and Finance,"Graduate School Of Economics, Getulio Vargas Fndn.",EPGE Brazilian School of Economics and Finance
 610,548888,Brigham Young University,Brigham Young University,,
 611,914340,Bogazici University,Bogazici University,Bogazici University,Bogazici University
 612,775935,"University Of California, Los Angeles","University of California, Los Angeles",University Of Chicago,University of Chicago
@@ -639,7 +639,7 @@
 637,712642,Lehigh University,Lehigh Univervsity,,
 638,833936,Massachusetts Institute of Technology,Massachusetts Institute of Technology,,
 639,348408,Universidad De Costa Rica,Universidad de Costa Rica,,
-640,406563,Universita Degli Studi Di Parma,University of Parma,Universita Degli Studi Di Modena,Universita Degli Studi Di Modena
+640,406563,Universita Degli Studi Di Parma,University of Parma,Universita Degli Studi Di Modena,Università di Modena e Reggio Emilia
 641,322650,McGill University,McGill University,University Of British Columbia,University of British Columbia
 642,987515,Yale University,Yale University,,
 643,708633,University Of Wyoming,University of Wyoming,University of London-London School of Economics & Political Sci,University of London - London School Of Economics & Political Sci
@@ -666,12 +666,12 @@
 664,665944,University Of Delaware,University of Delaware,,
 665,577769,University Of Tokyo,University of Tokyo,,
 666,813394,Pomona College,Pomona College,,
-667,386773,Johns Hopkins University,Johns Hopkins University,Johns Hopkins Univ. Paul H. Nitze School of Adv. Int'l Studies,Johns Hopkins Univ. Paul H. Nitze School of Adv. Int'l Studies
-668,256567,Fundacao Getulio Vargas - Escola de Economia de Sao Paulo,Fundacao Getulio Vargas - Escola de Economia de Sao Paulo,Universidade Nova De Lisboa,Universidade Nova de Lisboa
+667,386773,Johns Hopkins University,Johns Hopkins University,Johns Hopkins Univ. Paul H. Nitze School of Adv. Int'l Studies,Johns Hopkins University - School Of Advanced International Studies
+668,256567,Fundacao Getulio Vargas - Escola de Economia de Sao Paulo,Escola de Economia de São Paulo - Fundação Getulio Vargas,Universidade Nova De Lisboa,Universidade Nova de Lisboa
 669,528817,University Of Michigan--Ann Arbor,University of Michigan,,
 670,903960,University Of Montreal,Université de Montréal,University Of Montreal,Université de Montréal
 671,268605,Warsaw School Of Economics,Warsaw School of Economics,Warsaw School Of Economics,Warsaw School of Economics
-672,498812,Ludwig-Maximilians-University Munich,Ludwig-Maximilians-Universität München,London School of Economics,"London School of Economics and Political Science, University of London"
+672,498812,Ludwig-Maximilians-University Munich,Ludwig-Maximilians-Universität München,London School of Economics,London School of Economics and Political Science
 673,391044,University Of Toronto,University of Toronto,,
 674,892114,Central University Of Finance And Economics,Central University of Finance and Economics,Columbia University,Columbia University
 675,779040,Claremont McKenna College,Claremont McKenna College,,
@@ -691,7 +691,7 @@
 689,87508,College Of Charleston,College of Charleston,,
 690,378274,Instituto Tecnologico Autonomo de Mexico,Instituto Tecnológico Autonómo de México,,
 691,718706,New York University,New York University,,
-692,193306,Universita Degli Studi Di Modena,Universita Degli Studi Di Modena,Universita Degli Studi Di Modena,Universita Degli Studi Di Modena
+692,193306,Universita Degli Studi Di Modena,Università di Modena e Reggio Emilia,Universita Degli Studi Di Modena,Università di Modena e Reggio Emilia
 693,414240,Cornell University,Cornell University,University of London-London School of Economics & Political Sci,University of London - London School Of Economics & Political Sci
 694,317173,DePaul University,DePaul University,,
 695,482664,Hillsdale College,Hillsdale College,,
@@ -718,7 +718,7 @@
 716,779161,Open University of Israel,Open University of Israel,Tel Aviv University,Tel Aviv University
 717,209063,Ecole Normale Superieure D'ulm,Ecole Normale Supérieure de Lyon,Ecole Nationale de la Statistique et de l'Admin Economique,Ecole Nationale de la Statistique et de l'Administration Economique
 718,186056,Centro De Investigacion Y Docenias Economicas,Centro de Estudios Investigación y Tecnología (CEIT),,
-719,639253,Harvard University,Harvard University,London School of Economics,"London School of Economics and Political Science, University of London"
+719,639253,Harvard University,Harvard University,London School of Economics,London School of Economics and Political Science
 720,893513,Tsinghua University,Tsinghua University,,
 721,671745,Thammasat University,Thammasat University,University Of Durham,University of Durham
 722,772340,University of Minnesota-Twin Cities,University of Minnesota,,
@@ -736,13 +736,13 @@
 734,885729,Vassar College,Vassar College,,
 735,701977,National Taiwan University,National Taiwan University,Columbia University,Columbia University
 736,136067,Michigan State University,Michigan State University,,
-737,412429,Universidad Del Pais Vasco,Universidad del País Vasco,Centro De Estudios Monetarios Y Financieros,Centro De Estudios Monetarios Y Financieros
+737,412429,Universidad Del Pais Vasco,Universidad del País Vasco,Centro De Estudios Monetarios Y Financieros,Centros de Estudios Monetarios y Financieros (CEMFI)
 738,23974,University Of Virginia,University of Virginia,,
 739,109070,University Of Michigan--Ann Arbor,University of Michigan,,
 740,789552,Central University Of Finance And Economics,Central University of Finance and Economics,Boston University,Boston University
 741,995237,,,Illinois State University,Illinois State University
 742,849366,Ohio Wesleyan University,Ohio Wesleyan University,,
-743,171637,Universidad De Costa Rica,Universidad de Costa Rica,Centro De Estudios Monetarios Y Financieros,Centro De Estudios Monetarios Y Financieros
+743,171637,Universidad De Costa Rica,Universidad de Costa Rica,Centro De Estudios Monetarios Y Financieros,Centros de Estudios Monetarios y Financieros (CEMFI)
 744,425671,University Of Oregon,University of Oregon,,
 745,224759,University Of Oxford-Pembroke College,University of Oxford - Pembroke College,,
 746,817542,Queen's University,Queen's University,University Of Toronto,University of Toronto
@@ -823,7 +823,7 @@
 821,440846,Seoul National University,Seoul National University,Seoul National University,Seoul National University
 822,348790,Monash University,Monash University,Monash University,Monash University
 823,289748,Universidade Estadual De Campinas,Universidade Estadual de Campinas,Pontificia Universidade Catolica Do Rio De Janeiro,Pontifícia Universidade Católica do Rio de Janeiro
-824,821675,"Graduate School Of Economics, Getulio Vargas Fndn.","Graduate School Of Economics, Getulio Vargas Fndn.","Graduate School Of Economics, Getulio Vargas Fndn.","Graduate School Of Economics, Getulio Vargas Fndn."
+824,821675,"Graduate School Of Economics, Getulio Vargas Fndn.",EPGE Brazilian School of Economics and Finance,"Graduate School Of Economics, Getulio Vargas Fndn.",EPGE Brazilian School of Economics and Finance
 825,552760,Yale University,Yale University,,
 826,283411,University Of Cincinnati,University of Cincinnati,,
 827,760784,University Of Tokyo,University of Tokyo,University Of Tokyo,University of Tokyo
@@ -857,13 +857,13 @@
 855,954745,Wesleyan University,Wesleyan University,,
 856,534064,Babcock University,Babcock University,,
 857,239846,National Technical University of Ukraine,National Technical University (Kiev Politechnical Institute),Kyiv School of Economics,Kiev School Of Economics
-858,875213,B.M.S. College of Engineering, L.D.College of Engineering,Indira Gandhi National Open University,Indira Gandhi National Open University
+858,875213,B.M.S. College of Engineering,B.M.S. College of Engineering,Indira Gandhi National Open University,Indira Gandhi National Open University
 859,984225,Zhejiang University,Zhejiang University,,
 860,46356,Peking University,Peking University,,
 861,189255,International Christian University,International Christian University,University Of Tokyo,University of Tokyo
 862,675758,Illinois State University,Illinois State University,,
 863,659765,East China Normal University,East China Normal University,University of Calgary,University of Calgary
-864,767109,Universidade Federal Fluminense,Universidade Federal Fluminense,"Graduate School Of Economics, Getulio Vargas Fndn.","Graduate School Of Economics, Getulio Vargas Fndn."
+864,767109,Universidade Federal Fluminense,Universidade Federal Fluminense,"Graduate School Of Economics, Getulio Vargas Fndn.",EPGE Brazilian School of Economics and Finance
 865,399577,Peking University,Peking University,University Of Wisconsin--Madison,University of Wisconsin - Madison
 866,948051,University of Melbourne,University of Melbourne,University of Melbourne,University of Melbourne
 867,892610,Peking University,Peking University,,
@@ -934,7 +934,7 @@
 932,177601,Brigham Young University,Brigham Young University,,
 933,852071,Southwest University Of Finance & Economics,Southwest University of Finance and Economics,University Of Tokyo,University of Tokyo
 934,864352,University Of Wisconsin--Madison,University of Wisconsin - Madison,,
-935,839365,University of Macau,University of Macau,People's University Of China,Renmin University of China
+935,839365,University of Macau,University of Macau,People's University Of China,People's University Of China
 936,736280,Luiss Guido Carli University,Luiss Guido Carli University,Luiss Guido Carli University,Luiss Guido Carli University
 937,678092,University of British Columbia,University of British Columbia,McGill University,McGill University
 938,443630,University Of Chicago,University of Chicago,,
@@ -951,7 +951,7 @@
 949,943817,Washington University in St. Louis,Washington University in St. Louis,,
 950,369158,University Of Oxford-Lincoln College,University of Oxford - Lincoln College,University of London-London School of Economics & Political Sci,University of London - London School Of Economics & Political Sci
 951,344106,Boston University,Boston University,"Imperial College Of Science, Technology & Medicine",Imperial College London
-952,995457,Universidade Federal Do Rio Grande Do Sul,Universidade Federal do Rio Grande do Sul,"Graduate School Of Economics, Getulio Vargas Fndn.","Graduate School Of Economics, Getulio Vargas Fndn."
+952,995457,Universidade Federal Do Rio Grande Do Sul,Universidade Federal do Rio Grande do Sul,"Graduate School Of Economics, Getulio Vargas Fndn.",EPGE Brazilian School of Economics and Finance
 953,53954,University of Melbourne,University of Melbourne,,
 954,211812,National Taiwan University,National Taiwan University,,
 955,709941,University Of Maryland At College Park,University of Maryland - College Park,,
@@ -971,7 +971,7 @@
 969,587959,University Of Southern California,University of Southern California,,
 970,563741,Michigan State University,Michigan State University,,
 971,407467,College Of William And Mary In Virginia,College of William and Mary,,
-972,867422,Shanghai University Of Finance And Economics,Shanghai University of Finance and Economics,People's University Of China,Renmin University of China
+972,867422,Shanghai University Of Finance And Economics,Shanghai University of Finance and Economics,People's University Of China,People's University Of China
 973,617027,Instituto TecnolÃ³gico AutÃ³nomo de Mexico,Instituto Tecnológico Autonómo de México,University of London-London School of Economics & Political Sci,University of London - London School Of Economics & Political Sci
 974,158027,The University of Hong Kong,University of Hong Kong,Boston University,Boston University
 975,725077,,,,
@@ -1020,7 +1020,7 @@
 1018,864197,Bard College,Bard College,,
 1019,509984,,,University of London-London School of Economics & Political Sci,University of London - London School Of Economics & Political Sci
 1020,96416,Athens School Of Economic And Business Sciences,Athens University of Economics and Business,,
-1021,975436,Institut D'etudes Politiques,Institut d'Etudes Politiques de Paris (Sciences Po),Ecole Polytechnique,Ecole Polytechnique
+1021,975436,Institut D'etudes Politiques,Institut d'Etudes Politiques de Bordeaux,Ecole Polytechnique,Ecole Polytechnique
 1022,443356,Universita Commerciale 'luigi Bocconi',University of Commerce Luigi Bocconi,Universita Commerciale 'luigi Bocconi',University of Commerce Luigi Bocconi
 1023,331787,"Rutgers, The State University Of New Jersey",Rutgers University,,
 1024,676439,Hebrew University Of Jerusalem,Hebrew University of Jerusalem,Hebrew University Of Jerusalem,Hebrew University of Jerusalem
@@ -1128,7 +1128,7 @@
 1126,344332,National Taiwan University,National Taiwan University,University of London-London School of Economics & Political Sci,University of London - London School Of Economics & Political Sci
 1127,47181,Friedrich-Alexander-Universitat Erlangen-Nurnberg,Friedrich-Alexander Universität Erlangen-Nürnberg,Friedrich-Alexander-Universitat Erlangen-Nurnberg,Friedrich-Alexander Universität Erlangen-Nürnberg
 1128,59418,University Of Notre Dame,University of Notre Dame,,
-1129,755649,University of Castilla-La Mancha,Universidad de Castilla La Mancha,Centro De Estudios Monetarios Y Financieros,Centro De Estudios Monetarios Y Financieros
+1129,755649,University of Castilla-La Mancha,Universidad de Castilla La Mancha,Centro De Estudios Monetarios Y Financieros,Centros de Estudios Monetarios y Financieros (CEMFI)
 1130,151256,Peking University,Peking University,,
 1131,504557,Universita Commerciale 'luigi Bocconi',University of Commerce Luigi Bocconi,Universita Commerciale 'luigi Bocconi',University of Commerce Luigi Bocconi
 1132,545773,University Of Wisconsin-Madison,University of Wisconsin - Madison,,
@@ -1138,7 +1138,7 @@
 1136,130941,Berklee College Of Music,Berklee College of Music,Johns Hopkins University,Johns Hopkins University
 1137,459155,Xiamen University,Xiamen University,Brown University,Brown University
 1138,802060,"University Of California, Berkeley","University of California, Berkeley",,
-1139,470872,Eafit University,Universidad EAFIT,Universidad Colegio Mayor de Nuestra Senora del Ro,Universidad del Rosario
+1139,470872,Eafit University,Universidad EAFIT,Universidad Colegio Mayor de Nuestra Senora del Ro,Universidad Mayor
 1140,280968,Johns Hopkins University,Johns Hopkins University,Princeton University,Princeton University
 1141,557594,Sun Yat-Sen University,Sun Yat-Sen University of Medical Sciences,Tufts University,Tufts University
 1142,812107,Yale University,Yale University,,
@@ -1156,7 +1156,7 @@
 1154,596796,Cornell University,Cornell University,,
 1155,740834,,,,
 1156,775102,Katholieke Universiteit Leuven,Katholieke Universiteit Leuven,Universidad Pompeu Fabra,Universitat Pompeu Fabra
-1157,254864,Instituto TecnolÃ³gico AutÃ³nomo de MÃ©xico (ITAM),Instituto Tecnológico Autonómo de México,,
+1157,254864,Instituto TecnolÃ³gico AutÃ³nomo de MÃ©xico (ITAM),Instituto TecnolÃ³gico AutÃ³nomo de MÃ©xico (ITAM),,
 1158,821864,University of British Columbia,University of British Columbia,,
 1159,45807,Universita Bocconi,Università Bocconi,Universita Bocconi,Università Bocconi
 1160,21880,LUISS Guido Carli University,Luiss Guido Carli University,Universita Bocconi,Università Bocconi
@@ -1268,7 +1268,7 @@
 1266,343283,University Of Kentucky,University of Kentucky,,
 1267,984570,Hanoi National University,National University,University Of Leicester,University of Leicester
 1268,208411,University Of Wisconsin-Madison,University of Wisconsin - Madison,,
-1269,783009,Ecole Centrale De Paris,Ecole Centrale De Paris,Groupe HEC,Groupe HEC
+1269,783009,Ecole Centrale De Paris,Ecole Centrale De Paris,Groupe HEC,HEC Paris
 1270,491581,Vietnam National University,National University,University Of Memphis,University of Memphis
 1271,476902,Syracuse University,Syracuse University,,
 1272,970292,William Marsh Rice University,Rice University,,
@@ -1329,7 +1329,7 @@
 1327,971998,Seoul National University,Seoul National University,Seoul National University,Seoul National University
 1328,559586,Massachusetts Institute of Technology,Massachusetts Institute of Technology,Harvard University,Harvard University
 1329,826607,Chinese University Of Hong Kong,Chinese University of Hong Kong,University Of Chicago,University of Chicago
-1330,792895,Universidade Federal do Rio de Janeiro,Universidade Federal do Rio de Janeiro,"Graduate School Of Economics, Getulio Vargas Fndn.","Graduate School Of Economics, Getulio Vargas Fndn."
+1330,792895,Universidade Federal do Rio de Janeiro,Universidade Federal do Rio de Janeiro,"Graduate School Of Economics, Getulio Vargas Fndn.",EPGE Brazilian School of Economics and Finance
 1331,412915,University Of Tehran,University of Tehran,University of London-London School of Economics & Political Sci,University of London - London School Of Economics & Political Sci
 1332,981388,Universite Antilles,Université des Antilles et de la Guyane,,
 1333,623094,University Of Edinburgh,University of Edinburgh,University Of Cambridge-Pembroke College,University of Cambridge - Pembroke College
@@ -1369,7 +1369,7 @@
 1367,347865,Universiteit Maastricht,University of Maastricht,Universiteit Maastricht,University of Maastricht
 1368,82727,University Of Manchester,University of Manchester,,
 1369,957011,Texas State University,Texas State University,,
-1370,710377,Universita Degli Studi Roma Tre,Third University of Rome,Universita degli Studi di Roma Tor Vergata (CIES),Universita Degli Studi Di Trieste
+1370,710377,Universita Degli Studi Roma Tre,Third University of Rome,Universita degli Studi di Roma Tor Vergata (CIES),Università degli Studi di Roma Tor Vergata (CIES)
 1371,994423,Amherst College,Amherst College,,
 1372,458635,National Taiwan University,National Taiwan University,National Taiwan University,National Taiwan University
 1373,462153,College Of William And Mary In Virginia,College of William and Mary,,
@@ -1403,7 +1403,7 @@
 1401,582651,Harvard College,Harvard University - College,,
 1402,436880,Universite De Lausanne,University of Lausanne,Universite De Lausanne,University of Lausanne
 1403,982553,New York University,New York University,,
-1404,721678,INSPER (Institute of Education and Research),INSPER (Institute of Education and Research),Instituto De Matematica Pura E Aplicada,Instituto Nacional de Matemática Pura e Aplicada - IMPA
+1404,721678,INSPER (Institute of Education and Research),Insper Institute of Education and Research,Instituto De Matematica Pura E Aplicada,Instituto Nacional de Matemática Pura e Aplicada - IMPA
 1405,809112,University Of Hong Kong,University of Hong Kong,"University Of California, Los Angeles","University of California, Los Angeles"
 1406,36313,Princeton University,Princeton University,,
 1407,15289,Dartmouth College,Dartmouth College,,
@@ -1418,7 +1418,7 @@
 1416,644362,Universidad Del Pacifico,Universidad del Pacifico,Pontificia Universidad Catolica Del Peru,Pontificia Universidad Católica del Perú
 1417,9093,Universidad Catolica Andres Bello,Universidad Católica Andres Bello,University Of Chicago,University of Chicago
 1418,166549,Australian National University,Australian National University,,
-1419,134170,Huhhot,Huhhot,Peking University,Peking University
+1419,134170,Huhhot,Inner Mongolia University,Peking University,Peking University
 1420,485850,Michigan State University,Michigan State University,,
 1421,454496,University Of Texas At Austin,University of Texas,,
 1422,997466,University Of Hong Kong,University of Hong Kong,Universite Des Sciences Sociales (toulouse I),Université des Sciences Sociales (Toulouse I)
@@ -1448,7 +1448,7 @@
 1446,97313,University Of Nebraska--Lincoln,University of Nebraska - Lincoln,University Of Nebraska--Lincoln,University of Nebraska - Lincoln
 1447,660152,Stanford University,Stanford University,Stanford University,Stanford University
 1448,695308,"University Of California, Berkeley","University of California, Berkeley",,
-1449,419698,Institut D'etudes Politiques,Institut d'Etudes Politiques de Paris (Sciences Po),Institut D'etudes Politiques,Institut d'Etudes Politiques de Paris (Sciences Po)
+1449,419698,Institut D'etudes Politiques,Institut d'Etudes Politiques de Bordeaux,Institut D'etudes Politiques,Institut d'Etudes Politiques de Bordeaux
 1450,498089,Cornell University,Cornell University,,
 1451,542154,George Mason University,George Mason University,,
 1452,136429,National Chung Hsing University,"National Chung Hsing University, Taichung",National Tsing Hua University,National Tsinghua University
@@ -1463,7 +1463,7 @@
 1461,218281,East China University of Science and Technology,East China University of Science and Technology,University Of Texas At Dallas,University of Texas at Dallas
 1462,609653,University Of Melbourne,University of Melbourne,Universidad Pompeu Fabra,Universitat Pompeu Fabra
 1463,230958,Lebanese American University,Lebanese American University,Lebanese American University,Lebanese American University
-1464,768694,"Graduate School Of Economics, Getulio Vargas Fndn.","Graduate School Of Economics, Getulio Vargas Fndn.","Graduate School Of Economics, Getulio Vargas Fndn.","Graduate School Of Economics, Getulio Vargas Fndn."
+1464,768694,"Graduate School Of Economics, Getulio Vargas Fndn.",EPGE Brazilian School of Economics and Finance,"Graduate School Of Economics, Getulio Vargas Fndn.",EPGE Brazilian School of Economics and Finance
 1465,900568,University Of Chicago,University of Chicago,,
 1466,541906,University of Cambridge,University of Cambridge,Harvard University,Harvard University
 1467,454840,Boston University,Boston University,Boston University,Boston University
@@ -1532,7 +1532,7 @@
 1530,376852,University of Bristol,University of Bristol,University College London,University College London
 1531,298573,Sophia College for Women,Sophia College for Women,University Of Leicester,University of Leicester
 1532,899626,Wellesley College,Wellesley College,,
-1533,540033,Institut D'etudes Politiques,Institut d'Etudes Politiques de Paris (Sciences Po),Institut D'etudes Politiques,Institut d'Etudes Politiques de Paris (Sciences Po)
+1533,540033,Institut D'etudes Politiques,Institut d'Etudes Politiques de Bordeaux,Institut D'etudes Politiques,Institut d'Etudes Politiques de Bordeaux
 1534,795292,Birla Institute Of Technology & Science,Birla Institute of Technology and Science,,
 1535,112513,Vanderbilt University,Vanderbilt University,,
 1536,31317,University Of Houston--University Park,University of Houston,University Of Wisconsin- Madison,University of Wisconsin - Madison
@@ -1542,7 +1542,7 @@
 1540,307904,Fudan University,Fudan University,Duke University,Duke University
 1541,85715,Seoul National University,Seoul National University,Georgia State University,Georgia State University
 1542,207067,Columbia University,Columbia University,,
-1543,453771,New York University,New York University,Johns Hopkins Univ. Paul H. Nitze School of Adv. Int'l Studies,Johns Hopkins Univ. Paul H. Nitze School of Adv. Int'l Studies
+1543,453771,New York University,New York University,Johns Hopkins Univ. Paul H. Nitze School of Adv. Int'l Studies,Johns Hopkins University - School Of Advanced International Studies
 1544,568935,Columbia University,Columbia University,,
 1545,430903,Ohio State University,Ohio State University,,
 1546,670371,Thammasat University,Thammasat University,,
@@ -1554,12 +1554,12 @@
 1552,221535,University Of Nebraska,University of Nebraska - Lincoln,,
 1553,995831,University Of Kentucky,University of Kentucky,,
 1554,494310,Escola De Administracao De Empresas De Sao Paulo,Escola De Administracao De Empresas De Sao Paulo,University of York,University of York
-1555,497513,Universidade De Brasilia,Universidade de Brasília,"Graduate School Of Economics, Getulio Vargas Fndn.","Graduate School Of Economics, Getulio Vargas Fndn."
+1555,497513,Universidade De Brasilia,Universidade de Brasília,"Graduate School Of Economics, Getulio Vargas Fndn.",EPGE Brazilian School of Economics and Finance
 1556,848408,University College London,University College London,University Of Cambridge,University of Cambridge
 1557,42127,Peking University,Peking University,Peking University,Peking University
 1558,558022,Universidad De Chile,Universidad de Chile,Universidad De Chile,Universidad de Chile
 1559,724281,University Of Bergen,University of Bergen,University Of Oslo,University of Oslo
-1560,258034,People's University Of China,Renmin University of China,People's University Of China,Renmin University of China
+1560,258034,People's University Of China,People's University Of China,People's University Of China,People's University Of China
 1561,921713,Indian Institute of Technology Delhi,"Indian Institute of Technology, Delhi",University of London-London School of Economics & Political Sci,University of London - London School Of Economics & Political Sci
 1562,946913,National Taiwan University,National Taiwan University,Johns Hopkins University,Johns Hopkins University
 1563,175085,"University Of California, Berkeley","University of California, Berkeley",,
@@ -1583,11 +1583,11 @@
 1581,605345,Swarthmore College,Swarthmore College,,
 1582,872065,Sharif University of Technology,Sharif University of Technology,Sharif University of Technology,Sharif University of Technology
 1583,489381,Texas State University,Texas State University,,
-1584,870573,Ryerson Polytechnic Institute,Ryerson Polytechnic University,,
+1584,870573,Ryerson Polytechnic Institute,Ryerson Polytechnic Institute,,
 1585,644367,Shanghai Institute Of Foreign Trade,Shanghai Institue of Foreign Trade,University Of Wisconsin--Madison,University of Wisconsin - Madison
 1586,753619,Hong Kong University Of Science And Technology,Hong Kong University of Science and Technology,,
 1587,799364,New York University,New York University,,
-1588,358625,INSPER (Institute of Education and Research),INSPER (Institute of Education and Research),UFSCAR,Universidade Federal de São Carlos
+1588,358625,INSPER (Institute of Education and Research),Insper Institute of Education and Research,UFSCAR,Universidade Federal de São Carlos
 1589,722561,"University Of California, Berkeley","University of California, Berkeley",Seoul National University,Seoul National University
 1590,814528,Open University Of Israel,Open University of Israel,Tel Aviv University,Tel Aviv University
 1591,489061,Instituto Tecnologico Autonomo De Mexico,Instituto Tecnológico Autonómo de México,University of London-London School of Economics & Political Sci,University of London - London School Of Economics & Political Sci
@@ -1693,7 +1693,7 @@
 1691,40062,University Of Durham,University of Durham,University Of Durham,University of Durham
 1692,449761,Athens School Of Economic And Business Sciences,Athens University of Economics and Business,Yale University,Yale University
 1693,404228,Ohio State University,Ohio State University,,
-1694,493828,Universita Bocconi,Università Bocconi,London School of Economics,"London School of Economics and Political Science, University of London"
+1694,493828,Universita Bocconi,Università Bocconi,London School of Economics,London School of Economics and Political Science
 1695,705856,University Of South Florida,University of South Florida,Florida Atlantic University,Florida Atlantic University
 1696,19510,Boston University,Boston University,Boston University,Boston University
 1697,290161,University Of Central Florida,University of Central Florida,,
@@ -1731,7 +1731,7 @@
 1729,335949,Humboldt University of Berlin,Humboldt Universität Berlin,Humboldt University of Berlin,Humboldt Universität Berlin
 1730,780011,Union College,Union College,,
 1731,332091,Kansas State University,Kansas State University,University Of Southern California,University of Southern California
-1732,363560,Universita Degli Studi Di Modena,Universita Degli Studi Di Modena,Katholieke Universiteit Leuven,Katholieke Universiteit Leuven
+1732,363560,Universita Degli Studi Di Modena,Università di Modena e Reggio Emilia,Katholieke Universiteit Leuven,Katholieke Universiteit Leuven
 1733,883602,Dartmouth College,Dartmouth College,,
 1734,58836,Northwestern University,Northwestern University,,
 1735,122277,MS Ramaiah institute Of Technology,Ramaiah Institute of Technology,,
@@ -1742,7 +1742,7 @@
 1740,470313,Georgetown University,Georgetown University,University Of Chicago,University of Chicago
 1741,629939,Fudan University,Fudan University,,
 1742,610286,Shanghai International Studies University,Shanghai International Studies University,Osaka University,Osaka University
-1743,211898,Sciences Po: Institut D'etudes Politiques de Paris,Institut d'Etudes Politiques de Paris (Sciences Po),Institut D'etudes Politiques,Institut d'Etudes Politiques de Paris (Sciences Po)
+1743,211898,Sciences Po: Institut D'etudes Politiques de Paris,Institut d'Etudes Politiques de Paris (Sciences Po),Institut D'etudes Politiques,Institut d'Etudes Politiques de Bordeaux
 1744,438472,Universita Bocconi,Università Bocconi,Universite Catholique de Louvain,Université Catholique de Louvain
 1745,17394,,,University Of Cambridge-Trinity College,University of Cambridge - Trinity College
-1746,867073,University Of Indonesia,University Of Indonesia,Washington State University,Washington State University
+1746,867073,University Of Indonesia,Universitas Indonesia,Washington State University,Washington State University

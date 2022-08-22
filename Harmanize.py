@@ -271,8 +271,9 @@ def produce_sanitize_rule(source, school_columns, scoreboard_file, sanitize_rule
 
     i = 0
     for name in unique_name_list:
+        print(name)
         # one university name is "-", skip it
-        if name.strip() == '-':
+        if name.strip() == '-' or name.strip == 'NA':
             continue
         # perform the match
         match(name, i)
@@ -319,7 +320,7 @@ def process_early_degrees():
 
 
 def find_first_link(query, url_map):
-    for j in search(query, tld="co.in", num=10, stop=10, pause=2):
+    for j in search(query, tld="co.in", num=2, stop=2, pause=2):
         if "wikipedia" in j:
             continue
         j = j.replace('https://', '').replace('http://', '').replace('www.','',).split('/', 1)[0]
