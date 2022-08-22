@@ -304,8 +304,8 @@ def process_highest_degrees():
     updated_source_file = 'updated_source.csv'
     source_columns = ['newid', 'Institution of highest degree obtained']
     school_columns = ['Institution of highest degree obtained']
-    scoreboard_file = 'scoreboard_highest_degree.csv'
-    sanitize_rules_file = 'sanitize_rules_highest_degree.csv'
+    scoreboard_file = 'scoreboard.csv'
+    sanitize_rules_file = 'sanitize_rules.csv'
     process_source_file(source_file, updated_source_file, source_columns, school_columns, scoreboard_file, sanitize_rules_file)
 
 

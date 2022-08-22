@@ -1,4 +1,4 @@
-,newid,Institution of highest degree obtained,name
+,newid,Institution of highest degree obtained,Institution of highest degree obtained_updated
 0,66300,"University of California, Los Angeles","University of California, Los Angeles"
 1,294827,-,
 2,865258,Technical University Munich,Technical University Munich
@@ -14,7 +14,7 @@
 12,626868,-,
 13,655958,-,
 14,98708,Florida State University,Florida State University
-15,26618,Graduate Institute of International and Development Studies,Graduate Institute of International and Development Studies
+15,26618,Graduate Institute of International and Development Studies,The Graduate Institute Of International and Development Studies
 16,193814,Carnegie Mellon University,Carnegie Mellon University
 17,620363,"University of California, Davis","University of California, Davis"
 18,841306,"University of California, Berkeley","University of California, Berkeley"
@@ -53,7 +53,7 @@
 51,485045,The Ohio State University,Ohio State University
 52,706150,-,
 53,994950,UC San Diego,"University of California, San Diego"
-54,214884,The London School of Economics and Political Science (LSE),"London School of Economics and Political Science, University of London"
+54,214884,The London School of Economics and Political Science (LSE),London School of Economics and Political Science
 55,980134,University of Arizona,University of Arizona
 56,74233,UNIVERSITY OF ILLINOIS URBANA-CHAMPAIGN,University of Illinois at Urbana-Champaign
 57,636970,-,
@@ -69,7 +69,7 @@
 67,984465,-,
 68,387335,University of Pennsylvania,University of Pennsylvania
 69,929825,University of Wisconsin-Madison,University of Wisconsin - Madison
-70,169032,Graduate Institute of International and Development Studies,Graduate Institute of International and Development Studies
+70,169032,Graduate Institute of International and Development Studies,The Graduate Institute Of International and Development Studies
 71,973453,New York University,New York University
 72,826015,-,
 73,431772,The Ohio State University,Ohio State University
@@ -97,12 +97,12 @@
 95,971527,-,
 96,978758,New York University,New York University
 97,728515,Yale University,Yale University
-98,727853,University of California,"University of California, Berkeley"
+98,727853,University of California,University of California System
 99,149276,-,
 100,18097,-,
 101,315313,University of Maryland,University of Maryland
-102,436045,The London School of Economics and Political Science (LSE),"London School of Economics and Political Science, University of London"
-103,791845,The London School of Economics and Political Science (LSE),"London School of Economics and Political Science, University of London"
+102,436045,The London School of Economics and Political Science (LSE),London School of Economics and Political Science
+103,791845,The London School of Economics and Political Science (LSE),London School of Economics and Political Science
 104,386011,"University of California, Berkeley","University of California, Berkeley"
 105,477926,Georgetown University,Georgetown University
 106,814704,Duke University - The Fuqua School of Business,Duke University - The Fuqua School Of Business
@@ -134,7 +134,7 @@
 132,822008,-,
 133,793512,College of Creative Arts at West Virginia University,West Virginia University - College Of Creative Arts
 134,452155,Stanford University,Stanford University
-135,123841,Pontifical Catholic University of Rio de Janeiro,Pontifical Catholic University of Rio de Janeiro
+135,123841,Pontifical Catholic University of Rio de Janeiro,Pontifícia Universidade Católica do Rio de Janeiro
 136,699125,"University of California, Berkeley","University of California, Berkeley"
 137,893727,-,
 138,879398,Harvard Business School,Harvard University - Business School
@@ -144,7 +144,7 @@
 142,926907,Cornell University,Cornell University
 143,548242,Cornell University - Johnson Graduate School of Management,Cornell University - Johnson Graduate School Of Management
 144,730117,Yale University,Yale University
-145,81640,London School of Economics and Political Science,"London School of Economics and Political Science, University of London"
+145,81640,London School of Economics and Political Science,London School of Economics and Political Science
 146,980699,Indiana University,Indian University
 147,385201,Northwestern University,Northwestern University
 148,752963,University of Minnesota,University of Minnesota
@@ -154,7 +154,7 @@
 152,904617,Arizona State University,Arizona State University
 153,376581,"University of California, Santa Barbara","University of California, Santa Barbara"
 154,653008,Princeton University,Princeton University
-155,833485,University of Mannheim,University of Mannheim
+155,833485,University of Mannheim,Universität Mannheim
 156,499206,-,
 157,5298,Yale University,Yale University
 158,738614,-,
@@ -182,7 +182,7 @@
 180,548494,-,
 181,945564,The Ohio State University,Ohio State University
 182,742687,Princeton University,Princeton University
-183,789665,The London School of Economics and Political Science (LSE),"London School of Economics and Political Science, University of London"
+183,789665,The London School of Economics and Political Science (LSE),London School of Economics and Political Science
 184,569753,University of Minnesota-Twin Cities,University of Minnesota
 185,755750,University of Maryland College Park,University of Maryland
 186,419314,-,
@@ -205,7 +205,7 @@
 203,837335,-,
 204,532010,-,
 205,725879,-,
-206,316714,University of Hamburg,University of Hamburg
+206,316714,University of Hamburg,Universität Hamburg
 207,467240,Johns Hopkins University Advanced Academic Programs,Johns Hopkins University
 208,81624,Princeton University,Princeton University
 209,12166,"University of Minnesota, Twin Cities",University of Minnesota
@@ -247,7 +247,7 @@
 245,792525,University of Wisconsin-Madison,University of Wisconsin - Madison
 246,689702,Harvard University,Harvard University
 247,845845,Harvard University,Harvard University
-248,818440,The London School of Economics and Political Science (LSE),"London School of Economics and Political Science, University of London"
+248,818440,The London School of Economics and Political Science (LSE),London School of Economics and Political Science
 249,227272,The University of Chicago,University of Chicago
 250,67568,University of Oxford,University of Oxford
 251,276861,-,
@@ -320,7 +320,7 @@
 318,771936,Duke University - The Fuqua School of Business,Duke University - The Fuqua School Of Business
 319,933452,-,
 320,837658,"University of California, Berkeley","University of California, Berkeley"
-321,300461,London School of Economics and Political Science,"London School of Economics and Political Science, University of London"
+321,300461,London School of Economics and Political Science,London School of Economics and Political Science
 322,40315,-,
 323,983502,-,
 324,58218,-,
@@ -408,7 +408,7 @@
 406,601427,"University of California, Berkeley","University of California, Berkeley"
 407,387502,Columbia University in the City of New York,Columbia University
 408,281913,University of Pennsylvania - The Wharton School,University of Pennsylvania - The Wharton School
-409,393981,International and Development Studies (IHEID),International and Development Studies (IHEID)
+409,393981,International and Development Studies (IHEID),The Graduate Institute Of International and Development Studies
 410,84844,"University of California, Berkeley","University of California, Berkeley"
 411,13681,Peking University,Peking University
 412,133995,University of Minnesota-Twin Cities,University of Minnesota
@@ -549,7 +549,7 @@
 547,147169,Columbia University,Columbia University
 548,752724,-,
 549,621768,Boston University,Boston University
-550,291560,The London School of Economics and Political Science (LSE),"London School of Economics and Political Science, University of London"
+550,291560,The London School of Economics and Political Science (LSE),London School of Economics and Political Science
 551,32840,Brown University,Brown University
 552,919414,-,
 553,7075,The Ohio State University,Ohio State University
@@ -561,7 +561,7 @@
 559,540917,University of North Carolina at Chapel Hill - Kenan-Flagler Business School,University of North Carolina - Kenanflagler Business School
 560,154067,Duke University,Duke University
 561,170315,Princeton University,Princeton University
-562,323233,The London School of Economics and Political Science (LSE),"London School of Economics and Political Science, University of London"
+562,323233,The London School of Economics and Political Science (LSE),London School of Economics and Political Science
 563,412929,University of Minnesota,University of Minnesota
 564,976049,-,
 565,578530,-,
@@ -609,7 +609,7 @@
 607,634187,Northwestern University,Northwestern University
 608,390026,-,
 609,566526,"University of California, San Diego - The Rady School of Management","University of California, San Diego - The Rady School Of Management"
-610,743941,London School of Economics and Political Science,"London School of Economics and Political Science, University of London"
+610,743941,London School of Economics and Political Science,London School of Economics and Political Science
 611,261436,The University of Chicago Booth School of Business,University of Chicago - Booth School Of Business
 612,692198,New York University,New York University
 613,776219,Brown University,Brown University
@@ -633,7 +633,7 @@
 631,5898,Duke University - The Fuqua School of Business,Duke University - The Fuqua School Of Business
 632,187773,University of Michigan - Stephen M. Ross School of Business,University of Michigan - Stephen M Ross School Of Business
 633,149656,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology
-634,291430,University of California,"University of California, Berkeley"
+634,291430,University of California,University of California System
 635,449652,University of Copenhagen,Copenhagen University
 636,967274,-,
 637,168930,Princeton University,Princeton University
@@ -645,7 +645,7 @@
 643,372957,Princeton University,Princeton University
 644,69664,University of California San Diego,"University of California, San Diego"
 645,656351,-,
-646,288607,The London School of Economics and Political Science (LSE),"London School of Economics and Political Science, University of London"
+646,288607,The London School of Economics and Political Science (LSE),London School of Economics and Political Science
 647,462835,-,
 648,665748,The University of British Columbia,University of British Columbia
 649,399929,-,
@@ -690,7 +690,7 @@
 688,592597,Harvard Business School,Harvard University - Business School
 689,373200,-,
 690,849417,University of Illinois Urbana-Champaign,University of Illinois at Urbana-Champaign
-691,593945,London School of Economics and Political Science,"London School of Economics and Political Science, University of London"
+691,593945,London School of Economics and Political Science,London School of Economics and Political Science
 692,446372,-,
 693,954117,UCLA Extension,"University of California, Los Angeles - Extension School"
 694,203332,-,
@@ -711,7 +711,7 @@
 709,923683,Princeton University,Princeton University
 710,783255,-,
 711,793390,New York University,New York University
-712,467438,The London School of Economics and Political Science (LSE),"London School of Economics and Political Science, University of London"
+712,467438,The London School of Economics and Political Science (LSE),London School of Economics and Political Science
 713,296259,University of Illinois Urbana-Champaign,University of Illinois at Urbana-Champaign
 714,304898,Harvard University,Harvard University
 715,983480,Princeton University,Princeton University
@@ -760,7 +760,7 @@
 758,850072,-,
 759,168668,University of Pennsylvania,University of Pennsylvania
 760,837334,Princeton University,Princeton University
-761,650004,The London School of Economics and Political Science (LSE),"London School of Economics and Political Science, University of London"
+761,650004,The London School of Economics and Political Science (LSE),London School of Economics and Political Science
 762,102302,-,
 763,177691,"University of California, Berkeley","University of California, Berkeley"
 764,508162,-,
@@ -788,7 +788,7 @@
 786,596898,-,
 787,469702,-,
 788,448708,Cornell University,Cornell University
-789,764205,London School of Economics and Political Science,"London School of Economics and Political Science, University of London"
+789,764205,London School of Economics and Political Science,London School of Economics and Political Science
 790,566865,-,
 791,901937,-,
 792,266772,-,
@@ -821,7 +821,7 @@
 819,269248,-,
 820,517533,-,
 821,618829,Duke University,Duke University
-822,338737,The London School of Economics and Political Science (LSE),"London School of Economics and Political Science, University of London"
+822,338737,The London School of Economics and Political Science (LSE),London School of Economics and Political Science
 823,437691,University of Minnesota-Twin Cities,University of Minnesota
 824,658647,"University of California, Los Angeles","University of California, Los Angeles"
 825,118137,University of Cambridge,University of Cambridge
@@ -900,7 +900,7 @@
 898,791745,"Indian Institute of Technology, Madras","Indian Institute of Technology, Madras"
 899,546741,Toulouse School of Economics,Toulouse School of Economics
 900,92698,The University of Texas at Austin,University of Texas
-901,917052,The London School of Economics and Political Science (LSE),"London School of Economics and Political Science, University of London"
+901,917052,The London School of Economics and Political Science (LSE),London School of Economics and Political Science
 902,720654,New York University - Leonard N. Stern School of Business,New York University - Stern School Of Business
 903,791139,-,
 904,452215,-,
@@ -920,7 +920,7 @@
 918,509633,-,
 919,594477,UNSW,University of New South Wales
 920,999460,University of Wisconsin-Madison,University of Wisconsin - Madison
-921,425103,University of California,"University of California, Berkeley"
+921,425103,University of California,University of California System
 922,946356,-,
 923,501577,-,
 924,16600,Columbia University in the City of New York,Columbia University
@@ -930,7 +930,7 @@
 928,231204,University of Connecticut,University of Connecticut
 929,696010,-,
 930,800508,University of Minnesota,University of Minnesota
-931,461508,University of California,"University of California, Berkeley"
+931,461508,University of California,University of California System
 932,976052,Duke University,Duke University
 933,707207,-,
 934,191583,Arizona State University - W. P. Carey School of Business,Arizona State University - W P Carey School Of Business
@@ -948,7 +948,7 @@
 946,702023,"University of California, Berkeley","University of California, Berkeley"
 947,137260,Cornell University,Cornell University
 948,977598,Columbia University in the City of New York,Columbia University
-949,559322,The London School of Economics and Political Science (LSE),"London School of Economics and Political Science, University of London"
+949,559322,The London School of Economics and Political Science (LSE),London School of Economics and Political Science
 950,977146,Princeton University,Princeton University
 951,381937,University of Michigan,University of Michigan
 952,501526,University of Michigan,University of Michigan
@@ -968,7 +968,7 @@
 966,433188,-,
 967,255356,Stanford University Graduate School of Business,Stanford University - Graduate School Of Business
 968,337561,University of Houston,University of Houston
-969,989269,London School of Economics and Political Science,"London School of Economics and Political Science, University of London"
+969,989269,London School of Economics and Political Science,London School of Economics and Political Science
 970,666778,Cornell University,Cornell University
 971,533174,Stanford University,Stanford University
 972,464761,Princeton University,Princeton University
@@ -989,7 +989,7 @@
 987,10653,University of Wisconsin-Madison,University of Wisconsin - Madison
 988,634087,DePaul University,DePaul University
 989,13054,-,
-990,17650,The London School of Economics and Political Science (LSE),"London School of Economics and Political Science, University of London"
+990,17650,The London School of Economics and Political Science (LSE),London School of Economics and Political Science
 991,393788,-,
 992,915297,-,
 993,898412,Yale University,Yale University
@@ -1032,7 +1032,7 @@
 1030,648168,-,
 1031,47748,"University of California, Los Angeles","University of California, Los Angeles"
 1032,151969,New York University,New York University
-1033,418061,London School of Economics and Political Science,"London School of Economics and Political Science, University of London"
+1033,418061,London School of Economics and Political Science,London School of Economics and Political Science
 1034,535240,Duke University,Duke University
 1035,852781,Texas A&M University,Texas A&M University
 1036,133976,Carnegie Mellon University - Tepper School of Business,Carnegie Mellon University - Tepper School Of Business
@@ -1064,7 +1064,7 @@
 1062,393994,University of Minnesota-Twin Cities,University of Minnesota
 1063,219311,-,
 1064,236981,Washington University in St. Louis,Washington University in St. Louis
-1065,734185,The London School of Economics and Political Science,"London School of Economics and Political Science, University of London"
+1065,734185,The London School of Economics and Political Science,London School of Economics and Political Science
 1066,768396,-,
 1067,273414,NYU Stern School of Business,New York University - Stern School Of Business
 1068,759016,University of Minnesota,University of Minnesota
@@ -1138,10 +1138,10 @@
 1136,622666,-,
 1137,15185,Università Commerciale 'Luigi Bocconi'​,Università Bocconi
 1138,514659,New York University,New York University
-1139,27662,The London School of Economics and Political Science (LSE),"London School of Economics and Political Science, University of London"
+1139,27662,The London School of Economics and Political Science (LSE),London School of Economics and Political Science
 1140,589609,-,
 1141,464848,New York University,New York University
-1142,166408,The London School of Economics and Political Science (LSE),"London School of Economics and Political Science, University of London"
+1142,166408,The London School of Economics and Political Science (LSE),London School of Economics and Political Science
 1143,996282,Stanford University,Stanford University
 1144,214051,University of Southern California - Marshall School of Business,University of Southern California - Marshall School Of Business
 1145,350231,-,
@@ -1157,7 +1157,7 @@
 1155,417445,Georgetown University,Georgetown University
 1156,271397,"University of California, San Diego","University of California, San Diego"
 1157,505670,University of North Carolina at Chapel Hill,University of North Carolina
-1158,997134,The London School of Economics and Political Science,"London School of Economics and Political Science, University of London"
+1158,997134,The London School of Economics and Political Science,London School of Economics and Political Science
 1159,952511,University of Minnesota Twin Cities,University of Minnesota
 1160,881044,-,
 1161,168506,-,
@@ -1167,7 +1167,7 @@
 1165,740363,-,
 1166,322858,University of Pennsylvania,University of Pennsylvania
 1167,677538,"University of California, Berkeley","University of California, Berkeley"
-1168,482116,London School of Economics and Political Science,"London School of Economics and Political Science, University of London"
+1168,482116,London School of Economics and Political Science,London School of Economics and Political Science
 1169,111257,Brown University,Brown University
 1170,822966,University of Michigan,University of Michigan
 1171,388217,New York University,New York University
@@ -1176,7 +1176,7 @@
 1174,331771,University of Michigan Medical/Graduate School,University of Michigan - Medical School
 1175,374813,University of Wisconsin-Madison,University of Wisconsin - Madison
 1176,287896,Northwestern University,Northwestern University
-1177,913609,The London School of Economics and Political Science (LSE),"London School of Economics and Political Science, University of London"
+1177,913609,The London School of Economics and Political Science (LSE),London School of Economics and Political Science
 1178,160933,University of Wyoming College of Business,University of Wyoming - College Of Business
 1179,38878,-,
 1180,737961,-,
@@ -1208,7 +1208,7 @@
 1206,54340,-,
 1207,47420,"University of Nevada, Reno",University of Nevada - Reno
 1208,354045,Queen's University,Queen's University
-1209,692192,Technical University Berlin,Technical University Berlin
+1209,692192,Technical University Berlin,Technische Universität Berlin
 1210,12488,Princeton University,Princeton University
 1211,78991,-,
 1212,949726,-,
@@ -1317,7 +1317,7 @@
 1315,747568,-,
 1316,146238,The University of Kansas,University of Kansas
 1317,607540,Southern Methodist University - Cox School of Business,Southern Methodist University - Cox School Of Business
-1318,708593,University of California,"University of California, Berkeley"
+1318,708593,University of California,University of California System
 1319,74640,-,
 1320,909135,-,
 1321,835323,University of Pennsylvania,University of Pennsylvania
@@ -1339,7 +1339,7 @@
 1337,971317,University of Illinois Urbana-Champaign,University of Illinois at Urbana-Champaign
 1338,901260,Stanford University,Stanford University
 1339,313089,George Mason University,George Mason University
-1340,423468,The London School of Economics and Political Science (LSE),"London School of Economics and Political Science, University of London"
+1340,423468,The London School of Economics and Political Science (LSE),London School of Economics and Political Science
 1341,410150,"University of California, Santa Cruz","University of California, Santa Cruz"
 1342,147622,-,
 1343,745800,New York University,New York University
@@ -1383,7 +1383,7 @@
 1381,43209,Harvard Kennedy School,Harvard University - Kennedy School
 1382,115964,-,
 1383,222770,Indiana University Bloomington,Indiana University at Bloomington
-1384,369284,London School of Economics and Political Science,"London School of Economics and Political Science, University of London"
+1384,369284,London School of Economics and Political Science,London School of Economics and Political Science
 1385,10051,Columbia University in the City of New York,Columbia University
 1386,303028,-,
 1387,566374,-,
@@ -1413,7 +1413,7 @@
 1411,184991,Stanford University,Stanford University
 1412,3635,-,
 1413,200992,Harvard University,Harvard University
-1414,180294,The London School of Economics and Political Science (LSE),"London School of Economics and Political Science, University of London"
+1414,180294,The London School of Economics and Political Science (LSE),London School of Economics and Political Science
 1415,188956,Harvard University,Harvard University
 1416,304957,-,
 1417,766383,Massachusetts Institute of Technology,Massachusetts Institute of Technology
@@ -1444,7 +1444,7 @@
 1442,381254,Northwestern University,Northwestern University
 1443,680529,Maastricht University School of Business and Economics,University of Maastricht - School Of Business And Economics
 1444,433875,-,
-1445,170732,London School of Economics and Political Science,"London School of Economics and Political Science, University of London"
+1445,170732,London School of Economics and Political Science,London School of Economics and Political Science
 1446,310907,-,
 1447,77816,-,
 1448,921709,Columbia Business School,Columbia University - Business School
@@ -1523,7 +1523,7 @@
 1521,788371,Universitat Pompeu Fabra,Universitat Pompeu Fabra
 1522,893623,-,
 1523,754696,Massachusetts Institute of Technology,Massachusetts Institute of Technology
-1524,560687,The London School of Economics and Political Science (LSE),"London School of Economics and Political Science, University of London"
+1524,560687,The London School of Economics and Political Science (LSE),London School of Economics and Political Science
 1525,572245,University of Southern California,University of Southern California
 1526,428346,New York University,New York University
 1527,38225,Penn State University,Pennsylvania State University
@@ -1561,7 +1561,7 @@
 1559,983285,-,
 1560,954271,University of Wisconsin-Madison,University of Wisconsin - Madison
 1561,309727,"University of California, Berkeley","University of California, Berkeley"
-1562,880586,London School of Economics and Political Science,"London School of Economics and Political Science, University of London"
+1562,880586,London School of Economics and Political Science,London School of Economics and Political Science
 1563,474,Stanford University,Stanford University
 1564,798937,"University of California, Berkeley","University of California, Berkeley"
 1565,405506,-,
@@ -1577,7 +1577,7 @@
 1575,479060,University of Pennsylvania - The Wharton School,University of Pennsylvania - The Wharton School
 1576,10168,Stanford University,Stanford University
 1577,942688,New York University Stern School  of Business,New York University - Stern School Of Business
-1578,943991,The London School of Economics and Political Science (LSE),"London School of Economics and Political Science, University of London"
+1578,943991,The London School of Economics and Political Science (LSE),London School of Economics and Political Science
 1579,673939,NYU Stern School of Business,New York University - Stern School Of Business
 1580,224855,-,
 1581,143356,The Ohio State University,Ohio State University
@@ -1631,8 +1631,8 @@
 1629,382662,"University of California, Berkeley - School of Law","University of California, Berkeley - School Of Law"
 1630,975494,Syracuse University,Syracuse University
 1631,365059,-,
-1632,63673,University of California,"University of California, Berkeley"
-1633,576973,London School of Economics,"London School of Economics and Political Science, University of London"
+1632,63673,University of California,University of California System
+1633,576973,London School of Economics,London School of Economics and Political Science
 1634,367011,University of Pennsylvania,University of Pennsylvania
 1635,774553,-,
 1636,479056,-,
@@ -1647,7 +1647,7 @@
 1645,639550,Duke University,Duke University
 1646,133616,Columbia University,Columbia University
 1647,162932,Massachusetts Institute of Technology,Massachusetts Institute of Technology
-1648,653441,London School of Economics,"London School of Economics and Political Science, University of London"
+1648,653441,London School of Economics,London School of Economics and Political Science
 1649,32848,Stanford University,Stanford University
 1650,525009,-,
 1651,320559,University of Chicago,University of Chicago
@@ -1663,7 +1663,7 @@
 1661,170945,University of Virginia,University of Virginia
 1662,357384,UT Health San Antonio,University of Texas at San Antonio - School Of Health
 1663,774279,Rice University,Rice University
-1664,996031,Université Lumière Lyon 2,Université Lumière Lyon 2
+1664,996031,Université Lumière Lyon 2,Université Lumiére (Lyon II)
 1665,406740,Princeton University,Princeton University
 1666,823207,-,
 1667,415798,Indiana University,Indian University
@@ -1683,7 +1683,7 @@
 1681,449286,University of Chicago Law School,University of Chicago - Law School
 1682,208227,University of Rochester,University of Rochester
 1683,740521,University of Oxford,University of Oxford
-1684,632500,London School of Economics,"London School of Economics and Political Science, University of London"
+1684,632500,London School of Economics,London School of Economics and Political Science
 1685,623344,London Business School,London Business School
 1686,798000,Cornell University,Cornell University
 1687,996025,-,
